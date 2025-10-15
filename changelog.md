@@ -1,6 +1,9 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 1.3
+Added custom advancements
+
 ## 1.2
 Limited different item multiplayer
 
