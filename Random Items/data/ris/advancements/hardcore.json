@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hardcore player",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Go for 7 days without dying"
+        },
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{Potion:\"minecraft:strong_healing\"}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ris": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ris:root"
+}

@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cobblestone Generator",
+            "color": "light_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Get a hole 10 pieces of cobble",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone",
+                        "count": {
+                            "min": 10,
+                            "max": 10
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "ris:root"
+}

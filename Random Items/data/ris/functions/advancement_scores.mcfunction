@@ -1,0 +1,5 @@
+scoreboard objectives add dayswodying dummy "Days Without Dying"
+scoreboard objectives add deaths deathCount "Deaths"
+scoreboard objectives add ristime dummy "Time"
+scoreboard objectives add used_disk minecraft.custom:minecraft.play_record "Disk Use"
+scoreboard objectives add pedro minecraft.used:minecraft.panda_spawn_egg "Pedro"

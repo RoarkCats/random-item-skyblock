@@ -6,7 +6,7 @@ Stranded alone in the void, build out your base from nothing but a trickle of ra
 ## Settings
 Settings configurable through in-game commands
 
-- Set Item Timer: `/scoreboard players set give_item item_timer 600`
+- Set Item Timer: `/scoreboard players set delay rdtimer 600`
 
 ## License
 Feel free to play, stream, or showcase this pack so long as visible credit is given.  

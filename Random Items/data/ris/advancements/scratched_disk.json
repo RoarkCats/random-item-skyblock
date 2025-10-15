@@ -1,0 +1,111 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Broken Record",
+            "color": "black",
+            "bold": true
+        },
+        "description": {
+            "text": "Have all the music discs at the same time"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_11",
+            "nbt": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:music_disc_blocks",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_wait",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_ward",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_strad",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_stal",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_mellohi",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_13",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_cat",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_mall",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_chirp",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_far",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "item": "minecraft:music_disc_11"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "ris:disk"
+}

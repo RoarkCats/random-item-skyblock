@@ -1,0 +1,31 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Snow White",
+            "color": "gray",
+            "bold": true
+        },
+        "description": {
+            "text": "Summon a Snow Golem"
+        },
+        "icon": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ris": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    },
+    "parent": "ris:root"
+}

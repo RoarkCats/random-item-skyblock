@@ -1,6 +1,14 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 1.4
+Expanded different item multiplayer
+
+- Expanded multiplayer with different items for up to 32 players
+- Added `load` function and messages
+- Changed scoreboard names
+- Removed extraneous files
+
 ## 1.3
 Added custom advancements
 

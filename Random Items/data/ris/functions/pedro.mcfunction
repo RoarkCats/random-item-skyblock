@@ -1,0 +1,1 @@
+data merge entity @e[type=minecraft:panda,limit=1] {CustomName:'{"text":"Pedro"}'}
