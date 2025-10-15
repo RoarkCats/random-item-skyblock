@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Creeper, Omen",
+    "description": "So we back in the mine",
+    "background": "minecraft:textures/block/stone.png",
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "function": "scripts:sowebackinthemine"
+  },
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper"
+        }
+      }
+    }
+  }
+}
