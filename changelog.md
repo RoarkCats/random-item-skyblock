@@ -1,6 +1,14 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 1.5
+Near complete different item multiplayer support & item bar
+
+- Added pack description
+- Touched up advancements
+- Added Next Item timer bossbar (toggleable in load message)
+- Replaced limited multiplayer different item system with dynamic limitless system 
+
 ## 1.4
 Expanded different item multiplayer
 

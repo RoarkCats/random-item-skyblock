@@ -7,7 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "Get a hole 10 pieces of cobble",
+            "text": "Get 10 pieces of cobble",
             "bold": false
         },
         "icon": {
@@ -27,7 +27,7 @@
                         "item": "minecraft:cobblestone",
                         "count": {
                             "min": 10,
-                            "max": 10
+                            "max": 2304
                         }
                     }
                 ]

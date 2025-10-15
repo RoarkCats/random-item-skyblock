@@ -7,7 +7,8 @@
             "bold": true
         },
         "description": {
-            "text": "Go for 7 days without dying"
+            "text": "Go for 7 days without dying",
+            "bold": false
         },
         "icon": {
             "item": "minecraft:splash_potion",

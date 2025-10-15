@@ -6,6 +6,8 @@ Stranded alone in the void, build out your base from nothing but a trickle of ra
 ## Settings
 Settings configurable through in-game commands
 
+- View Chat Menu: `/reload` or `/function ris:load`
+- Toggle Next Item Bar: `/bossbar set minecraft:rdtimer visible true`
 - Set Item Timer: `/scoreboard players set delay rdtimer 600`
 
 ## License

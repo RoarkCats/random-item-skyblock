@@ -3,11 +3,12 @@
     "display": {
         "title": {
             "text": "Broken Record",
-            "color": "black",
+            "color": "light_purple",
             "bold": true
         },
         "description": {
-            "text": "Have all the music discs at the same time"
+            "text": "Have all the music discs at the same time",
+            "bold": false
         },
         "icon": {
             "item": "minecraft:music_disc_11",

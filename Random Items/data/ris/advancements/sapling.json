@@ -7,7 +7,8 @@
             "bold": true
         },
         "description": {
-            "text": "Get your first sapling"
+            "text": "Get your first sapling",
+            "bold": false
         },
         "icon": {
             "item": "minecraft:oak_sapling"

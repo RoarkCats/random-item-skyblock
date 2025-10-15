@@ -7,7 +7,8 @@
             "bold": true
         },
         "description": {
-            "text": "Get to play a record"
+            "text": "Play a record",
+            "bold": false
         },
         "icon": {
             "item": "minecraft:music_disc_stal"
