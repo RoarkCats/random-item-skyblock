@@ -2,7 +2,6 @@
 scoreboard objectives add item_timer dummy
 
 # set custom time here (min. = 0; the lower the value, the faster the give timer):
-scoreboard players set give_item item_timer 600
 
 scoreboard players add give item_timer 1
 execute if score give item_timer >= give_item item_timer run scoreboard players set give item_timer 0
