@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] at @s run function ris:end_portal/set
+execute as @a[nbt={Dimension:0}] at @s if block ~ ~-1 ~ end_gateway run setblock ~ ~-1 ~ bedrock

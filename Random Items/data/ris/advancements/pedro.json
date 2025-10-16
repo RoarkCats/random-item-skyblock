@@ -24,7 +24,7 @@
         }
     },
     "rewards": {
-        "function": "ris:pedro"
+        "function": "ris:advance/pedro"
     },
     "parent": "ris:root"
 }
