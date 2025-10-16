@@ -6,9 +6,9 @@ Stranded alone in the void, build out your base from nothing but a trickle of ra
 ## Settings
 Settings configurable through in-game commands
 
-- View Chat Menu: `/reload` or `/function ris:load`
-- Toggle Next Item Bar: `/bossbar set minecraft:rdtimer visible true`
+- Chat Settings Menu: `/reload` or `/function ris:load`
 - Set Item Timer: `/scoreboard players set delay rdtimer 600`
+- Toggle Received Items: `/trigger rdreceive`
 
 ## License
 Feel free to play, stream, or showcase this pack so long as visible credit is given.  

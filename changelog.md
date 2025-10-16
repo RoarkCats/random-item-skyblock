@@ -1,6 +1,19 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.0
+Custom items, mini end portals, and item toggles galore!
+
+- You can now make a mini end portal by throwing a Nether Star in the middle of four End Portal Frames complete with Eyes of Ender
+- The reload message is no longer required to stop receiving items, just run `/trigger rdreceive` to toggle your individual item giver
+- There is now a setting in the reload message that toggles whether everybody gets the same items or different items
+- You can now obtain the three creators' heads as random items
+- Command Blocks, Repeating Command Blocks, Chain Command Blocks, Debug Sticks, Structure Blocks, and placing Command Block Minecarts now have a use!
+- Removed extraneous file (emerald ore?)
+- Items are no longer given when inventory full
+- Zombie and Skeleton Horses are now rideable
+- The item giver can be disabled for all by setting the `delay` to 0
+
 ## 1.5
 Near complete different item multiplayer support & item bar
 
