@@ -10,7 +10,7 @@ execute if score sameItems risSettings matches 0 if score give item_timer >= giv
 
 # Timer Shit
 execute if score give item_timer >= give_item item_timer run scoreboard players set give item_timer 0
-execute if score delay rdtimer matches ..9 run scoreboard players set delay rdtimer 10
+execute if score delay rdtimer matches ..9 run scoreboard players set delay rdtimer 5
 execute store result score give_item item_timer run scoreboard players get delay rdtimer
 execute unless score delay rdtimer matches 0 run scoreboard players add give item_timer 1
 

@@ -1,6 +1,14 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.4
+Stacking bug fixes and tweaks
+
+- Switched the default settings back for the Debug Stick to always drop items
+- Lowered the forced minimum item timer time from 10 ticks to 5
+- Command Blocks, Chain Command Blocks, Repeating Command Blocks, and Structure Blocks obtained through the Debug Stick will now stack with their generated counterparts again
+- Custom heads mined will now stack with their generated counterparts again
+
 ## 2.3
 Updated to 1.16, overhauled item giver, new Knowledge Book special item, enchanted books, void Nether, and much more!
 
