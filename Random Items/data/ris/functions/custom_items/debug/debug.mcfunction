@@ -1,0 +1,5 @@
+execute if score debug_items ris.settings matches 0 if block ~ ~-0.1 ~ #ris:debug_break run function ris:custom_items/debug/block-break
+execute if score debug_items ris.settings matches 1 if block ~ ~-0.1 ~ #ris:debug_break run function ris:custom_items/debug/block-mine
+execute if score debug_items ris.settings matches 2 if block ~ ~-0.1 ~ #ris:debug_break run function ris:custom_items/debug/5050
+
+advancement grant @p only ris:unbreakable_broken

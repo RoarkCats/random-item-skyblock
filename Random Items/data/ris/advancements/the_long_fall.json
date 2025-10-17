@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": "The Long Fall",
+        "description": "Fall below four digits in the void",
+        "frame": "goal"
+    },
+    "parent": "ris:an_endless_abyss",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "max": -1000
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

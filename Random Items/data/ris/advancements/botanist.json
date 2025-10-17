@@ -1,46 +1,55 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Botanist"
-        },
-        "description": {
-            "text": "Get every variety of sapling"
-        },
         "icon": {
             "item": "minecraft:dark_oak_sapling"
         },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "title": "Botanist",
+        "description": "Plant all Sapling types",
+        "frame": "challenge"
     },
+    "parent": "ris:finally_wood",
     "criteria": {
-        "ris": {
-            "trigger": "minecraft:inventory_changed",
+        "oak": {
+            "trigger": "minecraft:placed_block",
             "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:oak_sapling"
-                    },
-                    {
-                        "item": "minecraft:birch_sapling"
-                    },
-                    {
-                        "item": "minecraft:jungle_sapling"
-                    },
-                    {
-                        "item": "minecraft:acacia_sapling"
-                    },
-                    {
-                        "item": "minecraft:spruce_sapling"
-                    },
-                    {
-                        "item": "minecraft:dark_oak_sapling"
-                    }
-                ]
+                "block": "minecraft:oak_sapling"
+            }
+        },
+        "spruce": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:spruce_sapling"
+            }
+        },
+        "birch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:birch_sapling"
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:jungle_sapling"
+            }
+        },
+        "acacia": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:acacia_sapling"
+            }
+        },
+        "dark_oak": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dark_oak_sapling"
+            }
+        },
+        "mangrove": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:mangrove_propagule"
             }
         }
-    },
-    "parent": "ris:sapling"
+    }
 }

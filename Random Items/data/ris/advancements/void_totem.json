@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Void Totem",
+        "description": "Escape the void using a Totem of Undying",
+        "frame": "task"
+    },
+    "parent": "ris:an_endless_abyss",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

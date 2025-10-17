@@ -1,6 +1,87 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.5
+1.17-1.19 update! New custom items, advancements, menus, settings, fixes, and overall improvements!
+
+- Updated pack format to `10`
+- Altered pack description name order
+- Fixed inconsistent indentation
+- Added 1.19 items to item list
+- Updated load message for clarity
+- Decreased Item Multiplier particle count
+- Removed `minecraft:` from playsound and particle commands
+- Fixed empty mined shulker boxes unable to be multiplied
+- Added Reinforced Deepslate to Debug Stick breakable block list
+- Revamped custom advancement menu
+- Updated old advancements to the latest version
+- Renamed advancement files to match advancement names
+- Altered some old advancements
+- Added over 60 new advancements
+- Combined and separated random item loot tables
+- Changed all scoreboard objectives to start with `ris.`
+- Changed all scoreboard scores to use underscores instead of camel case
+- Merged timer scoreboards `rdtimer` and `item_timer` into `ris.timer`
+- Cleaned up and improved timer code
+- Fixed custom items activating after being removed from an item frame
+- Cleaned up and improved custom item code
+- Improved Item Generator same item setting code
+- Random Item Traders can now buy/sell enchanted books and custom heads (no longer part of the trader custom items setting)
+- Optimized mined player head fix code
+- Improved Random Item Trader code
+- Fixed Command Block custom item duplication bug
+- Improved and optimized Command Block code
+- Mined blocks/mob drops can no longer activate Item Multipliers
+- Chain and Repeating Command Blocks drop blocks they destroy when they activate
+- Reviewed Chain and Repeating Command Block code
+- Finally fixed Item Multiplier and Generator stacking in the same block
+- Fixed custom items unusable atop Item Multipliers and Generators
+- Switched Item Multipliers and Generators from armor stands to area effect clouds (much less entity lag)||
+- Switched Structure Block structure placement to use the `/place template` command
+- Fixed Structure and Jigsaw Block duplication bug when Structure Blocks are used near the top of the world
+- Fixed `/playsound` commands all playing to the `master` channel
+- Added other village structure variants to Structure Blocks as a chance when a normal village structure is chosen
+- Added 1.19 structures to Structure Blocks
+- Fixed command summoned Command Blocks don't properly set the count of the item they give unless extra `Age` nbt is present
+- Changed all tags to start with `ris.`
+- Increased load message delay to 50 ticks
+- Changed load message delay to 0 ticks when running `/reload` (when players are present)
+- Removed command feedback from message functions
+- Added Chain and Repeating Command Block place sounds
+- Altered Structure Block item description
+- Added a new custom item effect to Jigsaw Blocks centered around `/place feature`
+- Added random vanilla potion variants to the types of potions and arrows when one is received
+- Capitalized "item multiplier" and "item generator" in their item descriptions
+- Added a new functionality to Totems of Undying allowing them to save you from the void
+- Updated y-level detection to be compatible with new dimensional world sizes
+- Illegalized stacked Bundles due to an item duplication issue
+- Settings now reset to default values on load if out of bounds
+- Fixed custom items to allow for proper use in same tick via Bundles and well timed item drops
+- Fixed Allay thrown custom items considered player thrown so they won't activate from Allays
+- Fixed Item Multipliers multiplying all items present in the same tick before disappearing
+- Added a redstone particle indicator when Item Generators fail to generate an item due to being powered
+- Added custom creator head powers granted when worn
+- Updated Command Block Minecart item description||
+- Changed load message green dashes to solid green lines
+- Revamped settings menu visuals
+- Added settings menu audio and visual button confirmations
+- Added individual custom item toggles
+- Added a setting to globally toggle Item Multiplier and Generator floating names
+- Added a setting to toggle the item giver globally
+- Removed `custom_item` item tag from Enchanted Books, now allowing them to drop a full stack from Command Blocks
+- Added 55 original creator and community quotes/phrases/splash texts signed by their player name to Written Books as variants
+- Fixed, cleaned up, updated, and improved the skywars gamemode as a whole and its menu
+- Removed settings and scores saved in the Random Item Skyblock world download (fixes same items on by default and same seeded rng issue)
+- Fixed pack rng to actually generate a unique rng seed when first loading
+- Fixed The End not generating randomly
+- Moved custom terrain generation from the world's `level.dat` to a custom world generation datapack packed in with the world download
+- Cleaned up the Random Item Skyblock world download, further purging unnecessary files
+- Moved the world's starting bedrock up to y 62 so that Phantoms spawn again normally
+- Added Goat Horn instrument variants
+- Added a setting preventing or allowing Written Books to be multiplied at an Item Multiplier
+- Added a setting to toggle the Totem of Undying's custom void functionality
+- Changed instances of `.1` to `0.1`
+
 ## 2.4
 Stacking bug fixes and tweaks
 

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fox_spawn_egg"
+        },
+        "title": "Cute and Cuddly",
+        "description": "Use a Spawn Egg on another mob to spawn a baby",
+        "frame": "task"
+    },
+    "parent": "ris:curious_creatures",
+    "criteria": {
+        "spawn_egg": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "tag": "ris:spawn_eggs"
+                }
+            }
+        }
+    }
+}

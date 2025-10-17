@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Now that's a problem...",
+        "description": "Place all the unbreakable blocks",
+        "frame": "goal"
+    },
+    "parent": "ris:well_theres_your_problem",
+    "criteria": {
+        "barrier": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:barrier"
+                    ]
+                }
+            }
+        },
+        "bedrock": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:bedrock"
+                    ]
+                }
+            }
+        },
+        "end_portal_frame": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:end_portal_frame"
+                    ]
+                }
+            }
+        }
+    }
+}

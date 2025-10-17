@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": "Liquid at Last!",
+        "description": "Now just to get lava...",
+        "frame": "task"
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "water": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:water"
+            }
+        },
+        "ice": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:ice"
+            }
+        },
+        "waterlogged": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "state": {
+                    "waterlogged": "true"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "water",
+            "ice",
+            "waterlogged"
+        ]
+    ]
+}

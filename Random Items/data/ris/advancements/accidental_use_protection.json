@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:painting"
+        },
+        "title": "Accidental Use Protection",
+        "description": "Pick up a special item before it gets used",
+        "frame": "task"
+    },
+    "parent": "ris:customized",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:thrown_item_picked_up_by_player",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:command_block",
+                        "minecraft:chain_command_block",
+                        "minecraft:repeating_command_block",
+                        "minecraft:structure_block",
+                        "minecraft:jigsaw",
+                        "minecraft:debug_stick",
+                        "minecraft:knowledge_book"
+                    ]
+                }
+            }
+        }
+    }
+}

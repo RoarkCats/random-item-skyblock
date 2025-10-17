@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smooth_stone"
+        },
+        "title": "A Messy Platform",
+        "description": "Place 50 blocks",
+        "frame": "task"
+    },
+    "parent": "ris:your_first_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

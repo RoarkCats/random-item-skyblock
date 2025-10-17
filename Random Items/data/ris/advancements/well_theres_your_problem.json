@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": "Well, there's your problem",
+        "description": "Place an unbreakable block",
+        "frame": "task"
+    },
+    "parent": "ris:your_first_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:barrier",
+                        "minecraft:bedrock",
+                        "minecraft:end_portal_frame"
+                    ]
+                }
+            }
+        }
+    }
+}

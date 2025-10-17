@@ -1,1 +1,0 @@
-tellraw @s [{"text":"Place the ","color":"blue"},{"text":"player spawn points","color":"blue","bold":true},{"text":" where you want players to spawn along with their personal generators and place the ","color":"blue"},{"text":"generators","color":"blue","bold":true},{"text":" where you want extra loot generated.","color":"blue"}]

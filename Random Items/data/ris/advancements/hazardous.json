@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt_minecart"
+        },
+        "title": "Hazardous!",
+        "description": "Place a TNT Minecart",
+        "frame": "task"
+    },
+    "parent": "ris:explosive",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tnt_minecart"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Void Walker",
+        "description": "Stand on solid ground directly above the void",
+        "frame": "challenge"
+    },
+    "parent": "ris:sweaty_palms",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{OnGround:1b}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "max": -63
+                                        }
+                                    },
+                                    "dimension": "minecraft:overworld"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "max": 1
+                                        }
+                                    },
+                                    "dimension": "minecraft:the_nether"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "max": 1
+                                        }
+                                    },
+                                    "dimension": "minecraft:the_end"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

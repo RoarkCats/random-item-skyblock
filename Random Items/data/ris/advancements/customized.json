@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "Customized",
+        "description": "Obtain a special item with a custom use",
+        "frame": "task"
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:command_block",
+                            "minecraft:chain_command_block",
+                            "minecraft:repeating_command_block",
+                            "minecraft:structure_block",
+                            "minecraft:jigsaw",
+                            "minecraft:command_block_minecart",
+                            "minecraft:debug_stick",
+                            "minecraft:knowledge_book",
+                            "minecraft:player_head"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

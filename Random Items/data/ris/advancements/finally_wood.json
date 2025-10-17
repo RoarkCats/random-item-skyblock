@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "title": "Finally! Wood!",
+        "description": "Plant your first Sapling",
+        "frame": "task"
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "tag": "ris:saplings"
+                }
+            }
+        }
+    }
+}

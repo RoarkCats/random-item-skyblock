@@ -1,28 +1,24 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Fancy Air"
-        },
-        "description": {
-            "text": "Place a Structure Void"
-        },
         "icon": {
             "item": "minecraft:structure_void",
-            "nbt": "{Enchantments:[{id:\"enchanted\",lvl:0s}]}"
+            "nbt": "{Enchantments:[{}]}"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "title": "Fancy Air",
+        "description": "Place a Structure Void",
+        "frame": "task"
     },
+    "parent": "ris:your_first_block",
     "criteria": {
-        "ris": {
+        "requirement": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:structure_void"
+                "item": {
+                    "items": [
+                        "minecraft:structure_void"
+                    ]
+                }
             }
         }
-    },
-    "parent": "ris:first_block"
+    }
 }

@@ -1,4 +1,4 @@
-bossbar set minecraft:rdtimer players @a
-execute unless score delay rdtimer matches 0 run execute store result bossbar minecraft:rdtimer max run scoreboard players get give_item item_timer
-execute unless score delay rdtimer matches 0 run execute store result bossbar minecraft:rdtimer value run scoreboard players get give item_timer
-#execute unless score delay rdtimer matches 0 run execute if score give_item item_timer matches ..99 run bossbar set minecraft:rdtimer visible false
+bossbar set ris:rdtimer players @a
+execute store result bossbar ris:rdtimer max run scoreboard players get delay ris.timer
+execute store result bossbar ris:rdtimer value run scoreboard players get time ris.timer
+#execute if score delay ris.timer matches ..99 run bossbar set ris:rdtimer visible false

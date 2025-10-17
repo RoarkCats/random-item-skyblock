@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": "Mob Spawner",
+        "description": "Place a Spawner",
+        "frame": "task"
+    },
+    "parent": "ris:your_first_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:spawner"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "title": "Liquid Stone",
+        "description": "Let the Cobblestone production begin!",
+        "frame": "task"
+    },
+    "parent": "ris:liquid_at_last",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    }
+}

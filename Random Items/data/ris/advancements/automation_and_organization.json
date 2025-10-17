@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hopper"
+        },
+        "title": "Automation and Organization",
+        "description": "Place a Hopper",
+        "frame": "task"
+    },
+    "parent": "ris:storage_solution",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:hopper"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:polar_bear_spawn_egg"
+        },
+        "title": "Curious Creatures",
+        "description": "Use a Spawn Egg",
+        "frame": "task"
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "tag": "ris:spawn_eggs"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "title": "Explosive!",
+        "description": "Place a block of TNT",
+        "frame": "task"
+    },
+    "parent": "ris:your_first_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tnt"
+                    ]
+                }
+            }
+        }
+    }
+}

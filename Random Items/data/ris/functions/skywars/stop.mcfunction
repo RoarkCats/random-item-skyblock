@@ -1,14 +1,12 @@
 title @s actionbar {"text":"Game Stopped","color":"red","bold":true}
-playsound minecraft:block.anvil.land master @s ~ ~ ~ 20
-playsound minecraft:block.anvil.land master @s ~ ~ ~ 20
+playsound block.anvil.land master @s ~ ~ ~ 16
 
-execute at @e[type=armor_stand,tag=ris-p1] run setblock ~ ~-.5 ~ diamond_block
-tag @e remove ris-p2
-tag @a remove ris-tp
+execute at @e[tag=ris.p1] run setblock ~ ~-0.5 ~ diamond_block
+tag @e[tag=ris.p2] remove ris.p2
+tag @a[tag=ris.tp] remove ris.tp
 
-execute at @e[type=armor_stand,tag=ris-m1] run setblock ~ ~-.5 ~ diamond_block
-tag @e remove ris-m2
+execute at @e[tag=ris.m1] run setblock ~ ~-0.5 ~ diamond_block
+tag @e[tag=ris.m2] remove ris.m2
 
-scoreboard players set inGame risSkywars 0
-scoreboard players set playerCount risSkywars 0
-tag @a remove ris-dead
+scoreboard players set in_game ris.skywars 0
+scoreboard players reset * ris.deaths

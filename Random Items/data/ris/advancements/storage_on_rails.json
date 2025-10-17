@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest_minecart"
+        },
+        "title": "Storage on Rails",
+        "description": "Who actually uses these?",
+        "frame": "task"
+    },
+    "parent": "ris:mobile_storage",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:chest_minecart"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,11 +1,15 @@
+function ris:skywars/stop
+stopsound @s master block.anvil.land
+
+execute at @e[tag=ris.p1] run setblock ~ ~-0.5 ~ air
+execute at @e[tag=ris.m1] run setblock ~ ~-0.5 ~ air
+
 title @s actionbar {"text":"Game Started","color":"green","bold":true}
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 20
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 20
+playsound entity.player.levelup master @s ~ ~ ~ 16
 
-execute as @e[type=armor_stand,tag=ris-p1,tag=!ris-p2,sort=random] at @s run function ris:skywars/tp
-execute at @e[type=armor_stand,tag=ris-m1,tag=!ris-m2] run setblock ~ ~-.5 ~ repeating_command_block[facing=up]
-execute at @e[type=armor_stand,tag=ris-m1,tag=!ris-m2] align xyz run summon armor_stand ~.5 ~ ~.5 {Tags:["RISgen","ris-g"],DisabledSlots:4144959,NoGravity:1b,Invisible:1b,Small:1,CustomNameVisible:1b,CustomName:'{"text":"Item Generator"}'}
+execute as @e[tag=ris.p1,tag=!ris.p2,sort=random] at @s run function ris:skywars/tp
 
-execute as @e[type=armor_stand,tag=ris-m1,tag=!ris-m2] run tag @s add ris-m2
+execute as @e[tag=ris.m1,tag=!ris.m2] at @s align xyz positioned ~0.5 ~-0.5 ~0.5 run function ris:custom_items/repeat/repeat
+tag @e[tag=ris.m1,tag=!ris.m2] add ris.m2
 
-scoreboard players set inGame risSkywars 1
+scoreboard players set in_game ris.skywars 1

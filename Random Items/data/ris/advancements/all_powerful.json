@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "title": "All Powerful",
+        "description": "Hold a stack of a special item",
+        "frame": "challenge"
+    },
+    "parent": "ris:wait_thats_illegal",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:command_block",
+                            "minecraft:chain_command_block",
+                            "minecraft:repeating_command_block",
+                            "minecraft:structure_block",
+                            "minecraft:jigsaw",
+                            "minecraft:command_block_minecart",
+                            "minecraft:debug_stick",
+                            "minecraft:knowledge_book"
+                        ],
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

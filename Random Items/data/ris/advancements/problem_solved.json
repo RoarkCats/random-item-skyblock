@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_scrap",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Problem Solved",
+        "description": "Multiply and hold 16 Debug Sticks",
+        "frame": "goal"
+    },
+    "parent": "ris:unbreakable_broken",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:debug_stick"
+                        ],
+                        "count": {
+                            "min": 16
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

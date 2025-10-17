@@ -1,0 +1,55 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "min": -66,
+                                            "max": -64
+                                        }
+                                    },
+                                    "dimension": "minecraft:overworld"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "min": -2,
+                                            "max": 0
+                                        }
+                                    },
+                                    "dimension": "minecraft:the_nether"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "position": {
+                                        "y": {
+                                            "min": -2,
+                                            "max": 0
+                                        }
+                                    },
+                                    "dimension": "minecraft:the_end"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/sweaty_palms"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Item Merchant",
+        "description": "Multiply and hold 16 Knowledge Books",
+        "frame": "goal"
+    },
+    "parent": "ris:intriguing_deals",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:knowledge_book"
+                        ],
+                        "count": {
+                            "min": 16
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

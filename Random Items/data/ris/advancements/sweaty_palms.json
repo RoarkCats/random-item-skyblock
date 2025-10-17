@@ -1,25 +1,30 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": {
-            "text": "Sweaty Palms"
-        },
-        "description": {
-            "text": "Climb down to the bottom of the world and dip your feet in the void"
-        },
         "icon": {
-            "item": "minecraft:water_bucket",
-            "nbt": "{Enchantments:[{id:\"enchanted\",lvl:0s}]}"
+            "item": "minecraft:cod_bucket",
+            "nbt": "{Enchantments:[{}]}"
         },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "title": "Sweaty Palms",
+        "description": "Climb down to the bottom of the world and dip your feet in the void",
+        "frame": "goal"
     },
+    "parent": "ris:liquid_at_last",
     "criteria": {
-        "ris": {
-            "trigger": "minecraft:impossible"
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.sweaty_palms": {
+                                "min": 20
+                            }
+                        }
+                    }
+                ]
+            }
         }
-    },
-    "parent": "ris:cobble"
+    }
 }

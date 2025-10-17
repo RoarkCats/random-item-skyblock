@@ -4,6 +4,6 @@
 #
 # a = 1103515245, c = 12345
 
-scoreboard players operation #lcg risRNG *= #lcg_constant risRNG
-scoreboard players add #lcg risRNG 12345
-scoreboard players operation out risRNG = #lcg risRNG
+scoreboard players operation #lcg ris.rng *= #lcg_constant ris.rng
+scoreboard players add #lcg ris.rng 12345
+scoreboard players operation out ris.rng = #lcg ris.rng

@@ -1,11 +1,11 @@
-scoreboard players add in1 risRNG 1
-scoreboard players operation #range risRNG = in1 risRNG
-scoreboard players operation #range risRNG -= in risRNG
+scoreboard players add in1 ris.rng 1
+scoreboard players operation #range ris.rng = in1 ris.rng
+scoreboard players operation #range ris.rng -= in ris.rng
 
-scoreboard players operation #m1 risRNG = #range risRNG
-scoreboard players remove #m1 risRNG 1
+scoreboard players operation #m1 ris.rng = #range ris.rng
+scoreboard players remove #m1 ris.rng 1
 function ris:rng/next_int_lcg
-scoreboard players operation out risRNG += in risRNG
+scoreboard players operation out ris.rng += in ris.rng
 
-scoreboard players reset #m1 risRNG
-scoreboard players remove in1 risRNG 1
+scoreboard players reset #m1 ris.rng
+scoreboard players remove in1 ris.rng 1

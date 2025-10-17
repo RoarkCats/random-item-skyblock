@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{FallFlying:1b}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ris:void_range"
+                    }
+                ],
+                "damage": {
+                    "type": {
+                        "bypasses_invulnerability": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/a_dance_with_death"
+    }
+}

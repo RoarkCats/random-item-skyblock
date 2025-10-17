@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "title": "Touch Grass",
+        "description": "And they said it wasn't possible...",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "grass": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:grass"
+            }
+        },
+        "tall_grass": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:tall_grass"
+            }
+        }
+    },
+    "requirements": [
+      [
+        "grass",
+        "tall_grass"
+      ]
+    ]
+}

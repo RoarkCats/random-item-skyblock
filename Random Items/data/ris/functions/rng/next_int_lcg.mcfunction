@@ -15,8 +15,8 @@
 
 function ris:rng/lcg
 
-scoreboard players operation #temp risRNG = out risRNG
-scoreboard players operation out risRNG %= #range risRNG
-scoreboard players operation #temp risRNG -= out risRNG
-scoreboard players operation #temp risRNG += #m1 risRNG
-execute if score #temp risRNG matches ..-1 run function ris:rng/next_int_lcg
+scoreboard players operation #temp ris.rng = out ris.rng
+scoreboard players operation out ris.rng %= #range ris.rng
+scoreboard players operation #temp ris.rng -= out ris.rng
+scoreboard players operation #temp ris.rng += #m1 ris.rng
+execute if score #temp ris.rng matches ..-1 run function ris:rng/next_int_lcg

@@ -1,26 +1,23 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
+        "icon": {
+            "item": "minecraft:spruce_sapling"
+        },
         "title": {
             "text": "Random Item Skyblock",
             "color": "gold",
             "bold": true
         },
-        "description": {
-            "text": "by RoarkCats, Ziplaw, and PhoenixSC"
-        },
-        "icon": {
-            "item": "minecraft:spruce_sapling"
-        },
+        "description": "by RoarkCats, Ziplaw, and PhoenixSC",
+        "background": "minecraft:textures/block/blackstone.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/block/blackstone.png"
+        "hidden": false
     },
     "criteria": {
-        "ris": {
-            "trigger": "minecraft:impossible"
+        "requirement": {
+            "trigger": "minecraft:tick"
         }
     }
 }

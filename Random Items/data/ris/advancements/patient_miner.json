@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:reinforced_deepslate",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Patient Miner",
+        "description": "That wasn't so bad, though maybe use a Debug Stick next time",
+        "frame": "goal",
+        "hidden": true
+    },
+    "parent": "ris:not_quite_unbreakable",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.mined_reinforced_deepslate": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
