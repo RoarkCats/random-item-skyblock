@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ris:all_items",
+          "weight": 966
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ris:custom_items",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{custom_item:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

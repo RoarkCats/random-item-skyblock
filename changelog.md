@@ -1,6 +1,50 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.3
+Updated to 1.16, overhauled item giver, new Knowledge Book special item, enchanted books, void Nether, and much more!
+
+- Converted entire random item system to loot tables (much better performance wise)
+- Updated random items with 1.16 items
+- Switched out rng system where still applicable (better rng and slightly improved performance)
+- Updated cases of Roark9 to RoarkCats
+- Switched the values of same items and different items in the settings (manual reset required when updating from and old version)
+- Moved the item receive trigger out of the settings
+- Renamed the item receive trigger from `rdreceive` to `receive_items`
+- Switched the Command Block Minecart loot to loot tables (slightly improved performance)
+- Updated the Command Block Minecart loot with 1.16 loot
+- Breaking one of the three creator heads will now drop it with the correct name (so it'll now stack with unplaced heads)
+- Item generators and duplicators can no longer be destroyed, without breaking the block, with a piston
+- Item generators and duplicators can no longer activate in the void producing a glitched generator
+- Item generators, duplicators, and structure blocks can no longer be spawned from a dispenser/dropper
+- Item generators receiving a redstone signal will now stop producing items
+- You can now place blocks above the item generators and duplicators
+- Adjusted item duplicator particles and name height
+- Altered advancement names and descriptions
+- Changed the advancement background from stone to blackstone
+- Moved around some advancements
+- Removed the "Summoner" advancement as it's already a vanilla advancement
+- Added Pigstep to the "Broken Record" and "Groovin'" advancement
+- Increased the amount of Cobblestone needed for the "Cobblestone Generator" advancement
+- Changed the "Your First Block" advancement icon from a Diamond Block to a Stone Block
+- Changed the "Pedro!" advancement icon from a Panda Spawn Egg to a panda head
+- Added a new advancement, "Well, there's your problem"
+- Added 1.16 structures to the Structure Block's random structures
+- Shulker Boxes containing command blocks can no longer be duplicated without the op command block setting enabled
+- Made the /reload message flow better
+- Reworded item descriptions
+- Moved the Debug Stick breakable block tag from `data/minecraft/tags/blocks` to `data/ris/tags/blocks`
+- The Debug Stick now has a new setting, a 50% chance to drop the item when it breaks a block, this is the new default
+- Added special functionality to the Knowledge Book, introducing the Random Item Trader
+- Added a setting for the Random Item Trader over custom items included in its trades
+- Enchanted Books now spawn enchanted with 50 levels
+- The Nether will now generate void with the `nether_wastes` biome
+- Added an icon to the Random Item Skyblock world
+- Removed some unnecessary files from the Skyblock world
+- Updated pack format from `3` to `4`
+- Increased reload message delay from 10 to 40 ticks for players loading the world
+- Increased the gamerule `maxCommandChainLength` to 1000000
+
 ## 2.2
 Item generator improvements, new advancements, and fixes
 

@@ -1,0 +1,115 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/abandoned_mineshaft"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/bastion_bridge"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/bastion_hoglin_stable"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/bastion_other"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/bastion_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/buried_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/desert_pyramid"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/end_city_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/igloo_chest"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/jungle_temple"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/jungle_temple_dispenser"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/nether_bridge"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/pillager_outpost"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/ruined_portal"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/shipwreck_map"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/shipwreck_supply"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/shipwreck_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/simple_dungeon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/spawn_bonus_chest"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/stronghold_corridor"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/stronghold_crossing"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/stronghold_library"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/underwater_ruin_big"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/underwater_ruin_small"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "chests/woodland_mansion"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "ris:village_chests",
+            "weight": 8
+          }
+        ]
+      }
+    ]
+  }

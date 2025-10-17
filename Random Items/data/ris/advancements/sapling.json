@@ -2,9 +2,7 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Finally! Wood!",
-            "color": "dark_green",
-            "bold": true
+            "text": "Finally! Wood!"
         },
         "description": {
             "text": "Get your first sapling"
@@ -23,11 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:oak_sapling"
 					}
                 ]
             }
@@ -37,11 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:spruce_sapling"
 					}
                 ]
             }
@@ -51,11 +41,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:birch_sapling"
 					}
                 ]
             }
@@ -65,11 +51,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:jungle_sapling"
 					}
                 ]
             }
@@ -79,11 +61,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:acacia_sapling"
 					}
                 ]
             }
@@ -93,11 +71,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:dark_oak_sapling"
 					}
                 ]
             }

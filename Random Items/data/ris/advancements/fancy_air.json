@@ -2,18 +2,14 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Fancy Air",
-            "color": "aqua",
-            "bold": true
+            "text": "Fancy Air"
         },
         "description": {
-            "text": "Place a Structure Void",
-            "color": "green",
-            "bold": false
+            "text": "Place a Structure Void"
         },
         "icon": {
             "item": "minecraft:structure_void",
-            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"enchanted\",lvl:0s}]}"
         },
         "frame": "task",
         "show_toast": true,
@@ -28,5 +24,5 @@
             }
         }
     },
-    "parent": "ris:root"
+    "parent": "ris:first_block"
 }

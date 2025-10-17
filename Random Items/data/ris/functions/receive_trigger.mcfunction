@@ -10,5 +10,3 @@ execute if entity @s[tag=non_receiver, tag=!changed] run tellraw @s {"text":"You
 execute if entity @s[tag=non_receiver, tag=!changed] run tag @s remove non_receiver
 
 tag @s remove changed
-
-

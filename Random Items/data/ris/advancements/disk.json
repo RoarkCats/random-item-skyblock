@@ -2,13 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Groovin'",
-            "color": "green",
-            "bold": true
+            "text": "Groovin'"
         },
         "description": {
-            "text": "Play a record",
-            "bold": false
+            "text": "Play a record"
         },
         "icon": {
             "item": "minecraft:music_disc_stal"

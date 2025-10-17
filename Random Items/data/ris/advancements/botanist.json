@@ -2,13 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Botanist",
-            "color": "light_purple",
-            "bold": true
+            "text": "Botanist"
         },
         "description": {
-            "text": "Get every variety of sapling",
-            "bold": false
+            "text": "Get every variety of sapling"
         },
         "icon": {
             "item": "minecraft:dark_oak_sapling"
@@ -24,39 +21,19 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:oak_sapling"
                     },
                     {
-                        "item": "minecraft:birch_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:birch_sapling"
                     },
                     {
-                        "item": "minecraft:jungle_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:jungle_sapling"
                     },
                     {
-                        "item": "minecraft:acacia_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:acacia_sapling"
                     },
                     {
-                        "item": "minecraft:spruce_sapling",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:spruce_sapling"
                     },
                     {
                         "item": "minecraft:dark_oak_sapling"

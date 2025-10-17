@@ -2,13 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Snow White",
-            "color": "gray",
-            "bold": true
+            "text": "Snow White"
         },
         "description": {
-            "text": "Summon a Snow Golem",
-            "bold": false
+            "text": "Summon a Snow Golem"
         },
         "icon": {
             "item": "minecraft:carved_pumpkin"
@@ -28,5 +25,5 @@
             }
         }
     },
-    "parent": "ris:root"
+    "parent": "ris:first_block"
 }

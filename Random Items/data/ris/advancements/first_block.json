@@ -2,16 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Your First Block!",
-            "color": "aqua",
-            "bold": true
+            "text": "Your First Block!"
         },
         "description": {
-            "text": "Not even a challenge, to be honest",
-            "bold": false
+            "text": "Not even a challenge, to be honest"
         },
         "icon": {
-            "item": "minecraft:diamond_block"
+            "item": "minecraft:stone"
         },
         "frame": "task",
         "show_toast": true,

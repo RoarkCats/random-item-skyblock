@@ -2,13 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Hardcore player",
-            "color": "red",
-            "bold": true
+            "text": "Hardcore player"
         },
         "description": {
-            "text": "Go for 7 days without dying",
-            "bold": false
+            "text": "Survive for 7 days without dying"
         },
         "icon": {
             "item": "minecraft:splash_potion",

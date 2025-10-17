@@ -1,0 +1,8 @@
+#RoarkCats
+execute as @e[type=item,nbt={Age:0s,Item:{tag:{SkullOwner:{Id:[I;-569480198,700859149,-1921999514,268737433],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZhZjIwNjQzNzZhODUxNTBiYjAxZWY2Y2UwNDVjY2YzODA0ZmMxN2JjZjk0MDk4NDVjMmE4MWIwNjRiZDVkYSJ9fX0="}]}}}}}] run data merge entity @s {Item:{tag:{display:{Name:"{\"text\":\"RoarkCats\",\"italic\":false}"}}}}
+
+#Ziplaw
+execute as @e[type=item,nbt={Age:0s,Item:{tag:{SkullOwner:{Id:[I;-180123986,2036548410,-1111761613,-2064151199],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwYjkyOTU2MzdiM2U1NDAxMDA4ZDU5YzFmMWUyYzZiZWY3MDNlZjE1MWQwMDVjN2VmZmE1Yjk5NTlmOTk5ZiJ9fX0="}]}}}}}] run data merge entity @s {Item:{tag:{display:{Name:"{\"text\":\"Ziplaw\",\"italic\":false}"}}}}
+
+#PhoenixSC
+execute as @e[type=item,nbt={Age:0s,Item:{tag:{SkullOwner:{Id:[I;2015809643,1021855488,-1589474976,767678843],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU3MWE3MmNlZjdlZjAzNzE1YmY2YzQ3MGMyODNkNWUzODczNTkzZDA0Njk3MzRlMmE4MWNlNWQ0OWUxZmZiMyJ9fX0="}]}}}}}] run data merge entity @s {Item:{tag:{display:{Name:"{\"text\":\"PhoenixSC\",\"italic\":false}"}}}}

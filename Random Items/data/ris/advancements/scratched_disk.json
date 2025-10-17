@@ -2,17 +2,14 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Broken Record",
-            "color": "light_purple",
-            "bold": true
+            "text": "Broken Record"
         },
         "description": {
-            "text": "Have all the music discs at the same time",
-            "bold": false
+            "text": "Hold all the music discs at the same time"
         },
         "icon": {
             "item": "minecraft:music_disc_11",
-            "nbt": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"enchanted\",lvl:0s}]}"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -25,84 +22,43 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:music_disc_blocks",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_blocks"
                     },
                     {
-                        "item": "minecraft:music_disc_wait",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_wait"
                     },
                     {
-                        "item": "minecraft:music_disc_ward",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_ward"
                     },
                     {
-                        "item": "minecraft:music_disc_strad",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_strad"
                     },
                     {
-                        "item": "minecraft:music_disc_stal",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_stal"
                     },
                     {
-                        "item": "minecraft:music_disc_mellohi",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_mellohi"
                     },
                     {
-                        "item": "minecraft:music_disc_13",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_13"
                     },
                     {
-                        "item": "minecraft:music_disc_cat",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_cat"
                     },
                     {
-                        "item": "minecraft:music_disc_mall",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_mall"
                     },
                     {
-                        "item": "minecraft:music_disc_chirp",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_chirp"
                     },
                     {
-                        "item": "minecraft:music_disc_far",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
+                        "item": "minecraft:music_disc_far"
                     },
                     {
                         "item": "minecraft:music_disc_11"
+                    },
+                    {
+                        "item": "minecraft:music_disc_pigstep"
                     }
                 ]
             }

@@ -1,0 +1,14 @@
+{
+    "parent": "ris:root",
+    "rewards": {
+      "function": "ris:advance/placed_unbreak"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:end_portal_frame"
+        }
+      }
+    }
+  }

@@ -2,18 +2,15 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Cobblestone Generator",
-            "color": "light_purple",
-            "bold": true
+            "text": "Cobblestone Generator"
         },
         "description": {
-            "text": "Get 10 pieces of cobble",
-            "bold": false
+            "text": "Mine 24 cobbletsone"
         },
         "icon": {
             "item": "minecraft:cobblestone"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -26,13 +23,13 @@
                     {
                         "item": "minecraft:cobblestone",
                         "count": {
-                            "min": 10,
-                            "max": 2304
+                            "min": 24,
+                            "max": 2368
                         }
                     }
                 ]
             }
         }
     },
-    "parent": "ris:root"
+    "parent": "ris:first_block"
 }

@@ -8,7 +8,7 @@ Settings configurable through in-game commands
 
 - Chat Settings Menu: `/reload` or `/function ris:load`
 - Set Item Timer: `/scoreboard players set delay rdtimer 600`
-- Toggle Received Items: `/trigger rdreceive`
+- Toggle Received Items: `/trigger receive_items`
 
 ## License
 Feel free to play, stream, or showcase this pack so long as visible credit is given.  

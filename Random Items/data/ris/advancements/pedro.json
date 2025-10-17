@@ -2,18 +2,16 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Pedro!",
-            "color": "light_purple",
-            "bold": true
+            "text": "Pedro!"
         },
         "description": {
-            "text": "You're back!",
-            "bold": false
+            "text": "You're back!"
         },
         "icon": {
-            "item": "minecraft:panda_spawn_egg"
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1082903095,-1209316887,-2004393879,2139128249],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNhMDk2ZWVhNTA2MzAxYmVhNmQ0YjE3ZWUxNjA1NjI1YTZmNTA4MmM3MWY3NGE2MzljYzk0MDQzOWY0NzE2NiJ9fX0=\"}]}}}"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true

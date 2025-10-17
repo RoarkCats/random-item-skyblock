@@ -2,17 +2,14 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Sweaty Palms",
-            "color": "red",
-            "bold": true
+            "text": "Sweaty Palms"
         },
         "description": {
-            "text": "Get to y level 1 safe and sound",
-            "bold": false
+            "text": "Climb down to the bottom of the world and dip your feet in the void"
         },
         "icon": {
             "item": "minecraft:water_bucket",
-            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"enchanted\",lvl:0s}]}"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -24,5 +21,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ris:root"
+    "parent": "ris:cobble"
 }
