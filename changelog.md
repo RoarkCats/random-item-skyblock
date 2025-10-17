@@ -2,7 +2,7 @@
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
 ## 2.5
-1.17-1.19 update! New custom items, advancements, menus, settings, fixes, and overall improvements!
+1.17-1.19 update! New custom items, loads of advancements, menus, settings, fixes, and overall improvements!
 
 - Updated pack format to `10`
 - Altered pack description name order
