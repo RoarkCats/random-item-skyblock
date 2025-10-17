@@ -7,8 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "Get your first sapling",
-            "bold": false
+            "text": "Get your first sapling"
         },
         "icon": {
             "item": "minecraft:oak_sapling"
@@ -19,7 +18,7 @@
         "hidden": false
     },
     "criteria": {
-        "ris": {
+        "ris.oaksapling": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -29,10 +28,90 @@
                             "min": 1,
                             "max": 1
                         }
-                    }
+					}
+                ]
+            }
+		},
+		"ris.sprucesapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_sapling",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+					}
+                ]
+            }
+		},
+		"ris.birchsapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_sapling",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+					}
+                ]
+            }
+		},
+		"ris.junglesapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_sapling",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+					}
+                ]
+            }
+		},
+		"ris.acaciasapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_sapling",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+					}
+                ]
+            }
+		},
+		"ris.darkoaksapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_oak_sapling",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+					}
                 ]
             }
         }
-    },
+	},
+	"requirements": [
+        [
+            "ris.oaksapling",
+			"ris.sprucesapling",
+			"ris.birchsapling",
+			"ris.junglesapling",
+			"ris.acaciasapling",
+			"ris.darkoaksapling"
+        ]
+    ],
     "parent": "ris:root"
 }

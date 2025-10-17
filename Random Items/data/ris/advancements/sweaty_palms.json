@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Sweaty Palms",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Get to y level 1 safe and sound",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:water_bucket",
+            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ris": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ris:root"
+}

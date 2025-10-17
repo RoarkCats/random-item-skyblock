@@ -1,4 +1,0 @@
-execute if block ~1 ~ ~ end_portal_frame[eye=true] if block ~-1 ~ ~ end_portal_frame[eye=true] if block ~ ~ ~1 end_portal_frame[eye=true] if block ~ ~ ~-1 end_portal_frame[eye=true] run setblock ~ ~ ~ end_portal
-execute if block ~1 ~ ~ end_portal_frame[eye=true] if block ~-1 ~ ~ end_portal_frame[eye=true] if block ~ ~ ~1 end_portal_frame[eye=true] if block ~ ~ ~-1 end_portal_frame[eye=true] run setblock ~ ~-1 ~ end_gateway
-execute if block ~1 ~ ~ end_portal_frame[eye=true] if block ~-1 ~ ~ end_portal_frame[eye=true] if block ~ ~ ~1 end_portal_frame[eye=true] if block ~ ~ ~-1 end_portal_frame[eye=true] run kill @s
-execute if block ~1 ~ ~ end_portal_frame[eye=true] if block ~-1 ~ ~ end_portal_frame[eye=true] if block ~ ~ ~1 end_portal_frame[eye=true] if block ~ ~ ~-1 end_portal_frame[eye=true] run playsound minecraft:block.end_portal.spawn master @a ~ ~ ~ 100 2

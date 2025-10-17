@@ -21,10 +21,15 @@ execute as @e[tag=!spawned,type=item,nbt={Item:{id:"minecraft:repeating_command_
 execute as @e[tag=RISgen] at @s unless block ~ ~-1 ~ repeating_command_block run kill @s
 
 execute if score give item_timer >= give_item item_timer run scoreboard players add generator item_timer 1
-execute as @e[tag=RISgen] at @s if score generator item_timer matches 2 run function ris:custom-items/repeat/spawn
-execute as @e[tag=RISgen] at @s if score generator item_timer matches 2 run playsound minecraft:item.armor.equip_gold master @a ~ ~ ~ 2
-execute as @e[tag=RISgen] at @s if score generator item_timer matches 2 run particle minecraft:enchant ~ ~.1 ~ 0.1 0 0.1 0 50 force
-execute if score generator item_timer matches 2 run scoreboard players set generator item_timer 0
+execute if score generator item_timer matches 2.. if score sameItems risSettings matches 0 run function ris:custom-items/repeat/sameitem
+execute if score generator item_timer matches 2.. if score sameItems risSettings matches 1 run function ris:custom-items/repeat/difitem
+
+scoreboard players set generated item_timer 0
+execute as @e[tag=RISgen,limit=1,tag=!generated] run scoreboard players set generated item_timer 1
+execute if score generated item_timer matches 0 run tag @e[tag=RISgen] remove generated
+execute if score generated item_timer matches 0 run tag @e[tag=RISgen] remove sameGen
+execute if score generated item_timer matches 0 if score generator item_timer matches 2.. run scoreboard players set generator item_timer 0
+
 
 #Command Block Minecart - 
 execute as @e[type=command_block_minecart] at @s unless entity @e[tag=RISgen,distance=..0.5] unless entity @e[tag=RISmulti,distance=..0.5] run playsound minecraft:block.chest.open master @a ~ ~ ~ 2

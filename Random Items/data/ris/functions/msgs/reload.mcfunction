@@ -1,6 +1,6 @@
 tellraw @a {"text":"--------------------","color":"green"}
 
-tellraw @a ["",{"text":"Welcome to Random Item Skyblock v2.1!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by Ziplaw, RoarkCats, and PhoenixSC","color":"gold"}]}}}]
+tellraw @a ["",{"text":"Welcome to Random Item Skyblock v2.2!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by Ziplaw, RoarkCats, and PhoenixSC","color":"gold"}]}}}]
 
 tellraw @a ["",{"text":"<Ziplaw> If you want to change the settings, click "},{"text":"[here]","color":"gray","clickEvent":{"action":"run_command","value":"/function ris:msgs/settings"},"hoverEvent":{"action":"show_text","value":["",{"text":"Settings","color":"gray"}]}}]
 
