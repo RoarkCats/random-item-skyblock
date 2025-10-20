@@ -5,7 +5,7 @@
             "nbt": "{Enchantments:[{}]}"
         },
         "title": "Sky Fortress",
-        "description": "Place 2000 blocks",
+        "description": "Place 10,000 blocks",
         "frame": "challenge",
         "hidden": true
     },

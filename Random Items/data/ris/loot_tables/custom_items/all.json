@@ -11,7 +11,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "ris:custom_items/special",
-                    "weight": 5
+                    "weight": 6
                 }
             ]
         }

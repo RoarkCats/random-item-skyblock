@@ -9,13 +9,8 @@
     },
     "parent": "ris:curious_creatures",
     "criteria": {
-        "spawn_egg": {
-            "trigger": "minecraft:player_interacted_with_entity",
-            "conditions": {
-                "item": {
-                    "tag": "ris:spawn_eggs"
-                }
-            }
+        "requirement": {
+            "trigger": "minecraft:impossible"
         }
     }
 }

@@ -4,7 +4,7 @@
             "item": "minecraft:stone_bricks"
         },
         "title": "Beginnings of a Base",
-        "description": "Place 200 blocks",
+        "description": "Place 400 blocks",
         "frame": "goal"
     },
     "parent": "ris:a_messy_platform",

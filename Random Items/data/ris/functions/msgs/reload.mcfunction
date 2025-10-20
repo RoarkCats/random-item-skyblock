@@ -10,7 +10,7 @@ scoreboard players operation #display_sec ris.timer /= #20 ris.timer
 
 tellraw @a {"text":"                              \n","underlined":true,"color":"green"}
 
-tellraw @a [{"text":"Welcome to Random Item Skyblock v2.5!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by RoarkCats, Ziplaw, and PhoenixSC","color":"gold"}]}}}]
+tellraw @a [{"text":"Welcome to Random Item Skyblock v2.6!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by RoarkCats, Ziplaw, and PhoenixSC","color":"gold"}]}}}]
 
 tellraw @a ["<Ziplaw> If you want to change the settings, click ",{"text":"[here]","color":"gray","clickEvent":{"action":"run_command","value":"/function ris:msgs/settings"},"hoverEvent":{"action":"show_text","value":["",{"text":"Settings","color":"gray"}]}}]
 

@@ -23,7 +23,7 @@
                                 {
                                     "type": "minecraft:loot_table",
                                     "name": "ris:custom_items/special",
-                                    "weight": 5
+                                    "weight": 6
                                 },
                                 {
                                     "type": "minecraft:loot_table",
@@ -65,7 +65,7 @@
                                 {
                                     "type": "minecraft:loot_table",
                                     "name": "ris:custom_items/all",
-                                    "weight": 13
+                                    "weight": 14
                                 },
                                 {
                                     "type": "minecraft:loot_table",

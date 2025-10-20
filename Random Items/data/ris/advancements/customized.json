@@ -9,7 +9,7 @@
     },
     "parent": "ris:root",
     "criteria": {
-        "requirement": {
+        "custom_items": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -22,12 +22,20 @@
                             "minecraft:jigsaw",
                             "minecraft:command_block_minecart",
                             "minecraft:debug_stick",
-                            "minecraft:knowledge_book",
-                            "minecraft:player_head"
+                            "minecraft:knowledge_book"
                         ]
                     }
                 ]
             }
+        },
+        "player_head": {
+            "trigger": "minecraft:impossible"
         }
-    }
+    },
+    "requirements": [
+        [
+            "custom_items",
+            "player_head"
+        ]
+    ]
 }

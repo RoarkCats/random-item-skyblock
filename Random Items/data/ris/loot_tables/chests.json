@@ -10,6 +10,14 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "name": "chests/ancient_city"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "chests/ancient_city_ice_box"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "name": "chests/bastion_bridge"
                 },
                 {

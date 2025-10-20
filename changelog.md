@@ -1,6 +1,20 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.6
+Advancement fixes & loot table adjustments
+
+- Added Ancient City loot to Command Block Minecart drops
+- Fixed random item weights from when Goat Horns were moved to add their instruments
+- Fixed `player_head` considered a custom item for `customized` advancement
+- Increased number of blocks placed required for their respective advancements to 80, 400, 2000, 10000
+- Reverted `pedro` advancement trigger back to a scoreboard check
+- Improved `cute_and_cuddly` advancement checks
+- Fixed `brown_mushroom` criteria detection for `mycologist` advancement
+- Fixed `safe_keeping` advancement detection interference from `container_chaos` detection
+- Fixed `dismantled` advancement detection by moving the score reset from `main20` to `main`
+- Decreased Enchanted Book enchanting level to a range between 25-60 to allow for all enchants to appear 
+
 ## 2.5
 1.17-1.19 update! New custom items, loads of advancements, menus, settings, fixes, and overall improvements!
 

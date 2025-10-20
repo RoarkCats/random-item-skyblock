@@ -4,7 +4,7 @@
             "item": "minecraft:smooth_stone"
         },
         "title": "A Messy Platform",
-        "description": "Place 50 blocks",
+        "description": "Place 80 blocks",
         "frame": "task"
     },
     "parent": "ris:your_first_block",

@@ -1,4 +1,4 @@
-execute as @a[advancements={ris:skull_enthusiast={player_head=false}}] run function ris:advancements/skull_enthusiast
+execute as @a run function ris:advancements/player_head_checks
 
 
 

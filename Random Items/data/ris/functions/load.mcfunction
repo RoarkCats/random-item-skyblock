@@ -29,6 +29,7 @@ scoreboard objectives add ris.open_trapped_chest minecraft.custom:minecraft.trig
 scoreboard objectives add ris.open_ender_chest minecraft.custom:minecraft.open_enderchest
 scoreboard objectives add ris.open_shulker_box minecraft.custom:minecraft.open_shulker_box
 scoreboard objectives add ris.use_bundle minecraft.used:minecraft.bundle
+scoreboard objectives add ris.pedro minecraft.used:minecraft.panda_spawn_egg
 
 # Defaults Score Settings
 execute if score delay ris.timer matches ..4 run scoreboard players set delay ris.timer 5

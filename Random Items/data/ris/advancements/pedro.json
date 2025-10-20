@@ -12,17 +12,7 @@
     "parent": "ris:curious_creatures",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:panda_spawn_egg"
-                    ]
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "function": "ris:advancements/pedro"
     }
 }
