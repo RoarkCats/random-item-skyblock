@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:obsidian"
+		},
+		"title": "Dismantled",
+		"description": "Oops...",
+		"frame": "task",
+		"hidden": true
+	},
+	"parent": "ris:safe_keeping",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"ris.mined_ender_chest": {
+								"min": 0
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch"
+												}
+											]
+										}
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

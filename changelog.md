@@ -1,6 +1,79 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 2.7
+1.19.3-1.21.3 update! Under-the-hood changes galore— performance, fixes, & rebalances!
+
+- Fixed issue preventing world from loading (curated a new up-to-date world with the skyblock generation pack)
+- Updated pack format from `10` to `48`
+- Renamed all subfolders of the `ris` namespace removing plurality (`s`)
+- Did not rename the `tags` subfolder, but did rename its subfolders for plurality
+- Updated item list with items from 1.19.3 through 1.21.3
+- Fixed loot tables changing *some* instances of `name` to `value`
+- Updated potion loot tables with 4 new effects
+- Organized chest loot tables into the folder `chests`
+- Updated chest loot tables with the Trial Chamber chests
+- Rebalanced Command Block Minecart chest loot tables: Village (16 chests) weight 8->10, Trial Chambers (13 chests) weight ->10
+- Removed `"treasure": true` for enchanted books (update fix for all types to drop)
+- Removed `custom_items/goat_horns` loot table in favor of `set_instrument` function with `#minecraft:goat_horns`
+- Updated (loot table) item nbt to component style (pain)
+- Changed creator heads' names to be `item_name`s rather than `custom_name`s, allowing you to rename them without losing the original
+- Updated written book download count, `Over 57 downloads`!
+- Changed creator head predicates to check the `item_name`
+- Updated instances of `alternative` to `any_of` in predicates and advancements
+- Renamed function `horse-fix` to `untamable_fix` and optimized it with a new entity tag `#ris:untamable`
+- Removed function `player_head_name_fix` in favor of modifying vanilla `player_head` loot table to retain name, lore, and custom data when mined
+- Optimized & updated custom item `tag_item` function
+- Replaced versions of `Count:Xb` with `count:X`
+- Optimized & fixed Random Item Traders, renamed `trade` function to `add_trade`
+- Buffed Random Item Traders with 3-5 trades when `op_cmd` setting is enabled (normally 2-4 trades)
+- Switched RNG to use new `/random` command and removed `ris:rng/...` functions as no longer necessary
+- Fixed & improved `jigsaw_replaceable` block tag
+- Updated dust particle command format for disabled Item Generators
+- Added `trial_spawner` and `vault` to the list of blocks breakable by Debug Sticks
+- Added 215 new structures to the Structure Block! (Trail Ruins & Trial Chambers)
+- Added 4 new features to the Jigsaw block (mostly cherry tree stuff)
+- Updated skywars item/firework nbt to component style
+- Updated Debug Stick break item nbt to component style
+- Fixed a spelling mistake in the description of the Jigsaw block, `Ths` -> `This`
+- Renamed advancement `totem_trigger` to `void_totem_trigger`
+- Changed `head_collector` advancement criteria to reference creator head predicates 
+- Updated advancements to 1.21 formatting
+- Placing a `trial_spawner` now triggers the `mob_spawner` advancement
+- Renamed `debug_break` block tag to `debug_breakable`
+- Added `placeable_unbreakable` and `not_quite_unbreakable` block tags, used in their respective advancements and the `debug_breakable` block tag
+- Updated `spawn_eggs` item tag and spawn egg advancements with new spawn eggs
+- Recreated `music_discs` item tag for `groovin` since Mojang removed it -,-
+- Added `cherry_sapling` and `bamboo` to the `saplings` item tag, used by the `finally_wood` advancement
+- Added using Bone Meal to grow an Azalea tree as a possible way to get the `finally_wood` advancement
+- Added `cherry_sapling` and `azalea`/`flowering_azalea` to the `botanist` advancement
+- Adjusted the reset cmd for `ris.mined_ender_chest` as `main`/`tick` functions runs before `tick` advancement triggers now
+- Optimized `player_head_checks` function: no longer interacts with `customized` advancement, runs less
+- Changed `skull_enthusiast` advancement icon to the `wither_skeleton_skull`
+- Fixed & optimized Command Block item count merging for custom items
+- Chest minecarts and boats now count towards the `container_chaos` advancement
+- Reduced number of unique items needed to be dropped for the `item_vomit` advancement from 64 to 48
+- Changed `cobblestone_generator` advancement to be granted upon mining 32 cobblestone/stone in one spot (within 4 blocks)
+- Added `player_head`, `written_book`, and `enchanted_book` as possible "special item" triggers for the `expert_item_identifier` advancement
+- Added `trial_spawner` and `vault` as possible mine triggers for the `patient_miner` advancement
+- Rewrote some of the setting descriptions for clarity
+- Added setting `dragon_spawn_egg_prot` disabling Ender Dragon Spawn Eggs in dimensions other than The End
+- Advancements `hazardous`, `hopper_on_rails`, and `storage_on_rails` now require the minecarts to be placed on `#minecraft:rails`
+- Optimized code replacing `@e[sort=nearest,limit=1]` with `@n`
+- Changed skywars player spawns from `diamond_block` to `gold_block`
+- Updated skywars structures with new functions `skywars/setup/...` to more cleanly handle structure setup stuff
+- Moved skywars structures to the `ris` namespace
+- Rebalanced Structure Block structure weights by grouping more structure sets with lower super-weights in a new sub-folder `group`; you should see less `bastion`, `ancient_city`, and `underwater_ruin` spawns
+- Updated custom item advancement criteria grants to use `on origin` and `@s` instead of just `@p`
+- Renamed `custom_items/items` to `custom_items/item`
+- Restructured & optimized `custom_items/item` function to be run as/at all (special) items specifically
+- Added `custom_items/main` and `/chain/multiplier` functions to run the non-item commands previously handled in `custom_items/item`
+- Optimized Item Generator item spawns and fixed items "jumping" when first spawned due to desynced motion
+- Item Multipliers increase the `max_stack_size` of unstackable items to 16
+- Added/Updated item tag `unstackable` for the advancement `wait_thats_illegal`
+- Changed advancement `wait_thats_illegal` to only require an unstackable stacked over 1 rather than to 64 (no longer possible yet ;)
+- Further optimized Command Block item spawning and fixed "jumping" motion desync issue
+
 ## 2.6
 Advancement fixes & loot table adjustments
 

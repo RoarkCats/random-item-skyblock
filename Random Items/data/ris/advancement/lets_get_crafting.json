@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crafting_table"
+        },
+        "title": "Let's Get Crafting!",
+        "description": "Use a Crafting Table",
+        "frame": "task"
+    },
+    "parent": "ris:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.use_crafting_table": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

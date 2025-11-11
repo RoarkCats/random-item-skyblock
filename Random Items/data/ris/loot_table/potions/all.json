@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/tipped_arrow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/potion"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/splash_potion"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/lingering_potion"
+                }
+            ]
+        }
+    ]
+}

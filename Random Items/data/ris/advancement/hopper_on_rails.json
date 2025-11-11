@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:hopper_minecart"
+        },
+        "title": "Hopper on Rails",
+        "description": "Speedy item collection and distribution on wheels!",
+        "frame": "task"
+    },
+    "parent": "ris:automation_and_organization",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:hopper_minecart"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:rails"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "ris:all_items",
+                    "weight": 1,
+                    "expand": true
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/special",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/all",
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

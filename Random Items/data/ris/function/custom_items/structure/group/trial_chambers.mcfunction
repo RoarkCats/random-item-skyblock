@@ -1,0 +1,189 @@
+#142/170 included, outer weight of 63
+execute store result score rng1 ris.rng run random value 0..141
+
+
+execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/addon/c1_breeze
+execute if score rng1 ris.rng matches 1 run place template trial_chambers/chamber/addon/full_corner_column
+execute if score rng1 ris.rng matches 2 run place template trial_chambers/chamber/addon/full_stacked_walkway
+execute if score rng1 ris.rng matches 3 run place template trial_chambers/chamber/addon/full_stacked_walkway_2
+execute if score rng1 ris.rng matches 4 run place template trial_chambers/chamber/addon/grate_bridge
+execute if score rng1 ris.rng matches 5 run place template trial_chambers/chamber/addon/hanging_platform
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/addon/lower_staircase_down
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/addon/short_grate_platform
+execute if score rng1 ris.rng matches 6 run place template trial_chambers/chamber/addon/short_platform
+execute if score rng1 ris.rng matches 7 run place template trial_chambers/chamber/addon/walkway_with_bridge_1
+
+execute if score rng1 ris.rng matches 8 run place template trial_chambers/chamber/assembly/cover_1
+execute if score rng1 ris.rng matches 9 run place template trial_chambers/chamber/assembly/cover_2
+execute if score rng1 ris.rng matches 10 run place template trial_chambers/chamber/assembly/cover_3
+execute if score rng1 ris.rng matches 11 run place template trial_chambers/chamber/assembly/cover_4
+execute if score rng1 ris.rng matches 12 run place template trial_chambers/chamber/assembly/cover_5
+execute if score rng1 ris.rng matches 13 run place template trial_chambers/chamber/assembly/cover_6
+execute if score rng1 ris.rng matches 14 run place template trial_chambers/chamber/assembly/cover_7
+
+execute if score rng1 ris.rng matches 15 run place template trial_chambers/chamber/assembly/full_column
+execute if score rng1 ris.rng matches 16 run place template trial_chambers/chamber/assembly/hanging_1
+execute if score rng1 ris.rng matches 17 run place template trial_chambers/chamber/assembly/hanging_2
+execute if score rng1 ris.rng matches 18 run place template trial_chambers/chamber/assembly/hanging_3
+execute if score rng1 ris.rng matches 19 run place template trial_chambers/chamber/assembly/hanging_4
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/assembly/hanging_5
+
+execute if score rng1 ris.rng matches 20 run place template trial_chambers/chamber/assembly/left_staircase_1
+execute if score rng1 ris.rng matches 21 run place template trial_chambers/chamber/assembly/left_staircase_2
+execute if score rng1 ris.rng matches 22 run place template trial_chambers/chamber/assembly/left_staircase_3
+
+execute if score rng1 ris.rng matches 23 run place template trial_chambers/chamber/assembly/platform_1
+execute if score rng1 ris.rng matches 24 run place template trial_chambers/chamber/assembly/right_staircase_1
+execute if score rng1 ris.rng matches 25 run place template trial_chambers/chamber/assembly/right_staircase_2
+execute if score rng1 ris.rng matches 26 run place template trial_chambers/chamber/assembly/right_staircase_3
+execute if score rng1 ris.rng matches 27 run place template trial_chambers/chamber/assembly/spawner_1
+execute if score rng1 ris.rng matches 28 run place template trial_chambers/chamber/assembly
+
+execute if score rng1 ris.rng matches 29 run place template trial_chambers/chamber/chamber_1
+execute if score rng1 ris.rng matches 30 run place template trial_chambers/chamber/chamber_2
+execute if score rng1 ris.rng matches 31 run place template trial_chambers/chamber/chamber_4
+execute if score rng1 ris.rng matches 32 run place template trial_chambers/chamber/chamber_8
+
+execute if score rng1 ris.rng matches 33 run place template trial_chambers/chamber/entrance_cap
+execute if score rng1 ris.rng matches 34 run place template trial_chambers/chamber/eruption/breeze_slice_1
+execute if score rng1 ris.rng matches 35 run place template trial_chambers/chamber/eruption/center_1
+execute if score rng1 ris.rng matches 36 run place template trial_chambers/chamber/eruption/quadrant_1
+execute if score rng1 ris.rng matches 37 run place template trial_chambers/chamber/eruption/quadrant_2
+execute if score rng1 ris.rng matches 38 run place template trial_chambers/chamber/eruption/quadrant_3
+execute if score rng1 ris.rng matches 39 run place template trial_chambers/chamber/eruption/quadrant_4
+execute if score rng1 ris.rng matches 40 run place template trial_chambers/chamber/eruption/quadrant_5
+execute if score rng1 ris.rng matches 41 run place template trial_chambers/chamber/eruption/slice_1
+execute if score rng1 ris.rng matches 42 run place template trial_chambers/chamber/eruption/slice_2
+execute if score rng1 ris.rng matches 43 run place template trial_chambers/chamber/eruption/slice_3
+execute if score rng1 ris.rng matches 44 run place template trial_chambers/chamber/eruption
+
+execute if score rng1 ris.rng matches 45 run place template trial_chambers/chamber/pedestal/center_1
+execute if score rng1 ris.rng matches 46 run place template trial_chambers/chamber/pedestal/ominous_slice_1
+execute if score rng1 ris.rng matches 47 run place template trial_chambers/chamber/pedestal/quadrant_1
+execute if score rng1 ris.rng matches 48 run place template trial_chambers/chamber/pedestal/quadrant_2
+execute if score rng1 ris.rng matches 49 run place template trial_chambers/chamber/pedestal/quadrant_3
+execute if score rng1 ris.rng matches 50 run place template trial_chambers/chamber/pedestal/slice_1
+execute if score rng1 ris.rng matches 51 run place template trial_chambers/chamber/pedestal/slice_2
+execute if score rng1 ris.rng matches 52 run place template trial_chambers/chamber/pedestal/slice_3
+execute if score rng1 ris.rng matches 53 run place template trial_chambers/chamber/pedestal/slice_4
+execute if score rng1 ris.rng matches 54 run place template trial_chambers/chamber/pedestal/slice_5
+execute if score rng1 ris.rng matches 55 run place template trial_chambers/chamber/pedestal
+
+execute if score rng1 ris.rng matches 56 run place template trial_chambers/chamber/slanted/center
+execute if score rng1 ris.rng matches 57 run place template trial_chambers/chamber/slanted/hallway_1
+execute if score rng1 ris.rng matches 58 run place template trial_chambers/chamber/slanted/hallway_2
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/slanted/hallway_3
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/slanted/hallway_4
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chamber/slanted/hallway_5
+execute if score rng1 ris.rng matches 59 run place template trial_chambers/chamber/slanted/ominous_upper_arm_1
+execute if score rng1 ris.rng matches 60 run place template trial_chambers/chamber/slanted/quadrant_1
+execute if score rng1 ris.rng matches 61 run place template trial_chambers/chamber/slanted/quadrant_2
+execute if score rng1 ris.rng matches 62 run place template trial_chambers/chamber/slanted/quadrant_3
+execute if score rng1 ris.rng matches 63 run place template trial_chambers/chamber/slanted/quadrant_4
+execute if score rng1 ris.rng matches 64 run place template trial_chambers/chamber/slanted/ramp_1
+execute if score rng1 ris.rng matches 65 run place template trial_chambers/chamber/slanted/ramp_2
+execute if score rng1 ris.rng matches 66 run place template trial_chambers/chamber/slanted/ramp_3
+execute if score rng1 ris.rng matches 67 run place template trial_chambers/chamber/slanted/ramp_4
+execute if score rng1 ris.rng matches 68 run place template trial_chambers/chamber/slanted
+
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/chests/connectors/supply
+execute if score rng1 ris.rng matches 69 run place template trial_chambers/chests/supply
+execute if score rng1 ris.rng matches 70 run place template trial_chambers/corridor/addon/arrow_dispenser
+execute if score rng1 ris.rng matches 71 run place template trial_chambers/corridor/addon/bridge_lower
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/corridor/addon/chandelier_upper
+execute if score rng1 ris.rng matches 72 run place template trial_chambers/corridor/addon/decoration_upper
+execute if score rng1 ris.rng matches 73 run place template trial_chambers/corridor/addon/display_1
+execute if score rng1 ris.rng matches 74 run place template trial_chambers/corridor/addon/display_2
+execute if score rng1 ris.rng matches 75 run place template trial_chambers/corridor/addon/display_3
+execute if score rng1 ris.rng matches 76 run place template trial_chambers/corridor/addon/head_upper
+execute if score rng1 ris.rng matches 77 run place template trial_chambers/corridor/addon/ladder_to_middle
+execute if score rng1 ris.rng matches 78 run place template trial_chambers/corridor/addon/open_walkway
+execute if score rng1 ris.rng matches 79 run place template trial_chambers/corridor/addon/open_walkway_upper
+execute if score rng1 ris.rng matches 80 run place template trial_chambers/corridor/addon/reward_upper
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/corridor/addon/staircase
+execute if score rng1 ris.rng matches 81 run place template trial_chambers/corridor/addon/wall
+execute if score rng1 ris.rng matches 82 run place template trial_chambers/corridor/addon/walled_walkway
+execute if score rng1 ris.rng matches 83 run place template trial_chambers/corridor/atrium/bogged_relief
+execute if score rng1 ris.rng matches 84 run place template trial_chambers/corridor/atrium/breeze_relief
+execute if score rng1 ris.rng matches 85 run place template trial_chambers/corridor/atrium/grand_staircase_1
+execute if score rng1 ris.rng matches 86 run place template trial_chambers/corridor/atrium/grand_staircase_2
+execute if score rng1 ris.rng matches 87 run place template trial_chambers/corridor/atrium/grand_staircase_3
+execute if score rng1 ris.rng matches 88 run place template trial_chambers/corridor/atrium/spider_relief
+execute if score rng1 ris.rng matches 89 run place template trial_chambers/corridor/atrium/spiral_relief
+
+execute if score rng1 ris.rng matches 90 run place template trial_chambers/corridor/atrium_1
+execute if score rng1 ris.rng matches 91 run place template trial_chambers/corridor/end_1
+execute if score rng1 ris.rng matches 92 run place template trial_chambers/corridor/end_2
+execute if score rng1 ris.rng matches 93 run place template trial_chambers/corridor/entrance_1
+execute if score rng1 ris.rng matches 94 run place template trial_chambers/corridor/entrance_2
+execute if score rng1 ris.rng matches 95 run place template trial_chambers/corridor/entrance_3
+
+execute if score rng1 ris.rng matches 96 run place template trial_chambers/corridor/first_plate
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/corridor/second_plate
+execute if score rng1 ris.rng matches 97 run place template trial_chambers/corridor/straight_1
+execute if score rng1 ris.rng matches 98 run place template trial_chambers/corridor/straight_2
+execute if score rng1 ris.rng matches 99 run place template trial_chambers/corridor/straight_3
+execute if score rng1 ris.rng matches 100 run place template trial_chambers/corridor/straight_4
+execute if score rng1 ris.rng matches 101 run place template trial_chambers/corridor/straight_5
+execute if score rng1 ris.rng matches 102 run place template trial_chambers/corridor/straight_6
+execute if score rng1 ris.rng matches 103 run place template trial_chambers/corridor/straight_7
+execute if score rng1 ris.rng matches 104 run place template trial_chambers/corridor/straight_8
+
+execute if score rng1 ris.rng matches 105 run place template trial_chambers/decor/barrel
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/candle_1
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/candle_2
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/candle_3
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/candle_4
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/dead_bush_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/empty_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/flow_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/guster_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/scrape_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/decor/undecorated_pot
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/dispensers/chamber
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/dispensers/floor_dispenser
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/dispensers/wall_dispenser
+
+execute if score rng1 ris.rng matches 106 run place template trial_chambers/hallway/cache_1
+execute if score rng1 ris.rng matches 107 run place template trial_chambers/hallway/corner_staircase
+execute if score rng1 ris.rng matches 108 run place template trial_chambers/hallway/corner_staircase_down
+execute if score rng1 ris.rng matches 109 run place template trial_chambers/hallway/corridor_connector_1
+execute if score rng1 ris.rng matches 110 run place template trial_chambers/hallway/left_corner
+execute if score rng1 ris.rng matches 111 run place template trial_chambers/hallway/long_straight_staircase
+execute if score rng1 ris.rng matches 112 run place template trial_chambers/hallway/long_straight_staircase_down
+execute if score rng1 ris.rng matches 113 run place template trial_chambers/hallway/lower_hallway_connector
+execute if score rng1 ris.rng matches 114 run place template trial_chambers/hallway/right_corner
+execute if score rng1 ris.rng matches 115 run place template trial_chambers/hallway/rubble
+execute if score rng1 ris.rng matches 116 run place template trial_chambers/hallway/rubble_chamber
+execute if score rng1 ris.rng matches 117 run place template trial_chambers/hallway/rubble_chamber_thin
+execute if score rng1 ris.rng matches 118 run place template trial_chambers/hallway/rubble_thin
+execute if score rng1 ris.rng matches 119 run place template trial_chambers/hallway/straight
+execute if score rng1 ris.rng matches 120 run place template trial_chambers/hallway/straight_staircase
+execute if score rng1 ris.rng matches 121 run place template trial_chambers/hallway/straight_staircase_down
+execute if score rng1 ris.rng matches 122 run place template trial_chambers/hallway/upper_hallway_connector
+
+execute if score rng1 ris.rng matches 123 run place template trial_chambers/intersection/intersection_1
+execute if score rng1 ris.rng matches 124 run place template trial_chambers/intersection/intersection_2
+execute if score rng1 ris.rng matches 125 run place template trial_chambers/intersection/intersection_3
+
+execute if score rng1 ris.rng matches 126 run place template trial_chambers/reward/ominous_vault
+execute if score rng1 ris.rng matches 127 run place template trial_chambers/reward/vault
+execute if score rng1 ris.rng matches 128 run place template trial_chambers/spawner/breeze/breeze
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/spawner/connectors/breeze
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/spawner/connectors/melee
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/spawner/connectors/ranged
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/spawner/connectors/slow_ranged
+#execute if score rng1 ris.rng matches 0 run place template trial_chambers/spawner/connectors/small_melee
+execute if score rng1 ris.rng matches 129 run place template trial_chambers/spawner/melee/husk
+execute if score rng1 ris.rng matches 130 run place template trial_chambers/spawner/melee/spider
+execute if score rng1 ris.rng matches 131 run place template trial_chambers/spawner/melee/zombie
+execute if score rng1 ris.rng matches 132 run place template trial_chambers/spawner/ranged/poison_skeleton
+execute if score rng1 ris.rng matches 133 run place template trial_chambers/spawner/ranged/skeleton
+execute if score rng1 ris.rng matches 134 run place template trial_chambers/spawner/ranged/stray
+execute if score rng1 ris.rng matches 135 run place template trial_chambers/spawner/slow_ranged/poison_skeleton
+execute if score rng1 ris.rng matches 136 run place template trial_chambers/spawner/slow_ranged/skeleton
+execute if score rng1 ris.rng matches 137 run place template trial_chambers/spawner/slow_ranged/stray
+execute if score rng1 ris.rng matches 138 run place template trial_chambers/spawner/small_melee/baby_zombie
+execute if score rng1 ris.rng matches 139 run place template trial_chambers/spawner/small_melee/cave_spider
+execute if score rng1 ris.rng matches 140 run place template trial_chambers/spawner/small_melee/silverfish
+execute if score rng1 ris.rng matches 141 run place template trial_chambers/spawner/small_melee/slime

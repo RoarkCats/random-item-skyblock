@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:reinforced_deepslate",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Patient Miner",
+        "description": "That wasn't so bad, though maybe use a Debug Stick next time",
+        "frame": "goal",
+        "hidden": true
+    },
+    "parent": "ris:not_quite_unbreakable",
+    "criteria": {
+        "reinforced_deepslate": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.mined_reinforced_deepslate": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "trial_spawner": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.mined_trial_spawner": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "vault": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "ris.mined_vault": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "reinforced_deepslate",
+            "trial_spawner",
+            "vault"
+        ]
+    ]
+}

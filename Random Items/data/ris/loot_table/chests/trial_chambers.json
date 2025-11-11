@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/corridor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/entrance"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/intersection"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/intersection_barrel"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_ominous"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_ominous_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_ominous_rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_ominous_unique"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/reward_unique"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/trial_chambers/supply"
+                }
+            ]
+        }
+    ]
+}

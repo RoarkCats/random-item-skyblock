@@ -1,0 +1,572 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chicken_spawn_egg"
+        },
+        "title": "Zoologist",
+        "description": "Spawn all passive mobs",
+        "frame": "challenge"
+    },
+    "parent": "ris:gotta_spawn_em_all",
+    "criteria": {
+        "allay_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:allay_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "armadillo_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:armadillo_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "axolotl_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:axolotl_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "bat_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:bat_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "bee_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:bee_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "camel_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:camel_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "cat_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:cat_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "chicken_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:chicken_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "cod_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:cod_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "cow_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:cow_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "dolphin_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:dolphin_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "donkey_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:donkey_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "fox_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:fox_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "frog_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:frog_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "glow_squid_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:glow_squid_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "goat_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:goat_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "horse_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:horse_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "iron_golem_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:iron_golem_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "llama_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:llama_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "mooshroom_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:mooshroom_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "mule_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:mule_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "ocelot_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:ocelot_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "panda_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:panda_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "parrot_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:parrot_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "pig_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:pig_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "polar_bear_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:polar_bear_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "pufferfish_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:pufferfish_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "rabbit_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:rabbit_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "salmon_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:salmon_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "sheep_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:sheep_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "skeleton_horse_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:skeleton_horse_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "sniffer_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:sniffer_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "snow_golem_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:snow_golem_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "squid_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:squid_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "strider_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:strider_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "tadpole_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:tadpole_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "trader_llama_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:trader_llama_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "tropical_fish_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:tropical_fish_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "turtle_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:turtle_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "villager_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:villager_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "wandering_trader_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:wandering_trader_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "wolf_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:wolf_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        },
+        "zombie_horse_spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:zombie_horse_spawn_egg"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/abandoned_mineshaft"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/ancient_city"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/ancient_city_ice_box"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/bastion_bridge"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/bastion_hoglin_stable"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/bastion_other"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/bastion_treasure"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/buried_treasure"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/desert_pyramid"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/end_city_treasure"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/igloo_chest"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/jungle_temple"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/jungle_temple_dispenser"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/nether_bridge"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/pillager_outpost"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/ruined_portal"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/shipwreck_map"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/shipwreck_supply"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/shipwreck_treasure"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/simple_dungeon"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/spawn_bonus_chest"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/stronghold_corridor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/stronghold_crossing"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/stronghold_library"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/underwater_ruin_big"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/underwater_ruin_small"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "chests/woodland_mansion"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:chests/village",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:chests/trial_chambers",
+                    "weight": 10
+                }
+            ]
+        }
+    ],
+    "comment": "chests/village & chests/trial_chambers actually have 16 & 13 entries, not 10 & 10"
+}

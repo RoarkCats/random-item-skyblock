@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"vehicle": {}
+							}
+						}
+					}
+				],
+				"entity": {
+					"type": "#ris:container_entity"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ris:advancements/container_chaos_entity"
+	}
+}

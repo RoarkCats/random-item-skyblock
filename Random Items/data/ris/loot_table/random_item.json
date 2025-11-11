@@ -1,0 +1,109 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:tag",
+                                    "name": "ris:all_items",
+                                    "weight": 1,
+                                    "expand": true
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ris:custom_items/op",
+                                    "weight": 24
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ris:custom_items/special",
+                                    "weight": 6
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ris:potions/all",
+                                    "weight": 4
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:reference",
+                                    "name": "ris:creator_heads/roarkcats"
+                                },
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:value_check",
+                                        "value": {
+                                            "type": "minecraft:score",
+                                            "target": {
+                                                "type": "minecraft:fixed",
+                                                "name": "creator_heads"
+                                            },
+                                            "score": "ris.special_item_settings"
+                                        },
+                                        "range": 0
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:tag",
+                                    "name": "ris:all_items",
+                                    "weight": 1,
+                                    "expand": true
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ris:custom_items/all",
+                                    "weight": 14
+                                },
+                                {
+                                    "type": "minecraft:loot_table",
+                                    "value": "ris:potions/all",
+                                    "weight": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "ris:creator_heads/ziplaw"
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "creator_heads"
+                                    },
+                                    "score": "ris.special_item_settings"
+                                },
+                                "range": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

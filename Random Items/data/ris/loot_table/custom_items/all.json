@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/op",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/special",
+                    "weight": 6
+                }
+            ]
+        }
+    ]
+}

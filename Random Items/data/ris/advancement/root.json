@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_sapling"
+        },
+        "title": {
+            "text": "Random Item Skyblock",
+            "color": "gold",
+            "bold": true
+        },
+        "description": "by RoarkCats, Ziplaw, and PhoenixSC",
+        "background": "minecraft:textures/block/blackstone.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chain_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Creates an Item Multiplier when dropped\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Drops a stack of a random item when dropped\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block_minecart",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Drops random chest loot when placed\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Creates a Random Item Generator when dropped\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Generates a random structure when dropped\",\"color\":\"red\",\"italic\":false}","{\"text\":\"► This may destroy blocks in a 48\",\"color\":\"red\",\"bold\":true,\"italic\":false}","{\"text\":\"  block range in your positive xyz ◄\",\"color\":\"red\",\"bold\":true,\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Generates a random feature when dropped\",\"color\":\"red\",\"italic\":false}","{\"text\":\"► This may destroy blocks in a 32*\",\"color\":\"red\",\"bold\":true,\"italic\":false}","{\"text\":\"  block range in any direction ◄\",\"color\":\"red\",\"bold\":true,\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:debug_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Removes an unbreakable block when dropped\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:lore": ["{\"text\":\"Spawns a Random Item Trader when dropped\",\"color\":\"red\",\"italic\":false}"]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{custom_item:1b}"
+                }
+            ]
+        }
+    ]
+}
