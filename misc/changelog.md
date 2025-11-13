@@ -202,6 +202,7 @@
 -Added setting Multiplier Unstackable Count (set to 4 by default)
 -Added `pack.png` pack icon!
 -Added value checks so `maxCommandChainLength`, `commandModificationBlockLimit` don't override larger values when increased
+-Fixed lazy loaded generators from spawning more than 5 items while unloaded/not entity processing
 
 
 -Version 3.0.0!
