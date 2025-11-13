@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chain_command_block"
+        },
+        "title": "Surprise Gift",
+        "description": "Consume a component item that converts into a Special Item",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty/all_powerful_",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{ris:{converts_to_special:1b}}"
+                    }
+                }
+            }
+        }
+    }
+}

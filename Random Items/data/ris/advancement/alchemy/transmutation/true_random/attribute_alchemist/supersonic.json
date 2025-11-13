@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+                "potion_contents": "wind_charged",
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Supersonic",
+        "description": "Run over 343 blocks per second at the speed of sound!",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist/ka_chow",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_on_ground": true
+					},
+					"movement": {
+						"horizontal_speed": {
+							"min": 343.2
+						}
+					}
+				}
+			}
+        }
+    }
+}

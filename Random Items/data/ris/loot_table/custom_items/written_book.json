@@ -9,6 +9,19 @@
                 },
 
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:alchemy/secrets_to_alchemy_2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:alchemy/secrets_to_alchemy_5"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:alchemy/secrets_to_alchemy_8"
+                },
+
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:written_book",
                     "functions": [
@@ -264,6 +277,18 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:written_book_content": {"author":"elixirs_","title":"","pages":["\"\\\"wuh\\\" \n\n-Roark, at some point\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"elixirs_","title":"","pages":["\"who up eatin they glow lichen\""],"resolved":true}
                             }
                         }
                     ]
@@ -605,6 +630,19 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:written_book_content": {"author":"HellsMinimum","title":"","pages":["\"If you're having a bad day, just remember that tomorrow could be a good day. It's a gamble. And once you realize you're gambling, you'll be happy again. Because gambling is awesome.\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
                                 "minecraft:written_book_content": {"author":"WolfSki105","title":"","pages":["\"Breaking News: \n\nDwarf Shortage\""],"resolved":true}
                             }
                         }
@@ -696,12 +734,38 @@
                             }
                         }
                     ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"ThatOtherAndrew","title":"","pages":["\"[object Object]\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"Vr_North","title":"","pages":["\"now with cat bones!\""],"resolved":true}
+                            }
+                        }
+                    ]
                 }
             ],
             "functions": [
                 {
                     "function": "minecraft:set_custom_data",
-                    "tag": "{custom_item:1b}"
+                    "tag": "{ris:{custom_item:1b}}"
                 }
             ]
         }

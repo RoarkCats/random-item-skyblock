@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:suspicious_gravel"
+        },
+        "title": "Oops...",
+        "description": "Accidentally place a component item",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:alchemy/transmutation/true_random",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[{}]}}"
+                            }
+						}
+					}
+				]
+			}
+        }
+    }
+}

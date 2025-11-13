@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/command_block"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/chain_command_block"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/repeating_command_block"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/command_block_minecart"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/structure_block"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/jigsaw"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/debug_stick"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/knowledge_book"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/player_head/roarkcats"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/player_head/ziplaw"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","value": "ris:custom_items/special/player_head/phoenixsc"}]}
+    ]
+}

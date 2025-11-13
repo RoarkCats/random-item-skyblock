@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carved_pumpkin"
+        },
+        "title": "I Can't See!",
+        "description": "Equip a camera overlay component item",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/honey_where_are_my_leggings/hat_fashion",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.*": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"equippable\",overlay:1b} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

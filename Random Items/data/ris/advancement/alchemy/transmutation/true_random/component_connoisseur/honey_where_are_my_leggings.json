@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chainmail_leggings"
+        },
+        "title": "Honey, Where Are My Leggings?",
+        "description": "Equip an equippable component item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.*": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"equippable\"} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

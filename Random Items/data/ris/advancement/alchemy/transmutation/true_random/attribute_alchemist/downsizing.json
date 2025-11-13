@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:egg"
+        },
+        "title": "Downsizing",
+        "description": "Experience the world at 1/16th the size",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

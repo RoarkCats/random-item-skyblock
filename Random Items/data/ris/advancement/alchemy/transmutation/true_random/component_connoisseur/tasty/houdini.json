@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "title": "Houdini",
+        "description": "Consume a teleport component item and relocate over 100 blocks away",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

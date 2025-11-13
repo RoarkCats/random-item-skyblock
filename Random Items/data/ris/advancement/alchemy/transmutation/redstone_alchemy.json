@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dropper"
+        },
+        "title": "Redstone Alchemy",
+        "description": "Transmute an item with redstone",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/auto_refill",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

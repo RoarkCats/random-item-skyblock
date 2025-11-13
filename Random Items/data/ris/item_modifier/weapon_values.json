@@ -1,0 +1,35 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:attack_damage",
+				"amount": {
+					"type": "minecraft:binomial",
+					"n": 10,
+					"p": 0.45
+				},
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:attack_speed",
+				"amount": {
+					"min": {
+						"min": -3.4,
+						"max": -2.6
+					},
+					"max": {
+						"min": -2.6,
+						"max": -2.0
+					}
+				},
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+        "replace": false
+	}
+]

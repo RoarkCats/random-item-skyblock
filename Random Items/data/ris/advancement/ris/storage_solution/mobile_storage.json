@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_chest_boat"
+        },
+        "title": "Mobile Storage",
+        "description": "Enter a Chest Boat",
+        "frame": "task"
+    },
+    "parent": "ris:ris/storage_solution",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "#ris:chest_boat"
+                      }
+                }
+            }
+        }
+    }
+}

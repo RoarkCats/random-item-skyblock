@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jigsaw",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"lore": ["{\"text\":\"Generates a random feature when dropped\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "custom_data": "{ris:{custom_item:1b}}"
+                    }
+                }
+            ]
+		}
+	],
+	"comment": "Depricated description: ► This may destroy blocks in a 32*\n  block range in any direction ◄"
+}

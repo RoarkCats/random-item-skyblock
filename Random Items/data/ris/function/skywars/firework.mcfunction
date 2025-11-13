@@ -9,6 +9,6 @@ execute if score firework ris.skywars matches 60 run summon firework_rocket ^ ^ 
 execute if score firework ris.skywars matches 70 run summon firework_rocket ^ ^ ^2 {LifeTime:30,FireworksItem:{id:firework_rocket,count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",has_trail:1b,colors:[I;5818626,5042722,13762327],fade_colors:[I;13631468]}]}}}}
 execute if score firework ris.skywars matches 80 run summon firework_rocket ^ ^ ^2 {LifeTime:30,FireworksItem:{id:firework_rocket,count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_trail:1b,colors:[I;393198,7986126,12000222],fade_colors:[I;13631468]}]}}}}
 
-tp @s ~ ~ ~ ~5 ~
+rotate @s ~5 ~
 execute if score firework ris.skywars matches 80 run kill @s
 execute if score firework ris.skywars matches 80 run scoreboard players reset firework ris.skywars

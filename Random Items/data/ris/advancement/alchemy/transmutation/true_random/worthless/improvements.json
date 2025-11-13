@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:amethyst_shard"
+        },
+        "title": "Improvements",
+        "description": "Hold a 3/5 star component item",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/worthless",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"level\",ref:{stars:3}} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

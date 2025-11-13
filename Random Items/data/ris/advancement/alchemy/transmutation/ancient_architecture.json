@@ -1,0 +1,82 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shaper_armor_trim_smithing_template"
+        },
+        "title": "Ancient Architecture",
+        "description": "Transmute a structure Alchemy Item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation",
+    "criteria": {
+        "double/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/structure'}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double/structure",
+            "structure/minecart",
+            "structure/command",
+            "structure/repeat",
+            "knowledge/structure"
+        ]
+    ]
+}

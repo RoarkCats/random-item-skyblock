@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:echo_shard",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Perfection",
+        "description": "Hold a 5/5 star component item",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/worthless/improvements",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"level\",ref:{stars:5}} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

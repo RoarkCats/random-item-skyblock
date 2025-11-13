@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:firework_rocket"
+        },
+        "title": "Rocket Flight",
+        "description": "Made from Paper and Gunpowder, Firework Rockets can be used to propel your Elytra flight",
+        "frame": "task"
+    },
+    "parent": "ris:ris/lets_get_crafting",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:firework_rocket"
+                    }
+                ]
+            }
+        }
+    }
+}

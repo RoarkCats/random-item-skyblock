@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jigsaw",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "\"Clone Copy\"",
+								"lore": ["{\"text\":\"Copies an area into a Clone Schematic\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "enchantment_glint_override": true,
+                        "custom_data": "{ris:{custom_item:1b,transmuted:1b,function:\"jigsaw/chain\"}}"
+                    }
+                }
+            ]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_on_ground": true
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"fluid": {
+					"fluids": "#minecraft:water"
+				}
+			}
+		}
+	]
+}

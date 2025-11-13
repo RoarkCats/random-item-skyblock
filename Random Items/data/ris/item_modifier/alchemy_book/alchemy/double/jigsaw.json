@@ -1,0 +1,60 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true},
+                "   Combining the essence of decoration with itself adds a level of abstraction, rewriting the biomes of this world. This effectively randomizes the biome within an aligned and centered 3x3x3 chunk cube of 48x48x48 blocks. While difficult to perceive, the change is observable via F3 and through subtle changes in tint and creature spawns."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "double/jigsaw"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "double/jigsaw": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "double/jigsaw"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

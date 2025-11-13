@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate_bricks"
+        },
+        "title": "A Proper Sky Base",
+        "description": "Place 2000 blocks",
+        "frame": "challenge"
+    },
+    "parent": "ris:ris/your_first_block/beginnings_of_a_base",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

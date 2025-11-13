@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:wandering_trader"
+				},
+				"item": {
+                    "count": {
+                        "min": 2
+                    },
+					"predicates": {
+						"minecraft:custom_data": {
+							"ris": {
+                                "custom_item": true
+							}
+						}
+					}
+				}
+			}
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/profit"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_book_cover",
+                            "title": "Compendium Alchimiae",
+                            "generation": 3
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "ris:alchemy_book/cover"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "mode": "append",
+                            "lore": [
+                                {
+                                    "text": "Reactive Edition",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:custom_data": "{ris:{transmuted:1b,compendium:1b}}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

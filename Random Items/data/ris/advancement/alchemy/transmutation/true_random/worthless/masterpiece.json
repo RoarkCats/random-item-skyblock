@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nether_star"
+        },
+        "title": "Masterpiece",
+        "description": "Hold a ??? level component item",
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "ris:alchemy/transmutation/true_random/worthless/perfection",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"level\",ref:{reached_level_100:1b}} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

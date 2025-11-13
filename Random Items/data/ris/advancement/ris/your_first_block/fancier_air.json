@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:light",
+            "components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:block_state": {
+					"level": "14"
+				}
+            }
+        },
+        "title": "Fancier Air",
+        "description": "Place a Light block",
+        "frame": "task"
+    },
+    "parent": "ris:ris/your_first_block/fancy_air",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:light"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

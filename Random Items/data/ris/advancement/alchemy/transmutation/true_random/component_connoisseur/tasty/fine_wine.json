@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "potion_contents": "strength"
+            }
+        },
+        "title": "Fine Wine",
+        "description": "Consume a drink component item with a potency of 5",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty/forgiving_cocktail",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{ris:{components:[ {id:\"consumable_effect\",effects:[{amplifier:4}]} ]}}"
+                    }
+                }
+            }
+        }
+    }
+}

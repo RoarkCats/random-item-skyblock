@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ward_armor_trim_smithing_template"
+        },
+        "title": "Super-Duper",
+        "description": "Transmute a multiplier Alchemy Item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation",
+    "criteria": {
+        "double/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/chain'}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double/chain",
+            "command/chain",
+            "knowledge/chain"
+        ]
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:slime_block"
+        },
+        "title": "To the Moon!",
+        "description": "Jump 50 blocks high",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist/bouncy_castle",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {               
+				"player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "movement": {
+                                "vertical_speed": {
+                                    "min": 99
+                                }
+                            }
+                        }
+                    },
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"armor.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"jump_strength\"} ]}}"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"weapon.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"jump_strength\"} ]}}"
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+                ]
+			}
+        }
+    }
+}

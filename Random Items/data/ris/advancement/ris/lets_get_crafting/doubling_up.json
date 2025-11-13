@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_slab"
+        },
+        "title": "Doubling Up",
+        "description": "Craft and hold 12 Slabs",
+        "frame": "task"
+    },
+    "parent": "ris:ris/lets_get_crafting",
+    "criteria": {
+        "cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:slabs",
+                        "count": {
+                            "min": 12
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

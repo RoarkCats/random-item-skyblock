@@ -3,289 +3,289 @@ execute store result score rng1 ris.rng run random value 0..215
 
 # Houses
 
-execute if score rng1 ris.rng matches 0 run place template village/desert/houses/desert_animal_pen_1
-execute if score rng1 ris.rng matches 1 run place template village/desert/houses/desert_animal_pen_2
-execute if score rng1 ris.rng matches 2 run place template village/desert/houses/desert_armorer_1
-execute if score rng1 ris.rng matches 3 run place template village/desert/houses/desert_butcher_shop_1
-execute if score rng1 ris.rng matches 4 run place template village/desert/houses/desert_cartographer_house_1
-execute if score rng1 ris.rng matches 5 run place template village/desert/houses/desert_farm_1
-execute if score rng1 ris.rng matches 6 run place template village/desert/houses/desert_farm_2
-execute if score rng1 ris.rng matches 7 run place template village/desert/houses/desert_fisher_1
-execute if score rng1 ris.rng matches 8 run place template village/desert/houses/desert_fletcher_house_1
-execute if score rng1 ris.rng matches 9 run place template village/desert/houses/desert_large_farm_1
-execute if score rng1 ris.rng matches 10 run place template village/desert/houses/desert_library_1
-execute if score rng1 ris.rng matches 11 run place template village/desert/houses/desert_mason_1
-execute if score rng1 ris.rng matches 12 run place template village/desert/houses/desert_medium_house_1
-execute if score rng1 ris.rng matches 13 run place template village/desert/houses/desert_medium_house_2
-execute if score rng1 ris.rng matches 14 run place template village/desert/houses/desert_shepherd_house_1
-execute if score rng1 ris.rng matches 15 run place template village/desert/houses/desert_small_house_1
-execute if score rng1 ris.rng matches 16 run place template village/desert/houses/desert_small_house_2
-execute if score rng1 ris.rng matches 17 run place template village/desert/houses/desert_small_house_3
-execute if score rng1 ris.rng matches 18 run place template village/desert/houses/desert_small_house_4
-execute if score rng1 ris.rng matches 19 run place template village/desert/houses/desert_small_house_5
-execute if score rng1 ris.rng matches 20 run place template village/desert/houses/desert_small_house_6
-execute if score rng1 ris.rng matches 21 run place template village/desert/houses/desert_small_house_7
-execute if score rng1 ris.rng matches 22 run place template village/desert/houses/desert_small_house_8
-execute if score rng1 ris.rng matches 23 run place template village/desert/houses/desert_tannery_1
-execute if score rng1 ris.rng matches 24 run place template village/desert/houses/desert_temple_1
-execute if score rng1 ris.rng matches 25 run place template village/desert/houses/desert_temple_2
-execute if score rng1 ris.rng matches 26 run place template village/desert/houses/desert_tool_smith_1
-execute if score rng1 ris.rng matches 27 run place template village/desert/houses/desert_weaponsmith_1
+execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/desert/houses/desert_animal_pen_1"
+execute if score rng1 ris.rng matches 1 run data modify storage ris:random structure set value "village/desert/houses/desert_animal_pen_2"
+execute if score rng1 ris.rng matches 2 run data modify storage ris:random structure set value "village/desert/houses/desert_armorer_1"
+execute if score rng1 ris.rng matches 3 run data modify storage ris:random structure set value "village/desert/houses/desert_butcher_shop_1"
+execute if score rng1 ris.rng matches 4 run data modify storage ris:random structure set value "village/desert/houses/desert_cartographer_house_1"
+execute if score rng1 ris.rng matches 5 run data modify storage ris:random structure set value "village/desert/houses/desert_farm_1"
+execute if score rng1 ris.rng matches 6 run data modify storage ris:random structure set value "village/desert/houses/desert_farm_2"
+execute if score rng1 ris.rng matches 7 run data modify storage ris:random structure set value "village/desert/houses/desert_fisher_1"
+execute if score rng1 ris.rng matches 8 run data modify storage ris:random structure set value "village/desert/houses/desert_fletcher_house_1"
+execute if score rng1 ris.rng matches 9 run data modify storage ris:random structure set value "village/desert/houses/desert_large_farm_1"
+execute if score rng1 ris.rng matches 10 run data modify storage ris:random structure set value "village/desert/houses/desert_library_1"
+execute if score rng1 ris.rng matches 11 run data modify storage ris:random structure set value "village/desert/houses/desert_mason_1"
+execute if score rng1 ris.rng matches 12 run data modify storage ris:random structure set value "village/desert/houses/desert_medium_house_1"
+execute if score rng1 ris.rng matches 13 run data modify storage ris:random structure set value "village/desert/houses/desert_medium_house_2"
+execute if score rng1 ris.rng matches 14 run data modify storage ris:random structure set value "village/desert/houses/desert_shepherd_house_1"
+execute if score rng1 ris.rng matches 15 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_1"
+execute if score rng1 ris.rng matches 16 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_2"
+execute if score rng1 ris.rng matches 17 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_3"
+execute if score rng1 ris.rng matches 18 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_4"
+execute if score rng1 ris.rng matches 19 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_5"
+execute if score rng1 ris.rng matches 20 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_6"
+execute if score rng1 ris.rng matches 21 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_7"
+execute if score rng1 ris.rng matches 22 run data modify storage ris:random structure set value "village/desert/houses/desert_small_house_8"
+execute if score rng1 ris.rng matches 23 run data modify storage ris:random structure set value "village/desert/houses/desert_tannery_1"
+execute if score rng1 ris.rng matches 24 run data modify storage ris:random structure set value "village/desert/houses/desert_temple_1"
+execute if score rng1 ris.rng matches 25 run data modify storage ris:random structure set value "village/desert/houses/desert_temple_2"
+execute if score rng1 ris.rng matches 26 run data modify storage ris:random structure set value "village/desert/houses/desert_tool_smith_1"
+execute if score rng1 ris.rng matches 27 run data modify storage ris:random structure set value "village/desert/houses/desert_weaponsmith_1"
 
-execute if score rng1 ris.rng matches 28 run place template village/plains/houses/plains_accessory_1
-execute if score rng1 ris.rng matches 29 run place template village/plains/houses/plains_animal_pen_1
-execute if score rng1 ris.rng matches 30 run place template village/plains/houses/plains_animal_pen_2
-execute if score rng1 ris.rng matches 31 run place template village/plains/houses/plains_animal_pen_3
-execute if score rng1 ris.rng matches 32 run place template village/plains/houses/plains_armorer_house_1
-execute if score rng1 ris.rng matches 33 run place template village/plains/houses/plains_big_house_1
-execute if score rng1 ris.rng matches 34 run place template village/plains/houses/plains_butcher_shop_1
-execute if score rng1 ris.rng matches 35 run place template village/plains/houses/plains_butcher_shop_2
-execute if score rng1 ris.rng matches 36 run place template village/plains/houses/plains_cartographer_1
-execute if score rng1 ris.rng matches 37 run place template village/plains/houses/plains_fisher_cottage_1
-execute if score rng1 ris.rng matches 38 run place template village/plains/houses/plains_fletcher_house_1
-execute if score rng1 ris.rng matches 39 run place template village/plains/houses/plains_large_farm_1
-execute if score rng1 ris.rng matches 40 run place template village/plains/houses/plains_library_1
-execute if score rng1 ris.rng matches 41 run place template village/plains/houses/plains_library_2
-execute if score rng1 ris.rng matches 42 run place template village/plains/houses/plains_masons_house_1
-execute if score rng1 ris.rng matches 43 run place template village/plains/houses/plains_medium_house_1
-execute if score rng1 ris.rng matches 44 run place template village/plains/houses/plains_medium_house_2
-execute if score rng1 ris.rng matches 45 run place template village/plains/houses/plains_meeting_point_4
-execute if score rng1 ris.rng matches 46 run place template village/plains/houses/plains_meeting_point_5
-execute if score rng1 ris.rng matches 47 run place template village/plains/houses/plains_shepherds_house_1
-execute if score rng1 ris.rng matches 48 run place template village/plains/houses/plains_small_farm_1
-execute if score rng1 ris.rng matches 49 run place template village/plains/houses/plains_small_house_1
-execute if score rng1 ris.rng matches 50 run place template village/plains/houses/plains_small_house_2
-execute if score rng1 ris.rng matches 51 run place template village/plains/houses/plains_small_house_3
-execute if score rng1 ris.rng matches 52 run place template village/plains/houses/plains_small_house_4
-execute if score rng1 ris.rng matches 53 run place template village/plains/houses/plains_small_house_5
-execute if score rng1 ris.rng matches 54 run place template village/plains/houses/plains_small_house_6
-execute if score rng1 ris.rng matches 55 run place template village/plains/houses/plains_small_house_7
-execute if score rng1 ris.rng matches 56 run place template village/plains/houses/plains_small_house_8
-execute if score rng1 ris.rng matches 57 run place template village/plains/houses/plains_stable_1
-execute if score rng1 ris.rng matches 58 run place template village/plains/houses/plains_stable_2
-execute if score rng1 ris.rng matches 59 run place template village/plains/houses/plains_tannery_1
-execute if score rng1 ris.rng matches 60 run place template village/plains/houses/plains_temple_3
-execute if score rng1 ris.rng matches 61 run place template village/plains/houses/plains_temple_4
-execute if score rng1 ris.rng matches 62 run place template village/plains/houses/plains_tool_smith_1
-execute if score rng1 ris.rng matches 63 run place template village/plains/houses/plains_weaponsmith_1
+execute if score rng1 ris.rng matches 28 run data modify storage ris:random structure set value "village/plains/houses/plains_accessory_1"
+execute if score rng1 ris.rng matches 29 run data modify storage ris:random structure set value "village/plains/houses/plains_animal_pen_1"
+execute if score rng1 ris.rng matches 30 run data modify storage ris:random structure set value "village/plains/houses/plains_animal_pen_2"
+execute if score rng1 ris.rng matches 31 run data modify storage ris:random structure set value "village/plains/houses/plains_animal_pen_3"
+execute if score rng1 ris.rng matches 32 run data modify storage ris:random structure set value "village/plains/houses/plains_armorer_house_1"
+execute if score rng1 ris.rng matches 33 run data modify storage ris:random structure set value "village/plains/houses/plains_big_house_1"
+execute if score rng1 ris.rng matches 34 run data modify storage ris:random structure set value "village/plains/houses/plains_butcher_shop_1"
+execute if score rng1 ris.rng matches 35 run data modify storage ris:random structure set value "village/plains/houses/plains_butcher_shop_2"
+execute if score rng1 ris.rng matches 36 run data modify storage ris:random structure set value "village/plains/houses/plains_cartographer_1"
+execute if score rng1 ris.rng matches 37 run data modify storage ris:random structure set value "village/plains/houses/plains_fisher_cottage_1"
+execute if score rng1 ris.rng matches 38 run data modify storage ris:random structure set value "village/plains/houses/plains_fletcher_house_1"
+execute if score rng1 ris.rng matches 39 run data modify storage ris:random structure set value "village/plains/houses/plains_large_farm_1"
+execute if score rng1 ris.rng matches 40 run data modify storage ris:random structure set value "village/plains/houses/plains_library_1"
+execute if score rng1 ris.rng matches 41 run data modify storage ris:random structure set value "village/plains/houses/plains_library_2"
+execute if score rng1 ris.rng matches 42 run data modify storage ris:random structure set value "village/plains/houses/plains_masons_house_1"
+execute if score rng1 ris.rng matches 43 run data modify storage ris:random structure set value "village/plains/houses/plains_medium_house_1"
+execute if score rng1 ris.rng matches 44 run data modify storage ris:random structure set value "village/plains/houses/plains_medium_house_2"
+execute if score rng1 ris.rng matches 45 run data modify storage ris:random structure set value "village/plains/houses/plains_meeting_point_4"
+execute if score rng1 ris.rng matches 46 run data modify storage ris:random structure set value "village/plains/houses/plains_meeting_point_5"
+execute if score rng1 ris.rng matches 47 run data modify storage ris:random structure set value "village/plains/houses/plains_shepherds_house_1"
+execute if score rng1 ris.rng matches 48 run data modify storage ris:random structure set value "village/plains/houses/plains_small_farm_1"
+execute if score rng1 ris.rng matches 49 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_1"
+execute if score rng1 ris.rng matches 50 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_2"
+execute if score rng1 ris.rng matches 51 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_3"
+execute if score rng1 ris.rng matches 52 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_4"
+execute if score rng1 ris.rng matches 53 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_5"
+execute if score rng1 ris.rng matches 54 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_6"
+execute if score rng1 ris.rng matches 55 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_7"
+execute if score rng1 ris.rng matches 56 run data modify storage ris:random structure set value "village/plains/houses/plains_small_house_8"
+execute if score rng1 ris.rng matches 57 run data modify storage ris:random structure set value "village/plains/houses/plains_stable_1"
+execute if score rng1 ris.rng matches 58 run data modify storage ris:random structure set value "village/plains/houses/plains_stable_2"
+execute if score rng1 ris.rng matches 59 run data modify storage ris:random structure set value "village/plains/houses/plains_tannery_1"
+execute if score rng1 ris.rng matches 60 run data modify storage ris:random structure set value "village/plains/houses/plains_temple_3"
+execute if score rng1 ris.rng matches 61 run data modify storage ris:random structure set value "village/plains/houses/plains_temple_4"
+execute if score rng1 ris.rng matches 62 run data modify storage ris:random structure set value "village/plains/houses/plains_tool_smith_1"
+execute if score rng1 ris.rng matches 63 run data modify storage ris:random structure set value "village/plains/houses/plains_weaponsmith_1"
 
-execute if score rng1 ris.rng matches 64 run place template village/savanna/houses/savanna_animal_pen_1
-execute if score rng1 ris.rng matches 65 run place template village/savanna/houses/savanna_animal_pen_2
-execute if score rng1 ris.rng matches 66 run place template village/savanna/houses/savanna_animal_pen_3
-execute if score rng1 ris.rng matches 67 run place template village/savanna/houses/savanna_armorer_1
-execute if score rng1 ris.rng matches 68 run place template village/savanna/houses/savanna_butchers_shop_1
-execute if score rng1 ris.rng matches 69 run place template village/savanna/houses/savanna_butchers_shop_2
-execute if score rng1 ris.rng matches 70 run place template village/savanna/houses/savanna_cartographer_1
-execute if score rng1 ris.rng matches 71 run place template village/savanna/houses/savanna_fisher_cottage_1
-execute if score rng1 ris.rng matches 72 run place template village/savanna/houses/savanna_fletcher_house_1
-execute if score rng1 ris.rng matches 73 run place template village/savanna/houses/savanna_large_farm_1
-execute if score rng1 ris.rng matches 74 run place template village/savanna/houses/savanna_large_farm_2
-execute if score rng1 ris.rng matches 75 run place template village/savanna/houses/savanna_library_1
-execute if score rng1 ris.rng matches 76 run place template village/savanna/houses/savanna_mason_1
-execute if score rng1 ris.rng matches 77 run place template village/savanna/houses/savanna_medium_house_1
-execute if score rng1 ris.rng matches 78 run place template village/savanna/houses/savanna_medium_house_2
-execute if score rng1 ris.rng matches 79 run place template village/savanna/houses/savanna_shepherd_1
-execute if score rng1 ris.rng matches 80 run place template village/savanna/houses/savanna_small_farm
-execute if score rng1 ris.rng matches 81 run place template village/savanna/houses/savanna_small_house_1
-execute if score rng1 ris.rng matches 82 run place template village/savanna/houses/savanna_small_house_2
-execute if score rng1 ris.rng matches 83 run place template village/savanna/houses/savanna_small_house_3
-execute if score rng1 ris.rng matches 84 run place template village/savanna/houses/savanna_small_house_4
-execute if score rng1 ris.rng matches 85 run place template village/savanna/houses/savanna_small_house_5
-execute if score rng1 ris.rng matches 86 run place template village/savanna/houses/savanna_small_house_6
-execute if score rng1 ris.rng matches 87 run place template village/savanna/houses/savanna_small_house_7
-execute if score rng1 ris.rng matches 88 run place template village/savanna/houses/savanna_small_house_8
-execute if score rng1 ris.rng matches 89 run place template village/savanna/houses/savanna_tannery_1
-execute if score rng1 ris.rng matches 90 run place template village/savanna/houses/savanna_temple_1
-execute if score rng1 ris.rng matches 91 run place template village/savanna/houses/savanna_temple_2
-execute if score rng1 ris.rng matches 92 run place template village/savanna/houses/savanna_tool_smith_1
-execute if score rng1 ris.rng matches 93 run place template village/savanna/houses/savanna_weaponsmith_1
-execute if score rng1 ris.rng matches 94 run place template village/savanna/houses/savanna_weaponsmith_2
+execute if score rng1 ris.rng matches 64 run data modify storage ris:random structure set value "village/savanna/houses/savanna_animal_pen_1"
+execute if score rng1 ris.rng matches 65 run data modify storage ris:random structure set value "village/savanna/houses/savanna_animal_pen_2"
+execute if score rng1 ris.rng matches 66 run data modify storage ris:random structure set value "village/savanna/houses/savanna_animal_pen_3"
+execute if score rng1 ris.rng matches 67 run data modify storage ris:random structure set value "village/savanna/houses/savanna_armorer_1"
+execute if score rng1 ris.rng matches 68 run data modify storage ris:random structure set value "village/savanna/houses/savanna_butchers_shop_1"
+execute if score rng1 ris.rng matches 69 run data modify storage ris:random structure set value "village/savanna/houses/savanna_butchers_shop_2"
+execute if score rng1 ris.rng matches 70 run data modify storage ris:random structure set value "village/savanna/houses/savanna_cartographer_1"
+execute if score rng1 ris.rng matches 71 run data modify storage ris:random structure set value "village/savanna/houses/savanna_fisher_cottage_1"
+execute if score rng1 ris.rng matches 72 run data modify storage ris:random structure set value "village/savanna/houses/savanna_fletcher_house_1"
+execute if score rng1 ris.rng matches 73 run data modify storage ris:random structure set value "village/savanna/houses/savanna_large_farm_1"
+execute if score rng1 ris.rng matches 74 run data modify storage ris:random structure set value "village/savanna/houses/savanna_large_farm_2"
+execute if score rng1 ris.rng matches 75 run data modify storage ris:random structure set value "village/savanna/houses/savanna_library_1"
+execute if score rng1 ris.rng matches 76 run data modify storage ris:random structure set value "village/savanna/houses/savanna_mason_1"
+execute if score rng1 ris.rng matches 77 run data modify storage ris:random structure set value "village/savanna/houses/savanna_medium_house_1"
+execute if score rng1 ris.rng matches 78 run data modify storage ris:random structure set value "village/savanna/houses/savanna_medium_house_2"
+execute if score rng1 ris.rng matches 79 run data modify storage ris:random structure set value "village/savanna/houses/savanna_shepherd_1"
+execute if score rng1 ris.rng matches 80 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_farm"
+execute if score rng1 ris.rng matches 81 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_1"
+execute if score rng1 ris.rng matches 82 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_2"
+execute if score rng1 ris.rng matches 83 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_3"
+execute if score rng1 ris.rng matches 84 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_4"
+execute if score rng1 ris.rng matches 85 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_5"
+execute if score rng1 ris.rng matches 86 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_6"
+execute if score rng1 ris.rng matches 87 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_7"
+execute if score rng1 ris.rng matches 88 run data modify storage ris:random structure set value "village/savanna/houses/savanna_small_house_8"
+execute if score rng1 ris.rng matches 89 run data modify storage ris:random structure set value "village/savanna/houses/savanna_tannery_1"
+execute if score rng1 ris.rng matches 90 run data modify storage ris:random structure set value "village/savanna/houses/savanna_temple_1"
+execute if score rng1 ris.rng matches 91 run data modify storage ris:random structure set value "village/savanna/houses/savanna_temple_2"
+execute if score rng1 ris.rng matches 92 run data modify storage ris:random structure set value "village/savanna/houses/savanna_tool_smith_1"
+execute if score rng1 ris.rng matches 93 run data modify storage ris:random structure set value "village/savanna/houses/savanna_weaponsmith_1"
+execute if score rng1 ris.rng matches 94 run data modify storage ris:random structure set value "village/savanna/houses/savanna_weaponsmith_2"
 
-execute if score rng1 ris.rng matches 95 run place template village/snowy/houses/snowy_animal_pen_1
-execute if score rng1 ris.rng matches 96 run place template village/snowy/houses/snowy_animal_pen_2
-execute if score rng1 ris.rng matches 97 run place template village/snowy/houses/snowy_armorer_house_1
-execute if score rng1 ris.rng matches 98 run place template village/snowy/houses/snowy_armorer_house_2
-execute if score rng1 ris.rng matches 99 run place template village/snowy/houses/snowy_butchers_shop_1
-execute if score rng1 ris.rng matches 100 run place template village/snowy/houses/snowy_butchers_shop_2
-execute if score rng1 ris.rng matches 101 run place template village/snowy/houses/snowy_cartographer_house_1
-execute if score rng1 ris.rng matches 102 run place template village/snowy/houses/snowy_farm_1
-execute if score rng1 ris.rng matches 103 run place template village/snowy/houses/snowy_farm_2
-execute if score rng1 ris.rng matches 104 run place template village/snowy/houses/snowy_fisher_cottage
-execute if score rng1 ris.rng matches 105 run place template village/snowy/houses/snowy_fletcher_house_1
-execute if score rng1 ris.rng matches 106 run place template village/snowy/houses/snowy_library_1
-execute if score rng1 ris.rng matches 107 run place template village/snowy/houses/snowy_masons_house_1
-execute if score rng1 ris.rng matches 108 run place template village/snowy/houses/snowy_masons_house_2
-execute if score rng1 ris.rng matches 109 run place template village/snowy/houses/snowy_medium_house_1
-execute if score rng1 ris.rng matches 110 run place template village/snowy/houses/snowy_medium_house_2
-execute if score rng1 ris.rng matches 111 run place template village/snowy/houses/snowy_medium_house_3
-execute if score rng1 ris.rng matches 112 run place template village/snowy/houses/snowy_shepherds_house_1
-execute if score rng1 ris.rng matches 113 run place template village/snowy/houses/snowy_small_house_1
-execute if score rng1 ris.rng matches 114 run place template village/snowy/houses/snowy_small_house_2
-execute if score rng1 ris.rng matches 115 run place template village/snowy/houses/snowy_small_house_3
-execute if score rng1 ris.rng matches 116 run place template village/snowy/houses/snowy_small_house_4
-execute if score rng1 ris.rng matches 117 run place template village/snowy/houses/snowy_small_house_5
-execute if score rng1 ris.rng matches 118 run place template village/snowy/houses/snowy_small_house_6
-execute if score rng1 ris.rng matches 119 run place template village/snowy/houses/snowy_small_house_7
-execute if score rng1 ris.rng matches 120 run place template village/snowy/houses/snowy_small_house_8
-execute if score rng1 ris.rng matches 121 run place template village/snowy/houses/snowy_tannery_1
-execute if score rng1 ris.rng matches 122 run place template village/snowy/houses/snowy_temple_1
-execute if score rng1 ris.rng matches 123 run place template village/snowy/houses/snowy_tool_smith_1
-execute if score rng1 ris.rng matches 124 run place template village/snowy/houses/snowy_weapon_smith_1
+execute if score rng1 ris.rng matches 95 run data modify storage ris:random structure set value "village/snowy/houses/snowy_animal_pen_1"
+execute if score rng1 ris.rng matches 96 run data modify storage ris:random structure set value "village/snowy/houses/snowy_animal_pen_2"
+execute if score rng1 ris.rng matches 97 run data modify storage ris:random structure set value "village/snowy/houses/snowy_armorer_house_1"
+execute if score rng1 ris.rng matches 98 run data modify storage ris:random structure set value "village/snowy/houses/snowy_armorer_house_2"
+execute if score rng1 ris.rng matches 99 run data modify storage ris:random structure set value "village/snowy/houses/snowy_butchers_shop_1"
+execute if score rng1 ris.rng matches 100 run data modify storage ris:random structure set value "village/snowy/houses/snowy_butchers_shop_2"
+execute if score rng1 ris.rng matches 101 run data modify storage ris:random structure set value "village/snowy/houses/snowy_cartographer_house_1"
+execute if score rng1 ris.rng matches 102 run data modify storage ris:random structure set value "village/snowy/houses/snowy_farm_1"
+execute if score rng1 ris.rng matches 103 run data modify storage ris:random structure set value "village/snowy/houses/snowy_farm_2"
+execute if score rng1 ris.rng matches 104 run data modify storage ris:random structure set value "village/snowy/houses/snowy_fisher_cottage"
+execute if score rng1 ris.rng matches 105 run data modify storage ris:random structure set value "village/snowy/houses/snowy_fletcher_house_1"
+execute if score rng1 ris.rng matches 106 run data modify storage ris:random structure set value "village/snowy/houses/snowy_library_1"
+execute if score rng1 ris.rng matches 107 run data modify storage ris:random structure set value "village/snowy/houses/snowy_masons_house_1"
+execute if score rng1 ris.rng matches 108 run data modify storage ris:random structure set value "village/snowy/houses/snowy_masons_house_2"
+execute if score rng1 ris.rng matches 109 run data modify storage ris:random structure set value "village/snowy/houses/snowy_medium_house_1"
+execute if score rng1 ris.rng matches 110 run data modify storage ris:random structure set value "village/snowy/houses/snowy_medium_house_2"
+execute if score rng1 ris.rng matches 111 run data modify storage ris:random structure set value "village/snowy/houses/snowy_medium_house_3"
+execute if score rng1 ris.rng matches 112 run data modify storage ris:random structure set value "village/snowy/houses/snowy_shepherds_house_1"
+execute if score rng1 ris.rng matches 113 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_1"
+execute if score rng1 ris.rng matches 114 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_2"
+execute if score rng1 ris.rng matches 115 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_3"
+execute if score rng1 ris.rng matches 116 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_4"
+execute if score rng1 ris.rng matches 117 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_5"
+execute if score rng1 ris.rng matches 118 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_6"
+execute if score rng1 ris.rng matches 119 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_7"
+execute if score rng1 ris.rng matches 120 run data modify storage ris:random structure set value "village/snowy/houses/snowy_small_house_8"
+execute if score rng1 ris.rng matches 121 run data modify storage ris:random structure set value "village/snowy/houses/snowy_tannery_1"
+execute if score rng1 ris.rng matches 122 run data modify storage ris:random structure set value "village/snowy/houses/snowy_temple_1"
+execute if score rng1 ris.rng matches 123 run data modify storage ris:random structure set value "village/snowy/houses/snowy_tool_smith_1"
+execute if score rng1 ris.rng matches 124 run data modify storage ris:random structure set value "village/snowy/houses/snowy_weapon_smith_1"
 
-execute if score rng1 ris.rng matches 125 run place template village/taiga/houses/taiga_animal_pen_1
-execute if score rng1 ris.rng matches 126 run place template village/taiga/houses/taiga_armorer_2
-execute if score rng1 ris.rng matches 127 run place template village/taiga/houses/taiga_armorer_house_1
-execute if score rng1 ris.rng matches 128 run place template village/taiga/houses/taiga_butcher_shop_1
-execute if score rng1 ris.rng matches 129 run place template village/taiga/houses/taiga_cartographer_house_1
-execute if score rng1 ris.rng matches 130 run place template village/taiga/houses/taiga_fisher_cottage_1
-execute if score rng1 ris.rng matches 131 run place template village/taiga/houses/taiga_fletcher_house_1
-execute if score rng1 ris.rng matches 132 run place template village/taiga/houses/taiga_large_farm_1
-execute if score rng1 ris.rng matches 133 run place template village/taiga/houses/taiga_large_farm_2
-execute if score rng1 ris.rng matches 134 run place template village/taiga/houses/taiga_library_1
-execute if score rng1 ris.rng matches 135 run place template village/taiga/houses/taiga_masons_house_1
-execute if score rng1 ris.rng matches 136 run place template village/taiga/houses/taiga_medium_house_1
-execute if score rng1 ris.rng matches 137 run place template village/taiga/houses/taiga_medium_house_2
-execute if score rng1 ris.rng matches 138 run place template village/taiga/houses/taiga_medium_house_3
-execute if score rng1 ris.rng matches 139 run place template village/taiga/houses/taiga_medium_house_4
-execute if score rng1 ris.rng matches 140 run place template village/taiga/houses/taiga_shepherds_house_1
-execute if score rng1 ris.rng matches 141 run place template village/taiga/houses/taiga_small_farm_1
-execute if score rng1 ris.rng matches 142 run place template village/taiga/houses/taiga_small_house_1
-execute if score rng1 ris.rng matches 143 run place template village/taiga/houses/taiga_small_house_2
-execute if score rng1 ris.rng matches 144 run place template village/taiga/houses/taiga_small_house_3
-execute if score rng1 ris.rng matches 145 run place template village/taiga/houses/taiga_small_house_4
-execute if score rng1 ris.rng matches 146 run place template village/taiga/houses/taiga_small_house_5
-execute if score rng1 ris.rng matches 147 run place template village/taiga/houses/taiga_tannery_1
-execute if score rng1 ris.rng matches 148 run place template village/taiga/houses/taiga_temple_1
-execute if score rng1 ris.rng matches 149 run place template village/taiga/houses/taiga_tool_smith_1
-execute if score rng1 ris.rng matches 150 run place template village/taiga/houses/taiga_weaponsmith_1
-execute if score rng1 ris.rng matches 151 run place template village/taiga/houses/taiga_weaponsmith_2
+execute if score rng1 ris.rng matches 125 run data modify storage ris:random structure set value "village/taiga/houses/taiga_animal_pen_1"
+execute if score rng1 ris.rng matches 126 run data modify storage ris:random structure set value "village/taiga/houses/taiga_armorer_2"
+execute if score rng1 ris.rng matches 127 run data modify storage ris:random structure set value "village/taiga/houses/taiga_armorer_house_1"
+execute if score rng1 ris.rng matches 128 run data modify storage ris:random structure set value "village/taiga/houses/taiga_butcher_shop_1"
+execute if score rng1 ris.rng matches 129 run data modify storage ris:random structure set value "village/taiga/houses/taiga_cartographer_house_1"
+execute if score rng1 ris.rng matches 130 run data modify storage ris:random structure set value "village/taiga/houses/taiga_fisher_cottage_1"
+execute if score rng1 ris.rng matches 131 run data modify storage ris:random structure set value "village/taiga/houses/taiga_fletcher_house_1"
+execute if score rng1 ris.rng matches 132 run data modify storage ris:random structure set value "village/taiga/houses/taiga_large_farm_1"
+execute if score rng1 ris.rng matches 133 run data modify storage ris:random structure set value "village/taiga/houses/taiga_large_farm_2"
+execute if score rng1 ris.rng matches 134 run data modify storage ris:random structure set value "village/taiga/houses/taiga_library_1"
+execute if score rng1 ris.rng matches 135 run data modify storage ris:random structure set value "village/taiga/houses/taiga_masons_house_1"
+execute if score rng1 ris.rng matches 136 run data modify storage ris:random structure set value "village/taiga/houses/taiga_medium_house_1"
+execute if score rng1 ris.rng matches 137 run data modify storage ris:random structure set value "village/taiga/houses/taiga_medium_house_2"
+execute if score rng1 ris.rng matches 138 run data modify storage ris:random structure set value "village/taiga/houses/taiga_medium_house_3"
+execute if score rng1 ris.rng matches 139 run data modify storage ris:random structure set value "village/taiga/houses/taiga_medium_house_4"
+execute if score rng1 ris.rng matches 140 run data modify storage ris:random structure set value "village/taiga/houses/taiga_shepherds_house_1"
+execute if score rng1 ris.rng matches 141 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_farm_1"
+execute if score rng1 ris.rng matches 142 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_house_1"
+execute if score rng1 ris.rng matches 143 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_house_2"
+execute if score rng1 ris.rng matches 144 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_house_3"
+execute if score rng1 ris.rng matches 145 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_house_4"
+execute if score rng1 ris.rng matches 146 run data modify storage ris:random structure set value "village/taiga/houses/taiga_small_house_5"
+execute if score rng1 ris.rng matches 147 run data modify storage ris:random structure set value "village/taiga/houses/taiga_tannery_1"
+execute if score rng1 ris.rng matches 148 run data modify storage ris:random structure set value "village/taiga/houses/taiga_temple_1"
+execute if score rng1 ris.rng matches 149 run data modify storage ris:random structure set value "village/taiga/houses/taiga_tool_smith_1"
+execute if score rng1 ris.rng matches 150 run data modify storage ris:random structure set value "village/taiga/houses/taiga_weaponsmith_1"
+execute if score rng1 ris.rng matches 151 run data modify storage ris:random structure set value "village/taiga/houses/taiga_weaponsmith_2"
 
 # Streets
-execute if score rng1 ris.rng matches 152 run place template village/desert/streets/corner_01
-execute if score rng1 ris.rng matches 153 run place template village/desert/streets/corner_02
-execute if score rng1 ris.rng matches 154 run place template village/desert/streets/crossroad_01
-execute if score rng1 ris.rng matches 155 run place template village/desert/streets/crossroad_02
-execute if score rng1 ris.rng matches 156 run place template village/desert/streets/crossroad_03
-execute if score rng1 ris.rng matches 157 run place template village/desert/streets/square_01
-execute if score rng1 ris.rng matches 158 run place template village/desert/streets/square_02
-execute if score rng1 ris.rng matches 159 run place template village/desert/streets/straight_01
-execute if score rng1 ris.rng matches 160 run place template village/desert/streets/straight_02
-execute if score rng1 ris.rng matches 161 run place template village/desert/streets/straight_03
-execute if score rng1 ris.rng matches 162 run place template village/desert/streets/turn_01
+execute if score rng1 ris.rng matches 152 run data modify storage ris:random structure set value "village/desert/streets/corner_01"
+execute if score rng1 ris.rng matches 153 run data modify storage ris:random structure set value "village/desert/streets/corner_02"
+execute if score rng1 ris.rng matches 154 run data modify storage ris:random structure set value "village/desert/streets/crossroad_01"
+execute if score rng1 ris.rng matches 155 run data modify storage ris:random structure set value "village/desert/streets/crossroad_02"
+execute if score rng1 ris.rng matches 156 run data modify storage ris:random structure set value "village/desert/streets/crossroad_03"
+execute if score rng1 ris.rng matches 157 run data modify storage ris:random structure set value "village/desert/streets/square_01"
+execute if score rng1 ris.rng matches 158 run data modify storage ris:random structure set value "village/desert/streets/square_02"
+execute if score rng1 ris.rng matches 159 run data modify storage ris:random structure set value "village/desert/streets/straight_01"
+execute if score rng1 ris.rng matches 160 run data modify storage ris:random structure set value "village/desert/streets/straight_02"
+execute if score rng1 ris.rng matches 161 run data modify storage ris:random structure set value "village/desert/streets/straight_03"
+execute if score rng1 ris.rng matches 162 run data modify storage ris:random structure set value "village/desert/streets/turn_01"
 
-execute if score rng1 ris.rng matches 163 run place template village/plains/streets/corner_01
-execute if score rng1 ris.rng matches 164 run place template village/plains/streets/corner_02
-execute if score rng1 ris.rng matches 165 run place template village/plains/streets/corner_03
-execute if score rng1 ris.rng matches 166 run place template village/plains/streets/crossroad_01
-execute if score rng1 ris.rng matches 167 run place template village/plains/streets/crossroad_02
-execute if score rng1 ris.rng matches 168 run place template village/plains/streets/crossroad_03
-execute if score rng1 ris.rng matches 169 run place template village/plains/streets/crossroad_04
-execute if score rng1 ris.rng matches 170 run place template village/plains/streets/crossroad_05
-#execute if score rng1 ris.rng matches 0 run place template village/plains/streets/crossroad_06
-execute if score rng1 ris.rng matches 171 run place template village/plains/streets/straight_01
-#execute if score rng1 ris.rng matches 0 run place template village/plains/streets/straight_02
-execute if score rng1 ris.rng matches 172 run place template village/plains/streets/straight_03
-execute if score rng1 ris.rng matches 173 run place template village/plains/streets/straight_04
-execute if score rng1 ris.rng matches 174 run place template village/plains/streets/straight_05
-execute if score rng1 ris.rng matches 175 run place template village/plains/streets/straight_06
-execute if score rng1 ris.rng matches 176 run place template village/plains/streets/turn_01
+execute if score rng1 ris.rng matches 163 run data modify storage ris:random structure set value "village/plains/streets/corner_01"
+execute if score rng1 ris.rng matches 164 run data modify storage ris:random structure set value "village/plains/streets/corner_02"
+execute if score rng1 ris.rng matches 165 run data modify storage ris:random structure set value "village/plains/streets/corner_03"
+execute if score rng1 ris.rng matches 166 run data modify storage ris:random structure set value "village/plains/streets/crossroad_01"
+execute if score rng1 ris.rng matches 167 run data modify storage ris:random structure set value "village/plains/streets/crossroad_02"
+execute if score rng1 ris.rng matches 168 run data modify storage ris:random structure set value "village/plains/streets/crossroad_03"
+execute if score rng1 ris.rng matches 169 run data modify storage ris:random structure set value "village/plains/streets/crossroad_04"
+execute if score rng1 ris.rng matches 170 run data modify storage ris:random structure set value "village/plains/streets/crossroad_05"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/plains/streets/crossroad_06"
+execute if score rng1 ris.rng matches 171 run data modify storage ris:random structure set value "village/plains/streets/straight_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/plains/streets/straight_02"
+execute if score rng1 ris.rng matches 172 run data modify storage ris:random structure set value "village/plains/streets/straight_03"
+execute if score rng1 ris.rng matches 173 run data modify storage ris:random structure set value "village/plains/streets/straight_04"
+execute if score rng1 ris.rng matches 174 run data modify storage ris:random structure set value "village/plains/streets/straight_05"
+execute if score rng1 ris.rng matches 175 run data modify storage ris:random structure set value "village/plains/streets/straight_06"
+execute if score rng1 ris.rng matches 176 run data modify storage ris:random structure set value "village/plains/streets/turn_01"
 
-execute if score rng1 ris.rng matches 177 run place template village/savanna/streets/corner_01
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/corner_03
-execute if score rng1 ris.rng matches 178 run place template village/savanna/streets/crossroad_02
-execute if score rng1 ris.rng matches 179 run place template village/savanna/streets/crossroad_03
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/crossroad_04
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/crossroad_05
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/crossroad_06
-execute if score rng1 ris.rng matches 180 run place template village/savanna/streets/crossroad_07
-execute if score rng1 ris.rng matches 181 run place template village/savanna/streets/split_01
-execute if score rng1 ris.rng matches 182 run place template village/savanna/streets/split_02
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/straight_02
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/straight_04
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/streets/straight_05
-execute if score rng1 ris.rng matches 183 run place template village/savanna/streets/straight_06
-execute if score rng1 ris.rng matches 184 run place template village/savanna/streets/straight_08
-execute if score rng1 ris.rng matches 185 run place template village/savanna/streets/straight_09
-execute if score rng1 ris.rng matches 186 run place template village/savanna/streets/straight_10
-execute if score rng1 ris.rng matches 187 run place template village/savanna/streets/straight_11
-execute if score rng1 ris.rng matches 188 run place template village/savanna/streets/turn_01
+execute if score rng1 ris.rng matches 177 run data modify storage ris:random structure set value "village/savanna/streets/corner_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/corner_03"
+execute if score rng1 ris.rng matches 178 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_02"
+execute if score rng1 ris.rng matches 179 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_05"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_06"
+execute if score rng1 ris.rng matches 180 run data modify storage ris:random structure set value "village/savanna/streets/crossroad_07"
+execute if score rng1 ris.rng matches 181 run data modify storage ris:random structure set value "village/savanna/streets/split_01"
+execute if score rng1 ris.rng matches 182 run data modify storage ris:random structure set value "village/savanna/streets/split_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/straight_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/straight_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/streets/straight_05"
+execute if score rng1 ris.rng matches 183 run data modify storage ris:random structure set value "village/savanna/streets/straight_06"
+execute if score rng1 ris.rng matches 184 run data modify storage ris:random structure set value "village/savanna/streets/straight_08"
+execute if score rng1 ris.rng matches 185 run data modify storage ris:random structure set value "village/savanna/streets/straight_09"
+execute if score rng1 ris.rng matches 186 run data modify storage ris:random structure set value "village/savanna/streets/straight_10"
+execute if score rng1 ris.rng matches 187 run data modify storage ris:random structure set value "village/savanna/streets/straight_11"
+execute if score rng1 ris.rng matches 188 run data modify storage ris:random structure set value "village/savanna/streets/turn_01"
 
-execute if score rng1 ris.rng matches 189 run place template village/snowy/streets/corner_01
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/corner_02
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/corner_03
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_01
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_02
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_03
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_04
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_05
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/crossroad_06
-execute if score rng1 ris.rng matches 190 run place template village/snowy/streets/square_01
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_01
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_02
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_03
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_04
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_06
-#execute if score rng1 ris.rng matches 0 run place template village/snowy/streets/straight_08
-execute if score rng1 ris.rng matches 191 run place template village/snowy/streets/turn_01
+execute if score rng1 ris.rng matches 189 run data modify storage ris:random structure set value "village/snowy/streets/corner_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/corner_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/corner_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_05"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/crossroad_06"
+execute if score rng1 ris.rng matches 190 run data modify storage ris:random structure set value "village/snowy/streets/square_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_06"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/snowy/streets/straight_08"
+execute if score rng1 ris.rng matches 191 run data modify storage ris:random structure set value "village/snowy/streets/turn_01"
 
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/corner_01
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/corner_02
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/corner_03
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_01
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_02
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_03
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_04
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_05
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/crossroad_06
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_01
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_02
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_03
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_04
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_05
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/straight_06
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/streets/turn_01
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/corner_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/corner_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/corner_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_05"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/crossroad_06"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_05"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/straight_06"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/streets/turn_01"
 
 # Terminators
 
-#execute if score rng1 ris.rng matches 0 run place template village/desert/terminators/terminator_01
-#execute if score rng1 ris.rng matches 0 run place template village/desert/terminators/terminator_02
-#execute if score rng1 ris.rng matches 0 run place template village/plains/terminators/terminator_01
-#execute if score rng1 ris.rng matches 0 run place template village/plains/terminators/terminator_02
-#execute if score rng1 ris.rng matches 0 run place template village/plains/terminators/terminator_03
-execute if score rng1 ris.rng matches 192 run place template village/plains/terminators/terminator_04
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/terminators/terminator_05
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/desert/terminators/terminator_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/desert/terminators/terminator_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/plains/terminators/terminator_01"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/plains/terminators/terminator_02"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/plains/terminators/terminator_03"
+execute if score rng1 ris.rng matches 192 run data modify storage ris:random structure set value "village/plains/terminators/terminator_04"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/terminators/terminator_05"
 
 # Town Centers
 
-execute if score rng1 ris.rng matches 193 run place template village/desert/town_centers/desert_meeting_point_1
-execute if score rng1 ris.rng matches 194 run place template village/desert/town_centers/desert_meeting_point_2
-execute if score rng1 ris.rng matches 195 run place template village/desert/town_centers/desert_meeting_point_3
-execute if score rng1 ris.rng matches 196 run place template village/plains/town_centers/plains_fountain_01
-execute if score rng1 ris.rng matches 197 run place template village/plains/town_centers/plains_meeting_point_1
-execute if score rng1 ris.rng matches 198 run place template village/plains/town_centers/plains_meeting_point_2
-execute if score rng1 ris.rng matches 199 run place template village/plains/town_centers/plains_meeting_point_3
-execute if score rng1 ris.rng matches 200 run place template village/savanna/town_centers/savanna_meeting_point_1
-execute if score rng1 ris.rng matches 201 run place template village/savanna/town_centers/savanna_meeting_point_2
-execute if score rng1 ris.rng matches 202 run place template village/savanna/town_centers/savanna_meeting_point_3
-execute if score rng1 ris.rng matches 203 run place template village/savanna/town_centers/savanna_meeting_point_4
-execute if score rng1 ris.rng matches 204 run place template village/snowy/town_centers/snowy_meeting_point_1
-execute if score rng1 ris.rng matches 205 run place template village/snowy/town_centers/snowy_meeting_point_2
-execute if score rng1 ris.rng matches 206 run place template village/snowy/town_centers/snowy_meeting_point_3
-execute if score rng1 ris.rng matches 207 run place template village/taiga/town_centers/taiga_meeting_point_1
-execute if score rng1 ris.rng matches 208 run place template village/taiga/town_centers/taiga_meeting_point_2
+execute if score rng1 ris.rng matches 193 run data modify storage ris:random structure set value "village/desert/town_centers/desert_meeting_point_1"
+execute if score rng1 ris.rng matches 194 run data modify storage ris:random structure set value "village/desert/town_centers/desert_meeting_point_2"
+execute if score rng1 ris.rng matches 195 run data modify storage ris:random structure set value "village/desert/town_centers/desert_meeting_point_3"
+execute if score rng1 ris.rng matches 196 run data modify storage ris:random structure set value "village/plains/town_centers/plains_fountain_01"
+execute if score rng1 ris.rng matches 197 run data modify storage ris:random structure set value "village/plains/town_centers/plains_meeting_point_1"
+execute if score rng1 ris.rng matches 198 run data modify storage ris:random structure set value "village/plains/town_centers/plains_meeting_point_2"
+execute if score rng1 ris.rng matches 199 run data modify storage ris:random structure set value "village/plains/town_centers/plains_meeting_point_3"
+execute if score rng1 ris.rng matches 200 run data modify storage ris:random structure set value "village/savanna/town_centers/savanna_meeting_point_1"
+execute if score rng1 ris.rng matches 201 run data modify storage ris:random structure set value "village/savanna/town_centers/savanna_meeting_point_2"
+execute if score rng1 ris.rng matches 202 run data modify storage ris:random structure set value "village/savanna/town_centers/savanna_meeting_point_3"
+execute if score rng1 ris.rng matches 203 run data modify storage ris:random structure set value "village/savanna/town_centers/savanna_meeting_point_4"
+execute if score rng1 ris.rng matches 204 run data modify storage ris:random structure set value "village/snowy/town_centers/snowy_meeting_point_1"
+execute if score rng1 ris.rng matches 205 run data modify storage ris:random structure set value "village/snowy/town_centers/snowy_meeting_point_2"
+execute if score rng1 ris.rng matches 206 run data modify storage ris:random structure set value "village/snowy/town_centers/snowy_meeting_point_3"
+execute if score rng1 ris.rng matches 207 run data modify storage ris:random structure set value "village/taiga/town_centers/taiga_meeting_point_1"
+execute if score rng1 ris.rng matches 208 run data modify storage ris:random structure set value "village/taiga/town_centers/taiga_meeting_point_2"
 
 # Misc.
 
-#execute if score rng1 ris.rng matches 0 run place template village/desert/desert_lamp_1
-execute if score rng1 ris.rng matches 209 run place template village/plains/plains_lamp_1
-#execute if score rng1 ris.rng matches 0 run place template village/savanna/savanna_lamp_post_01
-execute if score rng1 ris.rng matches 210 run place template village/snowy/snowy_lamp_post_01
-execute if score rng1 ris.rng matches 211 run place template village/snowy/snowy_lamp_post_02
-execute if score rng1 ris.rng matches 212 run place template village/snowy/snowy_lamp_post_03
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/taiga_lamp_post_1
-execute if score rng1 ris.rng matches 213 run place template village/taiga/taiga_decoration_1
-execute if score rng1 ris.rng matches 214 run place template village/taiga/taiga_decoration_2
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/taiga_decoration_3
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/taiga_decoration_4
-#execute if score rng1 ris.rng matches 0 run place template village/taiga/taiga_decoration_5
-execute if score rng1 ris.rng matches 215 run place template village/taiga/taiga_decoration_6
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/desert/desert_lamp_1"
+execute if score rng1 ris.rng matches 209 run data modify storage ris:random structure set value "village/plains/plains_lamp_1"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/savanna/savanna_lamp_post_01"
+execute if score rng1 ris.rng matches 210 run data modify storage ris:random structure set value "village/snowy/snowy_lamp_post_01"
+execute if score rng1 ris.rng matches 211 run data modify storage ris:random structure set value "village/snowy/snowy_lamp_post_02"
+execute if score rng1 ris.rng matches 212 run data modify storage ris:random structure set value "village/snowy/snowy_lamp_post_03"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/taiga_lamp_post_1"
+execute if score rng1 ris.rng matches 213 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_1"
+execute if score rng1 ris.rng matches 214 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_2"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_3"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_4"
+#execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_5"
+execute if score rng1 ris.rng matches 215 run data modify storage ris:random structure set value "village/taiga/taiga_decoration_6"

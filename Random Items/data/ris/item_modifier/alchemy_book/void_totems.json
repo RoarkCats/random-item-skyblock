@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Void Totems\n\n","underlined":true,"bold":true},
+                "   When plunging into the abyss, it is safest to carry with a Totem of Undying, or similar Death Protection enhanced item. Should you fly, or fall, too low these totems will lift you up oh so high into the sky, allowing you but a moment of reprieve above the clouds before releasing you to the pull of gravitas once more."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "void_totems"},
+                    "score": "ris.settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Void Totems\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "void_totems"},
+                    "score": "ris.settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

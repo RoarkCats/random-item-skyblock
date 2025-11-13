@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dried_kelp"
+        },
+        "title": "Zero Calories!",
+        "description": "Consume a food component item with zero nutritional value",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{ris:{components:[ {id:\"consumable_food\",food:{nutrition:0}} ]}}"
+                    }
+                }
+            }
+        }
+    }
+}

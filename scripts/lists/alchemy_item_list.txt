@@ -1,0 +1,36 @@
+Super Command Block,double/command
+Super Chain Command Block,double/chain
+Super Repeating Command Block,double/repeat
+Super Command Block Minecart,double/minecart
+Giga Structure,double/structure
+Biome Replacer,double/jigsaw
+Super Debug Stick,double/debug
+Super Knowledge Book,double/knowledge
+Stack Gambler,command/chain
+Stack Generator,command/repeat
+Component Gambler,command/chain_repeat
+Stack Minecart,command/minecart
+Multiplied Minecart,command/chain_minecart
+Loot Generator,command/repeat_minecart
+Random Cube,structure/minecart
+Command Cube,structure/command
+Clone Paste,structure/chain
+Structure Generator,structure/repeat
+Block Shifter,jigsaw/structure
+Block Randomizer,jigsaw/minecart
+Block Replacer,jigsaw/command
+Clone Copy,jigsaw/chain
+Jigsaw Generator,jigsaw/repeat
+Vein Miner,debug/jigsaw
+Inverse Vein Miner,debug/structure
+Loot Miner,debug/minecart
+Command Miner,debug/command
+Chain Miner,debug/chain
+Block Miner,debug/repeat
+Knowledge Reroller,knowledge/debug
+Jigsaw Book,knowledge/jigsaw
+Structure Book,knowledge/structure
+Loot Book,knowledge/minecart
+Stack Book,knowledge/command
+Knowledge Multiplier,knowledge/chain
+Knowledge Generator,knowledge/repeat

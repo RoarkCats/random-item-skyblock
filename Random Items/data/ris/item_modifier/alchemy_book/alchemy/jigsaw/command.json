@@ -1,0 +1,60 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true},
+                "   Combining the essence of decoration with abundance converts surrounding blocks into a random new block. Replaces all blocks within a centered 9x9x9 cube with a random block."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "jigsaw/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "jigsaw/command": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "jigsaw/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

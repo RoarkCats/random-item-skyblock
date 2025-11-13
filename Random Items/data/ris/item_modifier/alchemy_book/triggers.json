@@ -1,0 +1,16 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Triggers\n\n","underlined":true,"bold":true},
+                "   Certain toggles have been granted to the commoners of this world allowing for a modicum of control over the greater powers at play.\n",
+                {"text":"\n /trigger\n","color":"blue","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","value":{"text":"'/trigger' Commands can be run without operator privileges","color":"blue"}}},
+                {"text":"\n  ris.receive_items","color":"blue","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"run_command","value":"/trigger ris.receive_items"},"hoverEvent":{"action":"show_text","value":{"text":"Trigger Receive Items","color":"blue"}}},
+                {"text":"\n  ris.destroy_range_preview","color":"blue","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"run_command","value":"/trigger ris.destroy_range_preview"},"hoverEvent":{"action":"show_text","value":{"text":"Trigger Destroy Range Preview","color":"blue"}}}
+            ]
+        ]
+    }
+]

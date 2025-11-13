@@ -1,0 +1,60 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug × Command\n\n","underlined":true,"bold":true},
+                "    Combining the essence of destruction with abundance magnifies the blast radius of the resulting explosion. Removes a centered 5x5x5 cube of blocks, configurably dropping them as mined with Silk Touch. Unable to mine near-unbreakable blocks."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "debug/command": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug × Command\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

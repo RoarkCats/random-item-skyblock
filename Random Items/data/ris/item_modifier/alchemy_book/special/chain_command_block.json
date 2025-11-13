@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Chain Command Block\n\n","underlined":true,"bold":true},
+                "   The Chain Command Block is the essence of duplication. It creates an Item Multiplier that multiples a single item thrown into its flame by 16, max stack size and all. Configurably unable to replicate filled Shulkers, Written Books, or most Special Items excepting unstackables. Multiplies all unstackables configurably by ",{"score":{"name":"unstackable_dupe_count","objective":"ris.settings"}},". Full Bundles also fail."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "chain_command_block"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Chain Command Block\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "chain_command_block"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

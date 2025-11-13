@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:firework_star",
+            "components": {
+                "firework_explosion": {
+                    "shape": "burst",
+					"colors": [
+						15416606
+					]
+                }
+            }
+        },
+        "title": "Star of the Show",
+        "description": "Craft an explosive Firework Rocket with a Firework Star made from a combination of Gunpowder, Dyes, and other materials",
+        "frame": "task"
+    },
+    "parent": "ris:ris/lets_get_crafting/rocket_flight",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:firework_rocket",
+				"ingredients": [
+					{
+                        "items": "minecraft:firework_star"
+                    }
+				]
+			}
+        }
+    }
+}

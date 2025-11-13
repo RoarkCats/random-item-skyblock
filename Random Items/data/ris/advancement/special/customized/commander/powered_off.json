@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:redstone_lamp"
+		},
+		"title": "Powered Off",
+		"description": "Disable an Item Generator with redstone",
+		"frame": "task"
+	},
+	"parent": "ris:special/customized/commander",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

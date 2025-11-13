@@ -1,0 +1,410 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/command",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 0
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 1
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 2
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 3
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/structure",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 4
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/jigsaw",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 5
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/debug",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 6
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/double/knowledge",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 7
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 8
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 9
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/chain_repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 10
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 11
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/chain_minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 12
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/command/repeat_minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 13
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/structure/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 14
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/structure/command",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 15
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/structure/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 16
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/structure/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 17
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/jigsaw/structure",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 18
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/jigsaw/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 19
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/jigsaw/command",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 20
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/jigsaw/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 21
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/jigsaw/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 22
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/jigsaw",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 23
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/structure",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 24
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 25
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/command",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 26
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 27
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/debug/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 28
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/debug",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 29
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/jigsaw",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 30
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/structure",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 31
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/minecart",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 32
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/command",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 33
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:alchemy/knowledge/chain",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 34
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+                            "value": "ris:alchemy/knowledge/repeat",
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {"type": "minecraft:score","target": {"type": "minecraft:fixed","name": "#recipe"},"score": "ris.timer"},
+									"range": 35
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

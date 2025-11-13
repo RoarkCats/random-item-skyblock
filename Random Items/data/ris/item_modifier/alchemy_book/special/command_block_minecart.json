@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"  ","font":"uniform"},
+                {"text":"Command Block Minecart\n\n","underlined":true,"bold":true},
+                "   The Command Block Minecart is the essence of treasure. It generates a handful of random loot tables normally found scattered throughout the world in chests, buried in ruins, dropped by slain enemies, fished up from the sea, guarded in vaults, gifted from villagers, and so on. It is also the only Special Item directly placeable by mortals."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "command_block_minecart"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Command Block Minecart\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "command_block_minecart"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

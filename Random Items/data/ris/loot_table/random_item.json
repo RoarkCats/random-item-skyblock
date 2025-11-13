@@ -22,13 +22,8 @@
                                 },
                                 {
                                     "type": "minecraft:loot_table",
-                                    "value": "ris:custom_items/special",
-                                    "weight": 6
-                                },
-                                {
-                                    "type": "minecraft:loot_table",
-                                    "value": "ris:potions/all",
-                                    "weight": 4
+                                    "value": "ris:custom_items/other",
+                                    "weight": 16
                                 }
                             ],
                             "conditions": [
@@ -65,12 +60,7 @@
                                 {
                                     "type": "minecraft:loot_table",
                                     "value": "ris:custom_items/all",
-                                    "weight": 14
-                                },
-                                {
-                                    "type": "minecraft:loot_table",
-                                    "value": "ris:potions/all",
-                                    "weight": 4
+                                    "weight": 24
                                 }
                             ]
                         }
@@ -99,6 +89,38 @@
                                     "score": "ris.special_item_settings"
                                 },
                                 "range": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:filtered",
+                    "item_filter": {
+                        "items": "#minecraft:shulker_boxes"
+                    },
+                    "modifier": {
+                        "function": "minecraft:set_loot_table",
+                        "type": "minecraft:shulker_box",
+                        "name": "ris:loot_box"
+                    },
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "loot_box_shulkers"
+                                },
+                                "score": "ris.settings"
+                            },
+                            "range": 1
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:player"
                             }
                         }
                     ]

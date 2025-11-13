@@ -1,0 +1,16 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:random_item"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "ris:sequence",
+
+    "comment": "Wrapper for consumable_converts"
+}

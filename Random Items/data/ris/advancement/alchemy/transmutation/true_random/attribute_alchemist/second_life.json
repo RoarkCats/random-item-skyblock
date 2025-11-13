@@ -1,0 +1,62 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:glistering_melon_slice"
+        },
+        "title": "Second Life",
+        "description": "Get 40 max health for 2 rows of hearts",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"armor.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"max_health\"} ]}}"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"weapon.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"max_health\"} ]}}"
+											}
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"score": "ris.health",
+							"target": "this"
+						},
+						"range": {
+							"min": 40
+						}
+					}
+				]
+            }
+        }
+    }
+}

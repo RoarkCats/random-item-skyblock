@@ -1,0 +1,101 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/abandoned_mineshaft"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/ancient_city"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/ancient_city_ice_box"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/bastion_bridge"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/bastion_hoglin_stable"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/bastion_other"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/bastion_treasure"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/buried_treasure"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/desert_pyramid"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/end_city_treasure"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/igloo_chest"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/jungle_temple"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/jungle_temple_dispenser"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/nether_bridge"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/pillager_outpost"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/ruined_portal"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/shipwreck_map"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/shipwreck_supply"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/shipwreck_treasure"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/simple_dungeon"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/spawn_bonus_chest"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/stronghold_corridor"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/stronghold_crossing"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/stronghold_library"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/underwater_ruin_big"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/underwater_ruin_small"}]},
+                {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/woodland_mansion"}]},
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_armorer"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_butcher"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_cartographer"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_desert_house"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_fisher"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_fletcher"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_mason"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_plains_house"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_savanna_house"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_shepherd"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_snowy_house"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_taiga_house"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_tannery"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_temple"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_toolsmith"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/village/village_weaponsmith"}]}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/corridor"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/entrance"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/intersection"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/intersection_barrel"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_common"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_ominous"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_ominous_common"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_ominous_rare"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_ominous_unique"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_rare"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/reward_unique"}]},
+                                    {"type": "minecraft:loot_table","value":"ris:loot/chests/container","functions":[{"function":"set_loot_table","type":"chest","name":"chests/trial_chambers/supply"}]}
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_components",
+            "components": {
+                "hide_additional_tooltip": {}
+            }
+        }
+    ],
+    "comment": "chests/village & chests/trial_chambers actually have 16 & 13 entries, not 10 & 10"
+}

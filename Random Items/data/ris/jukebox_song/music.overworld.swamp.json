@@ -1,0 +1,6 @@
+{
+    "sound_event": "minecraft:music.overworld.swamp",
+    "description": "Music - Overworld: Swamp",
+    "length_in_seconds": 900,
+    "comparator_output": 1
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Structure × Command\n\n","underlined":true,"bold":true},
+                "   Combining the essence of construction with abundance conjures a large cube of a random block to harvest. Filling a centered 7x7x7 block cube with any random block."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "structure/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "structure/command": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Structure × Command\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "structure/command"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Void Totem",
+        "description": "Escape the void using a Totem of Undying",
+        "frame": "task"
+    },
+    "parent": "ris:ris/an_endless_abyss",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

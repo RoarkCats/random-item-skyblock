@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw\n\n","underlined":true,"bold":true},
+                "   The Jigsaw is the essence of decoration. It places a random worldgen feature into the world, overwriting blocks within a 32 block range in all directions. Some features may snap to certain layers of the world or refuse to generate in the presence of other blocks entirely."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "jigsaw"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "jigsaw"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

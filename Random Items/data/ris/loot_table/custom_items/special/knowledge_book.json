@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"lore": ["{\"text\":\"Spawns a Random Item Trader when dropped\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "custom_data": "{ris:{custom_item:1b}}",
+						"recipes": ["ris:knowledge_book/default"]
+                    }
+                }
+            ]
+		}
+	]
+}

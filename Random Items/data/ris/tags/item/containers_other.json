@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:furnace",
+        "minecraft:blast_furnace",
+        "minecraft:smoker",
+        "minecraft:brewing_stand",
+        "minecraft:campfire",
+        "minecraft:soul_campfire",
+        "minecraft:chiseled_bookshelf",
+        "minecraft:decorated_pot"
+    ],
+    "comment": "used by Moving Day advancement"
+}

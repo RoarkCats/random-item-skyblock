@@ -1,3 +1,5 @@
+tag @s add ris.dragon
+
 execute if predicate {"condition":"entity_properties","entity":"this","predicate":{"location":{"dimension":"minecraft:the_end"}}} run return 0
 #execute unless entity @s[nbt={Fire:-1s}] run return 0
 execute if entity @s[y_rotation=0] run return 0

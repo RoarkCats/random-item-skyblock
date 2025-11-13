@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_block",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"lore": ["{\"text\":\"Generates a random structure when dropped\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "custom_data": "{ris:{custom_item:1b}}"
+                    }
+                }
+            ]
+		}
+	],
+	"comment": "Depricated description: ► This may destroy blocks in a 48\n  block range in your positive xyz ◄"
+}

@@ -1,0 +1,61 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true},
+                "   Combining the essence of destruction with decoration targets blocks of a kind, spreading through connected blocks like a virus. Up to configurably ",
+                {"score":{"name":"vein_miner_block_limit","objective":"ris.settings"}}, " immediately connected blocks are mined without Silk Touch before stopping. Unable to mine near-unbreakable blocks."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug/jigsaw"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "debug/jigsaw": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug/jigsaw"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

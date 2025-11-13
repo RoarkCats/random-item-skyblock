@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shulker_box"
+        },
+        "title": "Loot Box!",
+        "description": "Open a loot box Shulker",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:ris/storage_solution",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "ris:loot_box"
+            }
+        }
+    }
+}

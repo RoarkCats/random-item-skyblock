@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ink_sac"
+        },
+        "title": "Sus",
+        "description": "Hold a component item with a random item model",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"item_model\"} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

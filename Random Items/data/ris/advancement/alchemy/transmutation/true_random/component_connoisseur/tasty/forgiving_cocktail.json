@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lingering_potion",
+            "components": {
+                "potion_contents": "swiftness"
+            }
+        },
+        "title": "Forgiving Cocktail",
+        "description": "Consume a drink component item with 5 different effects",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{ris:{components:[ {id:\"consumable_effect\",effects:[{},{},{},{},{}]} ]}}"
+                    }
+                }
+            }
+        }
+    }
+}

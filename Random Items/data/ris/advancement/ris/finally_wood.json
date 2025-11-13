@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_sapling"
+		},
+		"title": "Finally! Wood!",
+		"description": "Plant your first Sapling",
+		"frame": "task"
+	},
+	"parent": "ris:ris/root",
+	"criteria": {
+		"saplings": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#ris:saplings"
+						}
+					}
+				]
+			}
+		},
+		"azalea": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:bone_meal"
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:azalea",
+									"minecraft:flowering_azalea",
+									"minecraft:oak_log"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"saplings",
+			"azalea"
+		]
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "custom_item": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:wandering_trader"
+				},
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"ris": {
+                                "custom_item": true
+							}
+						}
+					}
+				}
+			}
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/special_sale"
+    }
+}

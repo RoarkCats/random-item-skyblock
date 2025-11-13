@@ -1,0 +1,6 @@
+{
+    "sound_event": "minecraft:music.overworld.dripstone_caves",
+    "description": "Music - Overworld: Dripstone Caves",
+    "length_in_seconds": 900,
+    "comparator_output": 1
+}

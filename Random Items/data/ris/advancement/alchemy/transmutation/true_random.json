@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pitcher_pod"
+        },
+        "title": "True Random",
+        "description": "Hold a Component Generator item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/componential",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[{}]}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/not_generic_generator_confirmation"
+    }
+}

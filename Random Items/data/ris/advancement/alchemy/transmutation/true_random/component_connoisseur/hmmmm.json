@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_concrete_powder"
+        },
+        "title": "Hmmmm",
+        "description": "Hold a component item with additional tooltips hidden",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/sus",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"hide_additional_tooltip\"} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

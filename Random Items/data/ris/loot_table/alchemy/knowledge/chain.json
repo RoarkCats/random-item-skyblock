@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chain_command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "\"Knowledge Multiplier\"",
+								"lore": ["{\"text\":\"Creates a Knowledge Multiplier\",\"color\":\"gray\",\"italic\":false}","{\"text\":\"Multiplies a Trader's trades\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "enchantment_glint_override": true,
+                        "custom_data": "{ris:{custom_item:1b,transmuted:1b,function:\"knowledge/chain\"}}"
+                    }
+                }
+            ]
+		}
+	]
+}

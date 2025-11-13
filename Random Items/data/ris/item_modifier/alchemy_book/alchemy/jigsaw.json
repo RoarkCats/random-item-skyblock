@@ -1,0 +1,22 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw/structure"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw/minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw/command"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw/chain"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw/repeat"
+    }
+]

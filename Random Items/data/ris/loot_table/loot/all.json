@@ -1,0 +1,205 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/desert_pyramid"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/desert_well"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/ocean_ruin_cold"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/ocean_ruin_warm"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/trail_ruins_common"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "archaeology/trail_ruins_rare"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dispensers/trial_chambers/chamber"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dispensers/trial_chambers/corridor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "dispensers/trial_chambers/water"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "equipment/trial_chamber"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "equipment/trial_chamber_melee"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "equipment/trial_chamber_ranged"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/armadillo_shed"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/cat_morning_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/chicken_lay"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/fishing/fish"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/fishing/junk"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/fishing/treasure"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/fishing"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/armorer_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/baby_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/butcher_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/cartographer_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/cleric_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/farmer_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/fisherman_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/fletcher_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/leatherworker_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/librarian_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/mason_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/shepherd_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/toolsmith_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/unemployed_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/hero_of_the_village/weaponsmith_gift"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/piglin_bartering"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "gameplay/sniffer_digging"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pots/trial_chambers/corridor"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/bogged"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/mooshroom/brown"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/mooshroom/red"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/snow_golem"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "spawners/ominous/trial_chamber/consumables"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "spawners/ominous/trial_chamber/key"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "spawners/trial_chamber/consumables"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "spawners/trial_chamber/items_to_drop_when_ominous"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "spawners/trial_chamber/key"
+                },
+
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:loot/entities",
+                    "weight": 66
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:loot/chests/all",
+                    "weight": 47
+                }
+            ]
+        }
+    ],
+    "comment": "loot/entities actually have 54 (+16 shearing) total weight, increased back to 'full (-shr) sheep count' to counter-balance chest abundance"
+}

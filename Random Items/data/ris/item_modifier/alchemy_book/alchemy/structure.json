@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/structure/minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/structure/command"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/structure/chain"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/structure/repeat"
+    }
+]

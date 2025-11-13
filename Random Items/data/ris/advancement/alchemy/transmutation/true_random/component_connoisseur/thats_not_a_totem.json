@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "title": "That's Not a Totem!",
+        "description": "Revive with a death protection component item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{ris:{components:[ {id:\"death_protection\"} ]}}"
+                    }
+                }
+            }
+        }
+    }
+}

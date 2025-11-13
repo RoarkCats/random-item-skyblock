@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block_minecart"
+        },
+        "title": "Commander",
+        "description": "Use all Command Block Special Items",
+        "frame": "goal"
+    },
+    "parent": "ris:special/customized",
+    "criteria": {
+        "command_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "chain_command_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "repeating_command_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "command_block_minecart": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

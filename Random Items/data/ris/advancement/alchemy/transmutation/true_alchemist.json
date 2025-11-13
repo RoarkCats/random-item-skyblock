@@ -1,0 +1,448 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cauldron",
+			"components": {
+                "enchantment_glint_override": true
+			}
+        },
+        "title": "True Alchemist",
+        "description": "Transmute every Alchemy Item",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/its_a_science",
+    "criteria": {
+        "double/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/debug": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/debug'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "double/knowledge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/knowledge'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/chain_repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/chain_repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/chain_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/chain_minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/repeat_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/repeat_minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "structure/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'structure/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/debug": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/debug'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/repeat'}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

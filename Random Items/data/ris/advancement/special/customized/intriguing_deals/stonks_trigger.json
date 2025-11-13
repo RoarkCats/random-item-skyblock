@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:wandering_trader",
+					"nbt": "{Tags:[\"ris.trader\"]}"
+				}
+			}
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/stonks"
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/command"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/chain"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/repeat"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/structure"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/jigsaw"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/debug"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double/knowledge"
+    }
+]

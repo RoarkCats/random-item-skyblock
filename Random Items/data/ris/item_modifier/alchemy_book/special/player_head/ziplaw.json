@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Creator Head • Ziplaw\n\n","underlined":true,"bold":true},
+                "   The creator Ziplaw embodies quantity, blessing those representing his likeness with double the count of items received from the item giver."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "creator_heads"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Creator Head - Ziplaw\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "creator_heads"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

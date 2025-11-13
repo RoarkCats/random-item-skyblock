@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:infested_cracked_stone_bricks"
+        },
+        "title": "Infested",
+        "description": "Squirmy little buggers",
+        "frame": "task"
+    },
+    "parent": "ris:ris/your_first_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#ris:infested"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

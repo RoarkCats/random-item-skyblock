@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Undead Horseman",
+        "description": "Mount the undead",
+        "frame": "task"
+    },
+    "parent": "ris:ris/curious_creatures",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": [
+                            "minecraft:skeleton_horse",
+                            "minecraft:zombie_horse"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

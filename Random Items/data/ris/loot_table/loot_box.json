@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:random_item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "comment": "`random_item` is okay over `random_item_trader` because random_item only gives players loot box shulkers and they can't be duped"
+}

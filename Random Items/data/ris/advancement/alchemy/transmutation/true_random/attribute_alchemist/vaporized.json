@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crying_obsidian"
+        },
+        "title": "Vaporized",
+        "description": "Insta-mine Obsidian",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

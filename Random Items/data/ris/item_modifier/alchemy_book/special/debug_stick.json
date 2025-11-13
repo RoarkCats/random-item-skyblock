@@ -1,0 +1,46 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug Stick\n\n","underlined":true,"bold":true},
+                "   The Debug Stick is the essence of destruction. It removes an unbreakable block directly beneath it or at its position, configurably dropping it as an item. It can also remove certain extremely tough blocks that lack a correct tool."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug_stick"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Debug Stick\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "debug_stick"},
+                    "score": "ris.special_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

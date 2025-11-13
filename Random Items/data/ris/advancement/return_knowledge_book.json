@@ -1,0 +1,53 @@
+{
+    "criteria": {
+        "default": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/default"
+            }
+        },
+        "double": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/double"
+            }
+        },
+        "command": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/command"
+            }
+        },
+        "minecart": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/minecart"
+            }
+        },
+        "jigsaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/jigsaw"
+            }
+        },
+        "structure": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ris:knowledge_book/structure"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "default",
+            "double",
+            "command",
+            "minecart",
+            "jigsaw",
+            "structure"
+        ]
+    ],
+    "rewards": {
+        "function": "ris:custom_items/return_knowledge_book"
+    }
+}

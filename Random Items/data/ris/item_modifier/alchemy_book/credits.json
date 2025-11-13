@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"           ","font":"uniform"},
+                {"text":"Credits\n","underlined":true,"bold":true},
+                "          (Clickable)\n",
+                {"text":"\n  RoarkCats - Lead Developer","clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to profile","color":"yellow"}}},
+                {"text":"\n  Ziplaw - Consultant / Dev","clickEvent":{"action":"open_url","value":"https://www.ziplaw.dev"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to profile","color":"yellow"}}},
+                {"text":"\n  PhoenixSC - Conception\n","clickEvent":{"action":"open_url","value":"https://www.youtube.com/@PhoenixSC"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to profile","color":"yellow"}}},
+                {"text":"\n  HellsMaximum - Consultant"},
+                {"text":"\n  LordBennett - Skywars Map"},
+                {"text":"\n StealthMuskrat - Server Host"},
+                {"text":"\n\n      [Report Bugs]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"open_url","value":"https://TODO.github_new_issue_link"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"yellow"}]}},
+                {"text":"\n   [Open External Wiki]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"open_url","value":"https://TODO.github_wiki_link"},"hoverEvent":{"action":"show_text","value":["",{"text":"Open External Wiki","color":"yellow"}]}}
+            ]
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:host_armor_trim_smithing_template"
+        },
+        "title": "Exterior Designer",
+        "description": "Transmute a jigsaw Alchemy Item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation",
+    "criteria": {
+        "double/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jigsaw/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'jigsaw/repeat'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double/jigsaw",
+            "jigsaw/structure",
+            "jigsaw/minecart",
+            "jigsaw/command",
+            "jigsaw/repeat",
+            "knowledge/jigsaw"
+        ]
+    ]
+}

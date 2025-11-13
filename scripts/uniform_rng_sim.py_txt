@@ -1,0 +1,13 @@
+def ct(lst,max):
+     return [_ for _ in [lst.count(n) for n in range(max+1)] if _ != 0]
+
+def u(x,y):
+     return int(r()*(y-x+1)+x)
+
+def ctp(lst,max):
+     c = ct(lst,max)
+     s = sum(c)
+     return [round(cnt/s,3) for cnt in c]
+
+# example usage simulating & calculating uniform rng distribution of {{0,4},{5,9}}
+ctp([u(u(0,4),u(5,9)) for _ in range(100000)],100)

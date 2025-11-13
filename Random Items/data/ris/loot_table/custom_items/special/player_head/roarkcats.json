@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+                                "minecraft:custom_data": "{ris:{custom_item:1b}}",
+                                "minecraft:item_name": "\"RoarkCats\"",
+                                "minecraft:lore": ["{\"text\":\"Triples Special Item chance while worn\",\"color\":\"gray\",\"italic\":false}"],
+                                "minecraft:profile": {
+                                    "id": [-569480198,700859149,-1921999514,268737433],
+                                    "properties": [
+                                        {"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZhZjIwNjQzNzZhODUxNTBiYjAxZWY2Y2UwNDVjY2YzODA0ZmMxN2JjZjk0MDk4NDVjMmE4MWIwNjRiZDVkYSJ9fX0="}
+                                    ]
+                                }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

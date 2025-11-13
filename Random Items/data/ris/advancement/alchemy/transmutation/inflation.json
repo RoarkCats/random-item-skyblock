@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:glow_item_frame"
+        },
+        "title": "Inflation",
+        "description": "Sell 16 items to buy one item from a Random Item Trader",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/refined_knowledge",
+    "criteria": {
+        "requirement": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:wandering_trader",
+					"nbt": "{Tags:[\"ris.trader_multiplied\"]}"
+				},
+				"item": {
+					"count": 1
+				}
+			}
+        }
+    },
+    "comment": "Imperfect, can't detect item sold, but if multiplied and amount bought is 1, should be accurate, except when partially rerolled/knowledge generated, but won't produce false positives, only false negatives"
+}

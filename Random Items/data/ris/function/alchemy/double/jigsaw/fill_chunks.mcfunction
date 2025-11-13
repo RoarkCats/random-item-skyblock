@@ -1,0 +1,71 @@
+execute store result score rng ris.rng run random value 0..64
+
+execute if score rng ris.rng matches 0 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 badlands
+execute if score rng ris.rng matches 1 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 bamboo_jungle
+execute if score rng ris.rng matches 2 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 basalt_deltas
+execute if score rng ris.rng matches 3 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 beach
+execute if score rng ris.rng matches 4 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 birch_forest
+execute if score rng ris.rng matches 5 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 cherry_grove
+execute if score rng ris.rng matches 6 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 cold_ocean
+execute if score rng ris.rng matches 7 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 crimson_forest
+execute if score rng ris.rng matches 8 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 dark_forest
+execute if score rng ris.rng matches 9 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 deep_cold_ocean
+execute if score rng ris.rng matches 10 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 deep_dark
+execute if score rng ris.rng matches 11 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 deep_frozen_ocean
+execute if score rng ris.rng matches 12 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 deep_lukewarm_ocean
+execute if score rng ris.rng matches 13 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 deep_ocean
+execute if score rng ris.rng matches 14 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 desert
+execute if score rng ris.rng matches 15 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 dripstone_caves
+execute if score rng ris.rng matches 16 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 end_barrens
+execute if score rng ris.rng matches 17 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 end_highlands
+execute if score rng ris.rng matches 18 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 end_midlands
+execute if score rng ris.rng matches 19 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 eroded_badlands
+execute if score rng ris.rng matches 20 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 flower_forest
+execute if score rng ris.rng matches 21 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 forest
+execute if score rng ris.rng matches 22 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 frozen_ocean
+execute if score rng ris.rng matches 23 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 frozen_peaks
+execute if score rng ris.rng matches 24 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 frozen_river
+execute if score rng ris.rng matches 25 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 grove
+execute if score rng ris.rng matches 26 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 ice_spikes
+execute if score rng ris.rng matches 27 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 jagged_peaks
+execute if score rng ris.rng matches 28 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 jungle
+execute if score rng ris.rng matches 29 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 lukewarm_ocean
+execute if score rng ris.rng matches 30 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 lush_caves
+execute if score rng ris.rng matches 31 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 mangrove_swamp
+execute if score rng ris.rng matches 32 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 meadow
+execute if score rng ris.rng matches 33 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 mushroom_fields
+execute if score rng ris.rng matches 34 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 nether_wastes
+execute if score rng ris.rng matches 35 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 ocean
+execute if score rng ris.rng matches 36 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 old_growth_birch_forest
+execute if score rng ris.rng matches 37 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 old_growth_pine_taiga
+execute if score rng ris.rng matches 38 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 old_growth_spruce_taiga
+execute if score rng ris.rng matches 39 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 pale_garden
+execute if score rng ris.rng matches 40 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 plains
+execute if score rng ris.rng matches 41 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 river
+execute if score rng ris.rng matches 42 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 savanna
+execute if score rng ris.rng matches 43 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 savanna_plateau
+execute if score rng ris.rng matches 44 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 small_end_islands
+execute if score rng ris.rng matches 45 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 snowy_beach
+execute if score rng ris.rng matches 46 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 snowy_plains
+execute if score rng ris.rng matches 47 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 snowy_slopes
+execute if score rng ris.rng matches 48 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 snowy_taiga
+execute if score rng ris.rng matches 49 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 soul_sand_valley
+execute if score rng ris.rng matches 50 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 sparse_jungle
+execute if score rng ris.rng matches 51 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 stony_peaks
+execute if score rng ris.rng matches 52 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 stony_shore
+execute if score rng ris.rng matches 53 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 sunflower_plains
+execute if score rng ris.rng matches 54 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 swamp
+execute if score rng ris.rng matches 55 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 taiga
+execute if score rng ris.rng matches 56 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 the_end
+execute if score rng ris.rng matches 57 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 the_void
+execute if score rng ris.rng matches 58 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 warm_ocean
+execute if score rng ris.rng matches 59 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 warped_forest
+execute if score rng ris.rng matches 60 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 windswept_forest
+execute if score rng ris.rng matches 61 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 windswept_gravelly_hills
+execute if score rng ris.rng matches 62 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 windswept_hills
+execute if score rng ris.rng matches 63 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 windswept_savanna
+execute if score rng ris.rng matches 64 store success score #success ris.rng run fillbiome ~-16 ~-16 ~-16 ~31 ~31 ~31 wooded_badlands
+
+execute if score #success ris.rng matches 0 run function ris:alchemy/double/jigsaw/fill_chunks_alt
+
+particle end_rod ~8 ~8 ~8 15 15 15 .05 500

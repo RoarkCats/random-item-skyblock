@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:debug_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"lore": ["{\"text\":\"Removes an unbreakable block when dropped\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "custom_data": "{ris:{custom_item:1b}}"
+                    }
+                }
+            ]
+		}
+	]
+}

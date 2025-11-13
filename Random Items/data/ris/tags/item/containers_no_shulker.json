@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:hopper",
+        "minecraft:barrel",
+        "minecraft:crafter"
+    ],
+    "comment": "used by Moving Day advancement & 'containers' item tag"
+}

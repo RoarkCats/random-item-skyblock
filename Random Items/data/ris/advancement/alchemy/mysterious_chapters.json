@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book",
+			"components": {
+                "enchantment_glint_override": false,
+				"written_book_content": {
+					"generation": 3,
+					"title": "",
+					"author": ""
+				}
+			}
+        },
+        "title": "Mysterious Chapters",
+        "description": "Obtain the Secrets to Alchemy",
+        "frame": "task",
+		"hidden": true
+    },
+    "parent": "ris:alchemy/root",
+    "criteria": {
+        "custom_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

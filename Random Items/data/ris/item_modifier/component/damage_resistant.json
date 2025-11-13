@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:damage_resistant": {
+				"types": "#minecraft:no_knockback"
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"lore": [
+			{"text":"Damage Resistant","color":"gray","italic":false}
+		],
+		"mode": "append"
+	}
+]

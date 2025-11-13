@@ -1,0 +1,32 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:debug_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "\"Inverse Vein Miner\"",
+								"lore": ["{\"text\":\"Vein mines around a block\",\"color\":\"gray\",\"italic\":false}"],
+								"max_stack_size": 16
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "enchantment_glint_override": true,
+                        "custom_data": "{ris:{custom_item:1b,transmuted:1b,function:\"debug/structure\"}}"
+                    }
+                }
+            ]
+		}
+	]
+}

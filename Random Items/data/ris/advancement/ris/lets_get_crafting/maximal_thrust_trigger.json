@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:firework_rocket",
+                            "components": {
+                                "minecraft:fireworks": {
+                                    "flight_duration": 3
+                                }
+                            }
+						}
+					}
+				]
+            }
+        }
+    },
+    "rewards": {
+        "function": "ris:advancements/maximal_thrust"
+    }
+}

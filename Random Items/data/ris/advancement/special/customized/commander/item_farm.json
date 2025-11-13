@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:repeating_command_block"
+		},
+		"title": "Item Farm",
+		"description": "Construct a farm with 10 Item Generators",
+		"frame": "goal"
+	},
+	"parent": "ris:special/customized/commander/powered_off",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

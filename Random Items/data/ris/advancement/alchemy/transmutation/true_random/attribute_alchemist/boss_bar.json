@@ -1,0 +1,62 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "title": "Boss Bar",
+        "description": "Get 100 max health for 5 rows of hearts",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist/second_life",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"armor.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"max_health\"} ]}}"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"weapon.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"max_health\"} ]}}"
+											}
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"score": "ris.health",
+							"target": "this"
+						},
+						"range": {
+							"min": 100
+						}
+					}
+				]
+            }
+        }
+    }
+}

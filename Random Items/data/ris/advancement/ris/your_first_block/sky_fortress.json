@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate_tiles",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Sky Fortress",
+        "description": "Place 10,000 blocks",
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "ris:ris/your_first_block/a_proper_sky_base",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

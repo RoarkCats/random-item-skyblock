@@ -1,0 +1,6 @@
+{
+    "sound_event": "minecraft:music.nether.crimson_forest",
+    "description": "Music - Nether: Crimson Forest",
+    "length_in_seconds": 900,
+    "comparator_output": 1
+}

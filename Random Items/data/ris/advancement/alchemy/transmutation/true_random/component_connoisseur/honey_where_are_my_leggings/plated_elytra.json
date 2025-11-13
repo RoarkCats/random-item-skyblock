@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Plated Elytra",
+        "description": "Equip an armored glider component item",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/honey_where_are_my_leggings",
+    "criteria": {
+        "armor_glider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.*": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"glider\"}, {id:\"armor\"} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "armor_toughness_glider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.*": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"glider\"}, {id:\"armor_toughness\"} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "max_health_glider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.*": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"glider\"}, {id:\"max_health\"} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "armor_glider",
+            "armor_toughness_glider",
+            "max_health_glider"
+        ]
+    ]
+}

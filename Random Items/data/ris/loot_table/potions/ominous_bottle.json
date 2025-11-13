@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle",
+                    "functions": [
+						{
+							"function": "minecraft:set_ominous_bottle_amplifier",
+							"amplifier": 1
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle",
+                    "functions": [
+						{
+							"function": "minecraft:set_ominous_bottle_amplifier",
+							"amplifier": 2
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle",
+                    "functions": [
+						{
+							"function": "minecraft:set_ominous_bottle_amplifier",
+							"amplifier": 3
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ominous_bottle",
+                    "functions": [
+						{
+							"function": "minecraft:set_ominous_bottle_amplifier",
+							"amplifier": 4
+						}
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bundle"
+        },
+        "title": "Bundling Up",
+        "description": "The perfect random item bag!",
+        "frame": "task"
+    },
+    "parent": "ris:ris/storage_solution",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:bundles"
+                    }
+                ]
+            }
+        }
+    }
+}

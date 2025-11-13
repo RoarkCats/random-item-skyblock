@@ -1,0 +1,353 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:decorated_pot",
+            "components": {
+                "minecraft:pot_decorations": [
+                    "minecraft:brick",
+                    "minecraft:burn_pottery_sherd",
+                    "minecraft:brick",
+                    "minecraft:burn_pottery_sherd"
+                ]
+            }
+        },
+        "title": "Full Focus",
+        "description": "Augment a Component Generator with 4 of the same Sherd",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/componential",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:repeating_command_block",
+                                "state": {
+                                    "facing": "up"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "decorated_pot" 
+                        }
+                    },
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:angler_pottery_sherd",
+                                            "minecraft:angler_pottery_sherd",
+                                            "minecraft:angler_pottery_sherd",
+                                            "minecraft:angler_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:archer_pottery_sherd",
+                                            "minecraft:archer_pottery_sherd",
+                                            "minecraft:archer_pottery_sherd",
+                                            "minecraft:archer_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:arms_up_pottery_sherd",
+                                            "minecraft:arms_up_pottery_sherd",
+                                            "minecraft:arms_up_pottery_sherd",
+                                            "minecraft:arms_up_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:blade_pottery_sherd",
+                                            "minecraft:blade_pottery_sherd",
+                                            "minecraft:blade_pottery_sherd",
+                                            "minecraft:blade_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:brewer_pottery_sherd",
+                                            "minecraft:brewer_pottery_sherd",
+                                            "minecraft:brewer_pottery_sherd",
+                                            "minecraft:brewer_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:burn_pottery_sherd",
+                                            "minecraft:burn_pottery_sherd",
+                                            "minecraft:burn_pottery_sherd",
+                                            "minecraft:burn_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:danger_pottery_sherd",
+                                            "minecraft:danger_pottery_sherd",
+                                            "minecraft:danger_pottery_sherd",
+                                            "minecraft:danger_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:explorer_pottery_sherd",
+                                            "minecraft:explorer_pottery_sherd",
+                                            "minecraft:explorer_pottery_sherd",
+                                            "minecraft:explorer_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:flow_pottery_sherd",
+                                            "minecraft:flow_pottery_sherd",
+                                            "minecraft:flow_pottery_sherd",
+                                            "minecraft:flow_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:friend_pottery_sherd",
+                                            "minecraft:friend_pottery_sherd",
+                                            "minecraft:friend_pottery_sherd",
+                                            "minecraft:friend_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:guster_pottery_sherd",
+                                            "minecraft:guster_pottery_sherd",
+                                            "minecraft:guster_pottery_sherd",
+                                            "minecraft:guster_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:heart_pottery_sherd",
+                                            "minecraft:heart_pottery_sherd",
+                                            "minecraft:heart_pottery_sherd",
+                                            "minecraft:heart_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:heartbreak_pottery_sherd",
+                                            "minecraft:heartbreak_pottery_sherd",
+                                            "minecraft:heartbreak_pottery_sherd",
+                                            "minecraft:heartbreak_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:howl_pottery_sherd",
+                                            "minecraft:howl_pottery_sherd",
+                                            "minecraft:howl_pottery_sherd",
+                                            "minecraft:howl_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:miner_pottery_sherd",
+                                            "minecraft:miner_pottery_sherd",
+                                            "minecraft:miner_pottery_sherd",
+                                            "minecraft:miner_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:mourner_pottery_sherd",
+                                            "minecraft:mourner_pottery_sherd",
+                                            "minecraft:mourner_pottery_sherd",
+                                            "minecraft:mourner_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:plenty_pottery_sherd",
+                                            "minecraft:plenty_pottery_sherd",
+                                            "minecraft:plenty_pottery_sherd",
+                                            "minecraft:plenty_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:prize_pottery_sherd",
+                                            "minecraft:prize_pottery_sherd",
+                                            "minecraft:prize_pottery_sherd",
+                                            "minecraft:prize_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:scrape_pottery_sherd",
+                                            "minecraft:scrape_pottery_sherd",
+                                            "minecraft:scrape_pottery_sherd",
+                                            "minecraft:scrape_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:sheaf_pottery_sherd",
+                                            "minecraft:sheaf_pottery_sherd",
+                                            "minecraft:sheaf_pottery_sherd",
+                                            "minecraft:sheaf_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:shelter_pottery_sherd",
+                                            "minecraft:shelter_pottery_sherd",
+                                            "minecraft:shelter_pottery_sherd",
+                                            "minecraft:shelter_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:skull_pottery_sherd",
+                                            "minecraft:skull_pottery_sherd",
+                                            "minecraft:skull_pottery_sherd",
+                                            "minecraft:skull_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "components": {
+                                        "minecraft:pot_decorations": [
+                                            "minecraft:snort_pottery_sherd",
+                                            "minecraft:snort_pottery_sherd",
+                                            "minecraft:snort_pottery_sherd",
+                                            "minecraft:snort_pottery_sherd"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "not_generic_generator_confirmation": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

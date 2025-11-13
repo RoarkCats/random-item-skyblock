@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:tag",
+                    "name": "ris:containers",
+                    "expand": true
+                }
+            ]
+        }
+    ],
+    "comment": "helper loot table used by loot/chests/all_container"
+}

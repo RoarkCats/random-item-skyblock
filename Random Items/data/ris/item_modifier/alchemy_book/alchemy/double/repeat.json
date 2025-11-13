@@ -1,0 +1,103 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true},
+                "   Combining the essence of production with itself kicks every setting into action, producing completely random items. Every eight cycles of the item giver, a random one star component item is generated with 1-4 modified components. Generators can be attuned to certain component sets via Sherd augmentation with a Decorated Pot atop."
+            ],
+            [
+                {"text":" ","font":"uniform"},
+                {"text":"Sherd Augmentation\n\n","underlined":true,"bold":true},
+                "Angler: Luck\n",
+                "Archer: Atk Speed, Knockback\n",
+                "Arms Up: Jump Str, Step Height\n",
+                "Blade: Atk Damage, Sword\n",
+                "Brewer: Consumable Tp, Drink\n",
+                "Burn: Burn Time, Item Dmg Prot\n",
+                "Danger: Mine Speed, Unbreakble\n",
+                "Explorer: Move/Sneak Speed\n",
+                "Flow: Oxygen, Water Mine/Move\n",
+                "Friend: Hide Tooltip(s), Model\n",
+                "Guster: Interaction Ranges\n",
+                "Heart: Health, Death Protection\n"
+            ],
+            [
+                {"text":" ","font":"uniform"},
+                {"text":"Sherd Augmentation","underlined":true,"bold":true}, " (cont)\n\n",
+                "Heartbreak: Fall Dmg, Fall Dist\n",
+                "Howl: Jukebox Playable, Name\n",
+                "Miner: Pickaxe, Shovel\n",
+                "Mourner: (Expl) Knockbk Resist\n",
+                "Plenty: Equippable, Glider\n",
+                "Prize: Enchanted, Ench Glint\n",
+                "Scrape: Axe, Hoe, Shears\n",
+                "Sheaf: Consume Convert, Food\n",
+                "Shelter: Gravity (+/-)\n",
+                "Skull: Armor, Armor Toughness\n",
+                "Snort: Scale (+/-)\n"
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "double/repeat"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "double/repeat": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ],
+            [
+                {"text":" ","font":"uniform"},
+                {"text":"Sherd Augmentation\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+
+            ],
+            [
+                {"text":" ","font":"uniform"},
+                {"text":"Sherd Augmentation","underlined":true,"bold":true}, " (cont)\n\n",
+                {"text":" <This feature is disabled>","italic":true}
+
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "double/repeat"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

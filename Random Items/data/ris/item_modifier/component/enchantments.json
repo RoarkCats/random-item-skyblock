@@ -1,0 +1,7 @@
+[
+    {
+        "function": "minecraft:enchant_randomly",
+        "options": "#minecraft:tooltip_order",
+        "only_compatible": false
+    }
+]

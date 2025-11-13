@@ -1,0 +1,1 @@
+loot give @s loot ris:custom_items/give_all

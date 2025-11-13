@@ -1,147 +1,147 @@
 #144 included, outer weight of 87
 execute store result score rng1 ris.rng run random value 0..143
 
-execute if score rng1 ris.rng matches 0 run place template bastion/bridge/bridge_pieces/bridge
-execute if score rng1 ris.rng matches 1 run place template bastion/bridge/connectors/back_bridge_top
-execute if score rng1 ris.rng matches 2 run place template bastion/bridge/connectors/back_bridge_bottom
-execute if score rng1 ris.rng matches 3 run place template bastion/bridge/legs/leg_0
-execute if score rng1 ris.rng matches 4 run place template bastion/bridge/legs/leg_1
-execute if score rng1 ris.rng matches 5 run place template bastion/bridge/rampart_plates/plate_0
-execute if score rng1 ris.rng matches 6 run place template bastion/bridge/ramparts/rampart_0
-execute if score rng1 ris.rng matches 7 run place template bastion/bridge/ramparts/rampart_1
-execute if score rng1 ris.rng matches 8 run place template bastion/bridge/starting_pieces/entrance
-execute if score rng1 ris.rng matches 9 run place template bastion/bridge/starting_pieces/entrance_base
-execute if score rng1 ris.rng matches 10 run place template bastion/bridge/starting_pieces/entrance_face
-execute if score rng1 ris.rng matches 11 run place template bastion/bridge/walls/wall_base_0
-execute if score rng1 ris.rng matches 12 run place template bastion/bridge/walls/wall_base_1
-execute if score rng1 ris.rng matches 13 run place template bastion/units/walls/connected_wall
-execute if score rng1 ris.rng matches 14 run place template bastion/units/walls/wall_base
-execute if score rng1 ris.rng matches 15 run place template bastion/units/wall_units/edge_0_large
-execute if score rng1 ris.rng matches 16 run place template bastion/units/wall_units/unit_0
-execute if score rng1 ris.rng matches 17 run place template bastion/units/stages/rot/stage_1_0
-execute if score rng1 ris.rng matches 18 run place template bastion/units/stages/stage_0_0
-execute if score rng1 ris.rng matches 19 run place template bastion/units/stages/stage_0_1
-execute if score rng1 ris.rng matches 20 run place template bastion/units/stages/stage_0_2
-execute if score rng1 ris.rng matches 21 run place template bastion/units/stages/stage_0_3
-execute if score rng1 ris.rng matches 22 run place template bastion/units/stages/stage_1_0
-execute if score rng1 ris.rng matches 23 run place template bastion/units/stages/stage_1_1
-execute if score rng1 ris.rng matches 24 run place template bastion/units/stages/stage_1_2
-execute if score rng1 ris.rng matches 25 run place template bastion/units/stages/stage_1_3
-execute if score rng1 ris.rng matches 26 run place template bastion/units/stages/stage_2_0
-execute if score rng1 ris.rng matches 27 run place template bastion/units/stages/stage_2_1
-execute if score rng1 ris.rng matches 28 run place template bastion/units/stages/stage_3_0
-execute if score rng1 ris.rng matches 29 run place template bastion/units/stages/stage_3_1
-execute if score rng1 ris.rng matches 30 run place template bastion/units/stages/stage_3_2
-execute if score rng1 ris.rng matches 31 run place template bastion/units/stages/stage_3_3
-execute if score rng1 ris.rng matches 32 run place template bastion/units/ramparts/ramparts_0
-execute if score rng1 ris.rng matches 33 run place template bastion/units/ramparts/ramparts_1
-execute if score rng1 ris.rng matches 34 run place template bastion/units/ramparts/ramparts_2
-execute if score rng1 ris.rng matches 35 run place template bastion/units/rampart_plates/plate_0
-execute if score rng1 ris.rng matches 36 run place template bastion/units/fillers/stage_0
-execute if score rng1 ris.rng matches 37 run place template bastion/units/edges/edge_0
-execute if score rng1 ris.rng matches 38 run place template bastion/units/center_pieces/center_0
-execute if score rng1 ris.rng matches 39 run place template bastion/units/center_pieces/center_1
-execute if score rng1 ris.rng matches 40 run place template bastion/units/center_pieces/center_2
-execute if score rng1 ris.rng matches 41 run place template bastion/treasure/walls/entrance_wall
-execute if score rng1 ris.rng matches 42 run place template bastion/treasure/walls/lava_wall
-execute if score rng1 ris.rng matches 43 run place template bastion/treasure/walls/top/main_entrance
-execute if score rng1 ris.rng matches 44 run place template bastion/treasure/walls/top/wall_0
-execute if score rng1 ris.rng matches 45 run place template bastion/treasure/walls/top/wall_1
-execute if score rng1 ris.rng matches 46 run place template bastion/treasure/walls/outer/bottom_corner
-execute if score rng1 ris.rng matches 47 run place template bastion/treasure/walls/outer/medium_outer_wall
-execute if score rng1 ris.rng matches 48 run place template bastion/treasure/walls/outer/mid_corner
-execute if score rng1 ris.rng matches 49 run place template bastion/treasure/walls/outer/outer_wall
-execute if score rng1 ris.rng matches 50 run place template bastion/treasure/walls/outer/tall_outer_wall
-execute if score rng1 ris.rng matches 51 run place template bastion/treasure/walls/outer/top_corner
-execute if score rng1 ris.rng matches 52 run place template bastion/treasure/walls/mid/wall_0
-execute if score rng1 ris.rng matches 53 run place template bastion/treasure/walls/mid/wall_1
-execute if score rng1 ris.rng matches 54 run place template bastion/treasure/walls/mid/wall_2
-execute if score rng1 ris.rng matches 55 run place template bastion/treasure/walls/bottom/wall_0
-execute if score rng1 ris.rng matches 56 run place template bastion/treasure/walls/bottom/wall_1
-execute if score rng1 ris.rng matches 57 run place template bastion/treasure/walls/bottom/wall_2
-execute if score rng1 ris.rng matches 58 run place template bastion/treasure/walls/bottom/wall_3
-execute if score rng1 ris.rng matches 59 run place template bastion/treasure/stairs/lower_stairs
-execute if score rng1 ris.rng matches 60 run place template bastion/treasure/roofs/center_roof
-execute if score rng1 ris.rng matches 61 run place template bastion/treasure/roofs/corner_roof
-execute if score rng1 ris.rng matches 62 run place template bastion/treasure/roofs/wall_roof
-execute if score rng1 ris.rng matches 63 run place template bastion/treasure/ramparts/bottom_wall_0
-execute if score rng1 ris.rng matches 64 run place template bastion/treasure/ramparts/lava_basin_main
-execute if score rng1 ris.rng matches 65 run place template bastion/treasure/ramparts/mid_wall_main
-execute if score rng1 ris.rng matches 66 run place template bastion/treasure/ramparts/mid_wall_side
-execute if score rng1 ris.rng matches 67 run place template bastion/treasure/ramparts/top_wall
-execute if score rng1 ris.rng matches 68 run place template bastion/treasure/extensions/fire_room
-execute if score rng1 ris.rng matches 69 run place template bastion/treasure/extensions/house_0
-execute if score rng1 ris.rng matches 70 run place template bastion/treasure/extensions/house_1
-execute if score rng1 ris.rng matches 71 run place template bastion/treasure/extensions/large_bridge_0
-execute if score rng1 ris.rng matches 72 run place template bastion/treasure/extensions/large_bridge_1
-execute if score rng1 ris.rng matches 73 run place template bastion/treasure/extensions/large_bridge_2
-execute if score rng1 ris.rng matches 74 run place template bastion/treasure/extensions/large_bridge_3
-execute if score rng1 ris.rng matches 75 run place template bastion/treasure/extensions/roofed_bridge
-execute if score rng1 ris.rng matches 76 run place template bastion/treasure/extensions/small_bridge_0
-execute if score rng1 ris.rng matches 77 run place template bastion/treasure/extensions/small_bridge_1
-execute if score rng1 ris.rng matches 78 run place template bastion/treasure/extensions/small_bridge_2
-execute if score rng1 ris.rng matches 79 run place template bastion/treasure/extensions/small_bridge_3
-execute if score rng1 ris.rng matches 80 run place template bastion/treasure/entrances/entrance_0
-execute if score rng1 ris.rng matches 81 run place template bastion/treasure/corners/bottom/corner_0
-execute if score rng1 ris.rng matches 82 run place template bastion/treasure/corners/bottom/corner_1
-execute if score rng1 ris.rng matches 83 run place template bastion/treasure/corners/edges/bottom
-execute if score rng1 ris.rng matches 84 run place template bastion/treasure/corners/middle/corner_0
-execute if score rng1 ris.rng matches 85 run place template bastion/treasure/corners/middle/corner_1
-execute if score rng1 ris.rng matches 86 run place template bastion/treasure/corners/top/corner_0
-execute if score rng1 ris.rng matches 87 run place template bastion/treasure/corners/top/corner_1
-execute if score rng1 ris.rng matches 88 run place template bastion/treasure/bases/lava_basin
-execute if score rng1 ris.rng matches 89 run place template bastion/treasure/bases/centers/center_0
-execute if score rng1 ris.rng matches 90 run place template bastion/treasure/bases/centers/center_1
-execute if score rng1 ris.rng matches 91 run place template bastion/treasure/bases/centers/center_2
-execute if score rng1 ris.rng matches 92 run place template bastion/treasure/bases/centers/center_3
-execute if score rng1 ris.rng matches 93 run place template bastion/hoglin_stable/walls/side_wall_0
-execute if score rng1 ris.rng matches 94 run place template bastion/hoglin_stable/walls/side_wall_1
-execute if score rng1 ris.rng matches 95 run place template bastion/hoglin_stable/walls/wall_base
-execute if score rng1 ris.rng matches 96 run place template bastion/hoglin_stable/starting_pieces/stairs_0_mirrored
-execute if score rng1 ris.rng matches 97 run place template bastion/hoglin_stable/starting_pieces/stairs_1_mirrored
-execute if score rng1 ris.rng matches 98 run place template bastion/hoglin_stable/starting_pieces/stairs_2_mirrored
-execute if score rng1 ris.rng matches 99 run place template bastion/hoglin_stable/starting_pieces/stairs_3_mirrored
-execute if score rng1 ris.rng matches 100 run place template bastion/hoglin_stable/starting_pieces/stairs_4_mirrored
-execute if score rng1 ris.rng matches 101 run place template bastion/hoglin_stable/starting_pieces/starting_stairs_0
-execute if score rng1 ris.rng matches 102 run place template bastion/hoglin_stable/starting_pieces/starting_stairs_1
-execute if score rng1 ris.rng matches 103 run place template bastion/hoglin_stable/starting_pieces/starting_stairs_2
-execute if score rng1 ris.rng matches 104 run place template bastion/hoglin_stable/starting_pieces/starting_stairs_3
-execute if score rng1 ris.rng matches 105 run place template bastion/hoglin_stable/starting_pieces/starting_stairs_4
-execute if score rng1 ris.rng matches 106 run place template bastion/hoglin_stable/stairs/stairs_1_0
-execute if score rng1 ris.rng matches 107 run place template bastion/hoglin_stable/stairs/stairs_1_1
-execute if score rng1 ris.rng matches 108 run place template bastion/hoglin_stable/stairs/stairs_1_2
-execute if score rng1 ris.rng matches 109 run place template bastion/hoglin_stable/stairs/stairs_1_3
-execute if score rng1 ris.rng matches 110 run place template bastion/hoglin_stable/stairs/stairs_1_4
-execute if score rng1 ris.rng matches 111 run place template bastion/hoglin_stable/stairs/stairs_2_0
-execute if score rng1 ris.rng matches 112 run place template bastion/hoglin_stable/stairs/stairs_2_1
-execute if score rng1 ris.rng matches 113 run place template bastion/hoglin_stable/stairs/stairs_2_2
-execute if score rng1 ris.rng matches 114 run place template bastion/hoglin_stable/stairs/stairs_2_3
-execute if score rng1 ris.rng matches 115 run place template bastion/hoglin_stable/stairs/stairs_2_4
-execute if score rng1 ris.rng matches 116 run place template bastion/hoglin_stable/stairs/stairs_3_0
-execute if score rng1 ris.rng matches 117 run place template bastion/hoglin_stable/stairs/stairs_3_1
-execute if score rng1 ris.rng matches 118 run place template bastion/hoglin_stable/stairs/stairs_3_2
-execute if score rng1 ris.rng matches 119 run place template bastion/hoglin_stable/stairs/stairs_3_3
-execute if score rng1 ris.rng matches 120 run place template bastion/hoglin_stable/stairs/stairs_3_4
-execute if score rng1 ris.rng matches 121 run place template bastion/hoglin_stable/small_stables/inner_0
-execute if score rng1 ris.rng matches 122 run place template bastion/hoglin_stable/small_stables/inner_1
-execute if score rng1 ris.rng matches 123 run place template bastion/hoglin_stable/small_stables/inner_2
-execute if score rng1 ris.rng matches 124 run place template bastion/hoglin_stable/small_stables/inner_3
-execute if score rng1 ris.rng matches 125 run place template bastion/hoglin_stable/small_stables/outer_0
-execute if score rng1 ris.rng matches 126 run place template bastion/hoglin_stable/small_stables/outer_1
-execute if score rng1 ris.rng matches 127 run place template bastion/hoglin_stable/small_stables/outer_2
-execute if score rng1 ris.rng matches 128 run place template bastion/hoglin_stable/small_stables/outer_3
-execute if score rng1 ris.rng matches 129 run place template bastion/hoglin_stable/ramparts/ramparts_1
-execute if score rng1 ris.rng matches 130 run place template bastion/hoglin_stable/ramparts/ramparts_2
-execute if score rng1 ris.rng matches 131 run place template bastion/hoglin_stable/ramparts/ramparts_3
-execute if score rng1 ris.rng matches 132 run place template bastion/hoglin_stable/rampart_plates/rampart_plate_1
-execute if score rng1 ris.rng matches 133 run place template bastion/hoglin_stable/posts/stair_post
-execute if score rng1 ris.rng matches 134 run place template bastion/hoglin_stable/large_stables/inner_0
-execute if score rng1 ris.rng matches 135 run place template bastion/hoglin_stable/large_stables/inner_1
-execute if score rng1 ris.rng matches 136 run place template bastion/hoglin_stable/large_stables/inner_2
-execute if score rng1 ris.rng matches 137 run place template bastion/hoglin_stable/large_stables/inner_3
-execute if score rng1 ris.rng matches 138 run place template bastion/hoglin_stable/large_stables/inner_4
-execute if score rng1 ris.rng matches 139 run place template bastion/hoglin_stable/large_stables/outer_0
-execute if score rng1 ris.rng matches 140 run place template bastion/hoglin_stable/large_stables/outer_1
-execute if score rng1 ris.rng matches 141 run place template bastion/hoglin_stable/large_stables/outer_2
-execute if score rng1 ris.rng matches 142 run place template bastion/hoglin_stable/large_stables/outer_3
-execute if score rng1 ris.rng matches 143 run place template bastion/hoglin_stable/large_stables/outer_4
+execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "bastion/bridge/bridge_pieces/bridge"
+execute if score rng1 ris.rng matches 1 run data modify storage ris:random structure set value "bastion/bridge/connectors/back_bridge_top"
+execute if score rng1 ris.rng matches 2 run data modify storage ris:random structure set value "bastion/bridge/connectors/back_bridge_bottom"
+execute if score rng1 ris.rng matches 3 run data modify storage ris:random structure set value "bastion/bridge/legs/leg_0"
+execute if score rng1 ris.rng matches 4 run data modify storage ris:random structure set value "bastion/bridge/legs/leg_1"
+execute if score rng1 ris.rng matches 5 run data modify storage ris:random structure set value "bastion/bridge/rampart_plates/plate_0"
+execute if score rng1 ris.rng matches 6 run data modify storage ris:random structure set value "bastion/bridge/ramparts/rampart_0"
+execute if score rng1 ris.rng matches 7 run data modify storage ris:random structure set value "bastion/bridge/ramparts/rampart_1"
+execute if score rng1 ris.rng matches 8 run data modify storage ris:random structure set value "bastion/bridge/starting_pieces/entrance"
+execute if score rng1 ris.rng matches 9 run data modify storage ris:random structure set value "bastion/bridge/starting_pieces/entrance_base"
+execute if score rng1 ris.rng matches 10 run data modify storage ris:random structure set value "bastion/bridge/starting_pieces/entrance_face"
+execute if score rng1 ris.rng matches 11 run data modify storage ris:random structure set value "bastion/bridge/walls/wall_base_0"
+execute if score rng1 ris.rng matches 12 run data modify storage ris:random structure set value "bastion/bridge/walls/wall_base_1"
+execute if score rng1 ris.rng matches 13 run data modify storage ris:random structure set value "bastion/units/walls/connected_wall"
+execute if score rng1 ris.rng matches 14 run data modify storage ris:random structure set value "bastion/units/walls/wall_base"
+execute if score rng1 ris.rng matches 15 run data modify storage ris:random structure set value "bastion/units/wall_units/edge_0_large"
+execute if score rng1 ris.rng matches 16 run data modify storage ris:random structure set value "bastion/units/wall_units/unit_0"
+execute if score rng1 ris.rng matches 17 run data modify storage ris:random structure set value "bastion/units/stages/rot/stage_1_0"
+execute if score rng1 ris.rng matches 18 run data modify storage ris:random structure set value "bastion/units/stages/stage_0_0"
+execute if score rng1 ris.rng matches 19 run data modify storage ris:random structure set value "bastion/units/stages/stage_0_1"
+execute if score rng1 ris.rng matches 20 run data modify storage ris:random structure set value "bastion/units/stages/stage_0_2"
+execute if score rng1 ris.rng matches 21 run data modify storage ris:random structure set value "bastion/units/stages/stage_0_3"
+execute if score rng1 ris.rng matches 22 run data modify storage ris:random structure set value "bastion/units/stages/stage_1_0"
+execute if score rng1 ris.rng matches 23 run data modify storage ris:random structure set value "bastion/units/stages/stage_1_1"
+execute if score rng1 ris.rng matches 24 run data modify storage ris:random structure set value "bastion/units/stages/stage_1_2"
+execute if score rng1 ris.rng matches 25 run data modify storage ris:random structure set value "bastion/units/stages/stage_1_3"
+execute if score rng1 ris.rng matches 26 run data modify storage ris:random structure set value "bastion/units/stages/stage_2_0"
+execute if score rng1 ris.rng matches 27 run data modify storage ris:random structure set value "bastion/units/stages/stage_2_1"
+execute if score rng1 ris.rng matches 28 run data modify storage ris:random structure set value "bastion/units/stages/stage_3_0"
+execute if score rng1 ris.rng matches 29 run data modify storage ris:random structure set value "bastion/units/stages/stage_3_1"
+execute if score rng1 ris.rng matches 30 run data modify storage ris:random structure set value "bastion/units/stages/stage_3_2"
+execute if score rng1 ris.rng matches 31 run data modify storage ris:random structure set value "bastion/units/stages/stage_3_3"
+execute if score rng1 ris.rng matches 32 run data modify storage ris:random structure set value "bastion/units/ramparts/ramparts_0"
+execute if score rng1 ris.rng matches 33 run data modify storage ris:random structure set value "bastion/units/ramparts/ramparts_1"
+execute if score rng1 ris.rng matches 34 run data modify storage ris:random structure set value "bastion/units/ramparts/ramparts_2"
+execute if score rng1 ris.rng matches 35 run data modify storage ris:random structure set value "bastion/units/rampart_plates/plate_0"
+execute if score rng1 ris.rng matches 36 run data modify storage ris:random structure set value "bastion/units/fillers/stage_0"
+execute if score rng1 ris.rng matches 37 run data modify storage ris:random structure set value "bastion/units/edges/edge_0"
+execute if score rng1 ris.rng matches 38 run data modify storage ris:random structure set value "bastion/units/center_pieces/center_0"
+execute if score rng1 ris.rng matches 39 run data modify storage ris:random structure set value "bastion/units/center_pieces/center_1"
+execute if score rng1 ris.rng matches 40 run data modify storage ris:random structure set value "bastion/units/center_pieces/center_2"
+execute if score rng1 ris.rng matches 41 run data modify storage ris:random structure set value "bastion/treasure/walls/entrance_wall"
+execute if score rng1 ris.rng matches 42 run data modify storage ris:random structure set value "bastion/treasure/walls/lava_wall"
+execute if score rng1 ris.rng matches 43 run data modify storage ris:random structure set value "bastion/treasure/walls/top/main_entrance"
+execute if score rng1 ris.rng matches 44 run data modify storage ris:random structure set value "bastion/treasure/walls/top/wall_0"
+execute if score rng1 ris.rng matches 45 run data modify storage ris:random structure set value "bastion/treasure/walls/top/wall_1"
+execute if score rng1 ris.rng matches 46 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/bottom_corner"
+execute if score rng1 ris.rng matches 47 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/medium_outer_wall"
+execute if score rng1 ris.rng matches 48 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/mid_corner"
+execute if score rng1 ris.rng matches 49 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/outer_wall"
+execute if score rng1 ris.rng matches 50 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/tall_outer_wall"
+execute if score rng1 ris.rng matches 51 run data modify storage ris:random structure set value "bastion/treasure/walls/outer/top_corner"
+execute if score rng1 ris.rng matches 52 run data modify storage ris:random structure set value "bastion/treasure/walls/mid/wall_0"
+execute if score rng1 ris.rng matches 53 run data modify storage ris:random structure set value "bastion/treasure/walls/mid/wall_1"
+execute if score rng1 ris.rng matches 54 run data modify storage ris:random structure set value "bastion/treasure/walls/mid/wall_2"
+execute if score rng1 ris.rng matches 55 run data modify storage ris:random structure set value "bastion/treasure/walls/bottom/wall_0"
+execute if score rng1 ris.rng matches 56 run data modify storage ris:random structure set value "bastion/treasure/walls/bottom/wall_1"
+execute if score rng1 ris.rng matches 57 run data modify storage ris:random structure set value "bastion/treasure/walls/bottom/wall_2"
+execute if score rng1 ris.rng matches 58 run data modify storage ris:random structure set value "bastion/treasure/walls/bottom/wall_3"
+execute if score rng1 ris.rng matches 59 run data modify storage ris:random structure set value "bastion/treasure/stairs/lower_stairs"
+execute if score rng1 ris.rng matches 60 run data modify storage ris:random structure set value "bastion/treasure/roofs/center_roof"
+execute if score rng1 ris.rng matches 61 run data modify storage ris:random structure set value "bastion/treasure/roofs/corner_roof"
+execute if score rng1 ris.rng matches 62 run data modify storage ris:random structure set value "bastion/treasure/roofs/wall_roof"
+execute if score rng1 ris.rng matches 63 run data modify storage ris:random structure set value "bastion/treasure/ramparts/bottom_wall_0"
+execute if score rng1 ris.rng matches 64 run data modify storage ris:random structure set value "bastion/treasure/ramparts/lava_basin_main"
+execute if score rng1 ris.rng matches 65 run data modify storage ris:random structure set value "bastion/treasure/ramparts/mid_wall_main"
+execute if score rng1 ris.rng matches 66 run data modify storage ris:random structure set value "bastion/treasure/ramparts/mid_wall_side"
+execute if score rng1 ris.rng matches 67 run data modify storage ris:random structure set value "bastion/treasure/ramparts/top_wall"
+execute if score rng1 ris.rng matches 68 run data modify storage ris:random structure set value "bastion/treasure/extensions/fire_room"
+execute if score rng1 ris.rng matches 69 run data modify storage ris:random structure set value "bastion/treasure/extensions/house_0"
+execute if score rng1 ris.rng matches 70 run data modify storage ris:random structure set value "bastion/treasure/extensions/house_1"
+execute if score rng1 ris.rng matches 71 run data modify storage ris:random structure set value "bastion/treasure/extensions/large_bridge_0"
+execute if score rng1 ris.rng matches 72 run data modify storage ris:random structure set value "bastion/treasure/extensions/large_bridge_1"
+execute if score rng1 ris.rng matches 73 run data modify storage ris:random structure set value "bastion/treasure/extensions/large_bridge_2"
+execute if score rng1 ris.rng matches 74 run data modify storage ris:random structure set value "bastion/treasure/extensions/large_bridge_3"
+execute if score rng1 ris.rng matches 75 run data modify storage ris:random structure set value "bastion/treasure/extensions/roofed_bridge"
+execute if score rng1 ris.rng matches 76 run data modify storage ris:random structure set value "bastion/treasure/extensions/small_bridge_0"
+execute if score rng1 ris.rng matches 77 run data modify storage ris:random structure set value "bastion/treasure/extensions/small_bridge_1"
+execute if score rng1 ris.rng matches 78 run data modify storage ris:random structure set value "bastion/treasure/extensions/small_bridge_2"
+execute if score rng1 ris.rng matches 79 run data modify storage ris:random structure set value "bastion/treasure/extensions/small_bridge_3"
+execute if score rng1 ris.rng matches 80 run data modify storage ris:random structure set value "bastion/treasure/entrances/entrance_0"
+execute if score rng1 ris.rng matches 81 run data modify storage ris:random structure set value "bastion/treasure/corners/bottom/corner_0"
+execute if score rng1 ris.rng matches 82 run data modify storage ris:random structure set value "bastion/treasure/corners/bottom/corner_1"
+execute if score rng1 ris.rng matches 83 run data modify storage ris:random structure set value "bastion/treasure/corners/edges/bottom"
+execute if score rng1 ris.rng matches 84 run data modify storage ris:random structure set value "bastion/treasure/corners/middle/corner_0"
+execute if score rng1 ris.rng matches 85 run data modify storage ris:random structure set value "bastion/treasure/corners/middle/corner_1"
+execute if score rng1 ris.rng matches 86 run data modify storage ris:random structure set value "bastion/treasure/corners/top/corner_0"
+execute if score rng1 ris.rng matches 87 run data modify storage ris:random structure set value "bastion/treasure/corners/top/corner_1"
+execute if score rng1 ris.rng matches 88 run data modify storage ris:random structure set value "bastion/treasure/bases/lava_basin"
+execute if score rng1 ris.rng matches 89 run data modify storage ris:random structure set value "bastion/treasure/bases/centers/center_0"
+execute if score rng1 ris.rng matches 90 run data modify storage ris:random structure set value "bastion/treasure/bases/centers/center_1"
+execute if score rng1 ris.rng matches 91 run data modify storage ris:random structure set value "bastion/treasure/bases/centers/center_2"
+execute if score rng1 ris.rng matches 92 run data modify storage ris:random structure set value "bastion/treasure/bases/centers/center_3"
+execute if score rng1 ris.rng matches 93 run data modify storage ris:random structure set value "bastion/hoglin_stable/walls/side_wall_0"
+execute if score rng1 ris.rng matches 94 run data modify storage ris:random structure set value "bastion/hoglin_stable/walls/side_wall_1"
+execute if score rng1 ris.rng matches 95 run data modify storage ris:random structure set value "bastion/hoglin_stable/walls/wall_base"
+execute if score rng1 ris.rng matches 96 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/stairs_0_mirrored"
+execute if score rng1 ris.rng matches 97 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/stairs_1_mirrored"
+execute if score rng1 ris.rng matches 98 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/stairs_2_mirrored"
+execute if score rng1 ris.rng matches 99 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/stairs_3_mirrored"
+execute if score rng1 ris.rng matches 100 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/stairs_4_mirrored"
+execute if score rng1 ris.rng matches 101 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/starting_stairs_0"
+execute if score rng1 ris.rng matches 102 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/starting_stairs_1"
+execute if score rng1 ris.rng matches 103 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/starting_stairs_2"
+execute if score rng1 ris.rng matches 104 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/starting_stairs_3"
+execute if score rng1 ris.rng matches 105 run data modify storage ris:random structure set value "bastion/hoglin_stable/starting_pieces/starting_stairs_4"
+execute if score rng1 ris.rng matches 106 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_1_0"
+execute if score rng1 ris.rng matches 107 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_1_1"
+execute if score rng1 ris.rng matches 108 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_1_2"
+execute if score rng1 ris.rng matches 109 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_1_3"
+execute if score rng1 ris.rng matches 110 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_1_4"
+execute if score rng1 ris.rng matches 111 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_2_0"
+execute if score rng1 ris.rng matches 112 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_2_1"
+execute if score rng1 ris.rng matches 113 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_2_2"
+execute if score rng1 ris.rng matches 114 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_2_3"
+execute if score rng1 ris.rng matches 115 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_2_4"
+execute if score rng1 ris.rng matches 116 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_3_0"
+execute if score rng1 ris.rng matches 117 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_3_1"
+execute if score rng1 ris.rng matches 118 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_3_2"
+execute if score rng1 ris.rng matches 119 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_3_3"
+execute if score rng1 ris.rng matches 120 run data modify storage ris:random structure set value "bastion/hoglin_stable/stairs/stairs_3_4"
+execute if score rng1 ris.rng matches 121 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/inner_0"
+execute if score rng1 ris.rng matches 122 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/inner_1"
+execute if score rng1 ris.rng matches 123 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/inner_2"
+execute if score rng1 ris.rng matches 124 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/inner_3"
+execute if score rng1 ris.rng matches 125 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/outer_0"
+execute if score rng1 ris.rng matches 126 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/outer_1"
+execute if score rng1 ris.rng matches 127 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/outer_2"
+execute if score rng1 ris.rng matches 128 run data modify storage ris:random structure set value "bastion/hoglin_stable/small_stables/outer_3"
+execute if score rng1 ris.rng matches 129 run data modify storage ris:random structure set value "bastion/hoglin_stable/ramparts/ramparts_1"
+execute if score rng1 ris.rng matches 130 run data modify storage ris:random structure set value "bastion/hoglin_stable/ramparts/ramparts_2"
+execute if score rng1 ris.rng matches 131 run data modify storage ris:random structure set value "bastion/hoglin_stable/ramparts/ramparts_3"
+execute if score rng1 ris.rng matches 132 run data modify storage ris:random structure set value "bastion/hoglin_stable/rampart_plates/rampart_plate_1"
+execute if score rng1 ris.rng matches 133 run data modify storage ris:random structure set value "bastion/hoglin_stable/posts/stair_post"
+execute if score rng1 ris.rng matches 134 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/inner_0"
+execute if score rng1 ris.rng matches 135 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/inner_1"
+execute if score rng1 ris.rng matches 136 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/inner_2"
+execute if score rng1 ris.rng matches 137 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/inner_3"
+execute if score rng1 ris.rng matches 138 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/inner_4"
+execute if score rng1 ris.rng matches 139 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/outer_0"
+execute if score rng1 ris.rng matches 140 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/outer_1"
+execute if score rng1 ris.rng matches 141 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/outer_2"
+execute if score rng1 ris.rng matches 142 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/outer_3"
+execute if score rng1 ris.rng matches 143 run data modify storage ris:random structure set value "bastion/hoglin_stable/large_stables/outer_4"

@@ -1,10 +1,10 @@
-execute store result score rng ris.rng run random value 0..128
+execute unless entity @s[tag=ris.feature_generator] store result score rng ris.rng run random value 0..137
 
 execute if score rng ris.rng matches 0 store success score #success ris.rng run place feature acacia
 execute if score rng ris.rng matches 1 store success score #success ris.rng run place feature azalea_tree
 execute if score rng ris.rng matches 2 store success score #success ris.rng run place feature birch
 execute if score rng ris.rng matches 3 store success score #success ris.rng run place feature ris:birch_bees
-execute if score rng ris.rng matches 4 store success score #success ris.rng run place feature cave_vine
+execute if score rng ris.rng matches 4 store success score #success ris.rng run place feature cave_vine ~ ~-1 ~
 execute if score rng ris.rng matches 5 store success score #success ris.rng run place feature dark_oak
 execute if score rng ris.rng matches 6 store success score #success ris.rng run place feature end_gateway_delayed
 execute if score rng ris.rng matches 7 store success score #success ris.rng run place feature end_gateway_return
@@ -127,6 +127,7 @@ execute if score rng ris.rng matches 64 store success score #success ris.rng run
 execute if score rng ris.rng matches 64 if score #success ris.rng matches 1 run place feature iceberg_blue
 execute if score rng ris.rng matches 65 store success score #success ris.rng run place feature iceberg_packed
 execute if score rng ris.rng matches 65 if score #success ris.rng matches 1 run place feature iceberg_packed
+execute if score rng ris.rng matches 64..65 if score #success ris.rng matches 1 run particle snowflake ~ ~ ~ 0.2 0.2 0.2 0 12
 
 execute if score rng ris.rng matches 66 run fill ~-3 ~-1 ~-3 ~3 ~1 ~3 dirt replace #ris:jigsaw_replaceable
 execute if score rng ris.rng matches 66 store success score #success ris.rng run place feature ice_patch
@@ -251,7 +252,7 @@ execute if score rng ris.rng matches 108 if score #success ris.rng matches 1 run
 
 execute if score rng ris.rng matches 109..111 run fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 netherrack replace #ris:jigsaw_replaceable
 execute if score rng ris.rng matches 109 store success score #success ris.rng run place feature patch_fire
-execute if score rng ris.rng matches 108 store success score #success ris.rng run place feature twisting_vines
+execute if score rng ris.rng matches 110 store success score #success ris.rng run place feature twisting_vines
 execute if score rng ris.rng matches 111 store success score #success ris.rng run place feature weeping_vines ~ ~-2 ~
 execute if score rng ris.rng matches 109..111 if score #success ris.rng matches 0 run fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 air replace netherrack
 
@@ -345,15 +346,26 @@ execute if score rng ris.rng matches 131 if score #success ris.rng matches 0 run
 
 execute if score rng ris.rng matches 132 store success score #success ris.rng run place feature end_platform
 
+# could technically integrate those more cleanly in above but really dont feel like adjusting all the numbers thereafter
+execute if score rng ris.rng matches 133 run fill ~-4 ~-1 ~-4 ~4 ~-1 ~4 grass_block replace #ris:jigsaw_replaceable
+execute if score rng ris.rng matches 133 store success score #success ris.rng run place feature pale_forest_flowers
+execute if score rng ris.rng matches 134..137 run fill ~-7 ~-1 ~-7 ~7 ~-1 ~7 stone replace #ris:jigsaw_replaceable
+execute if score rng ris.rng matches 134 store success score #success ris.rng run place feature pale_moss_patch
+execute if score rng ris.rng matches 135 store success score #success ris.rng run place feature pale_moss_patch_bonemeal
+execute if score rng ris.rng matches 136 store success score #success ris.rng run place feature pale_oak
+execute if score rng ris.rng matches 137 store success score #success ris.rng run place feature pale_oak_creaking
+execute if score rng ris.rng matches 134..137 run fill ~-7 ~-1 ~-7 ~7 ~-1 ~7 air replace stone
+
+
+execute if entity @s[tag=ris.feature_generator] run return 1
 
 execute if score #success ris.rng matches 1 run playsound block.pointed_dripstone.land block @a ~ ~ ~ 2
 execute if score #success ris.rng matches 1 run kill @s[type=item]
 
-execute if score #success ris.rng matches 1 on origin run advancement grant @s only ris:pieces_of_a_whole jigsaw
+execute if score #success ris.rng matches 1 on origin run advancement grant @s only ris:special/customized/pieces_of_a_whole jigsaw
 
 execute if score #success ris.rng matches 0 run playsound block.fire.extinguish block @a ~ ~ ~ 1
 execute if score #success ris.rng matches 0 run particle smoke ~ ~0.25 ~ 0.1 0.1 0.1 0 15
-
 
 
 
@@ -391,6 +403,9 @@ execute if score #success ris.rng matches 0 run particle smoke ~ ~0.25 ~ 0.1 0.1
 #ore_gravel_nether
 #ore_gold_buried
 #ore_lapis_buried
+#pale_garden_vegetation
+#pale_moss_vegetation
+#pale_oak_bonemeal
 #patch_crimson_roots
 #patch_grass_jungle
 #pointed_dripstone
@@ -402,7 +417,6 @@ execute if score #success ris.rng matches 0 run particle smoke ~ ~0.25 ~ 0.1 0.1
 #sculk_vein
 #seagrass_mid
 #seagrass_short
-#seagrass_simple
 #seagrass_slightly_less_short
 #seagrass_tall
 #spring_lava_frozen

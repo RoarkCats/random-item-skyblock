@@ -1,0 +1,6 @@
+{
+    "sound_event": "minecraft:music.nether.soul_sand_valley",
+    "description": "Music - Nether: Soul Sand Valley",
+    "length_in_seconds": 900,
+    "comparator_output": 1
+}

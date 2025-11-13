@@ -1,0 +1,30 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/debug"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/jigsaw"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/structure"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/command"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/chain"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge/repeat"
+    }
+]

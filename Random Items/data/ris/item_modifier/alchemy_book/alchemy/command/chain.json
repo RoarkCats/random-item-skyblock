@@ -1,0 +1,62 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Command × Chain","underlined":true,"bold":true},
+                {"text":" 🎲","color":"dark_gray","shadow_color":[0.7,0.7,1.0,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Compatible with [Gambling SFX]","italic":true,"color":"blue"}},"clickEvent":{"action":"open_url","value":"https://TODO.Gambling_SFX_Link"}},
+                "\n\n",
+                "   Combining the essence of abundance with duplication unlocks the limits of stack size multiplication. An item thrown into the pale green mist is multiplied, max stack size and all, from 0-99 randomly. Any equivalent items with differing max stack sizes can be combined through transmutation in a Cauldron. Shares config restrictions."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "command/chain"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "command/chain": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Command × Chain\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "command/chain"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

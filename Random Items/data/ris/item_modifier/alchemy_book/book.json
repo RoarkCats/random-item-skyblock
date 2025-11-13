@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/cover"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/triggers"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/void_totems"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special_items"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy_items"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/credits"
+    }
+]

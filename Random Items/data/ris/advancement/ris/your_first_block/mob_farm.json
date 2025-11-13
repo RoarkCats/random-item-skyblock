@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:trial_spawner"
+        },
+        "title": "Mob Farm",
+        "description": "Use a Spawn Egg on a Spawner to change what it spawns",
+        "frame": "goal"
+    },
+    "parent": "ris:ris/your_first_block/mob_spawner",
+    "criteria": {
+        "spawn_egg": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#ris:spawn_eggs"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:spawner",
+                                    "minecraft:trial_spawner"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

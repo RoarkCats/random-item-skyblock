@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_bundle",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Item Vomit",
+        "description": "Empty a bundle containing 64 unique items",
+        "frame": "goal"
+    },
+    "parent": "ris:ris/storage_solution/bundling_up/unbundled",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

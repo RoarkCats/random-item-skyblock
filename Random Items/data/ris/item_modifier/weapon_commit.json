@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"id": "minecraft:base_attack_damage",
+				"attribute": "minecraft:attack_damage",
+				"amount": {
+					"type": "storage",
+					"storage": "ris:generator",
+					"path": "components[{id:tool_sword}].attack_damage"
+				},
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"id": "minecraft:base_attack_speed",
+				"attribute": "minecraft:attack_speed",
+				"amount": {
+					"type": "storage",
+					"storage": "ris:generator",
+					"path": "components[{id:tool_sword}].attack_speed"
+				},
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+        "replace": false
+	}
+]

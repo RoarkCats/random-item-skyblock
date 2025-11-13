@@ -1,0 +1,163 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:fire_resistance",
+									"duration": 3
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:blindness",
+									"duration": 11
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:saturation",
+									"duration": 0.35
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:nausea",
+									"duration": 7
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:jump_boost",
+									"duration": 5
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:poison",
+									"duration": 11
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:regeneration",
+									"duration": 7
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:night_vision",
+									"duration": 5
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:weakness",
+									"duration": 7
+								}
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:wither",
+									"duration": 7
+								}
+							]
+						}
+                    ]
+                }
+            ]
+        }
+    ]
+}

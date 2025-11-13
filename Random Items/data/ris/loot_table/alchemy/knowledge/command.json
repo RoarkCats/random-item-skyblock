@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"item_name": "\"Stack Book\"",
+								"lore": ["{\"text\":\"Spawns a Stack Trader\",\"color\":\"gray\",\"italic\":false}"],
+								"max_stack_size": 16
+							}
+						}
+					]
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "enchantment_glint_override": true,
+                        "custom_data": "{ris:{custom_item:1b,transmuted:1b,function:\"knowledge/command\"}}",
+						"recipes": ["ris:knowledge_book/command"]
+                    }
+                }
+            ]
+		}
+	]
+}

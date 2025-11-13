@@ -1,0 +1,15 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": "Stack Overflow",
+		"description": "Pickup an illegally stacked unstackable item"
+	},
+	"parent": "ris:special/customized/commander",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

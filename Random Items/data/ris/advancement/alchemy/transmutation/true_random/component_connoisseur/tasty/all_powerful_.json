@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block"
+        },
+        "title": "All Powerful…?",
+        "description": "Consume a component Special Item",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/tasty",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "#ris:custom_items",
+                    "predicates": {
+                        "custom_data": "{ris:{components:[{}]}}"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/chain"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/repeat"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/chain_repeat"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/chain_minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command/repeat_minecart"
+    }
+]

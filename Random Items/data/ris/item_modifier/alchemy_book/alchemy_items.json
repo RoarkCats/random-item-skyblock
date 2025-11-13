@@ -1,0 +1,75 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Alchemy\n\n","underlined":true,"bold":true},
+                "   This realm seems to contain a mystical power accessible only through the proccess of Alchemy, imbuing the iron Cauldron with Water and certain items. Through this process mortals are able to combine two Special Items into a new Alchemy Item. This proccess also seems to enhance knowledge in the form of Tattered Written Books. "
+            ],
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Alchemy Items\n\n","underlined":true,"bold":true},
+                "   Formed by a combination of Special Items, these unstable items invoke the intertwined powers of these lands. The 8 Special Items would suggest the existance of 36 unique combinations to be discovered and written about in this Compendium. Enhanced by mortals, they may be dropped and consumed in return for their empowered blessings."
+            ]
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"\n","font":"uniform"},
+                "        ",{"text":"Alchemy Items\n"},
+                "       ",{"text":"Swift Reference\n","underlined":true},
+                "         (Clickable)\n\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Double Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Double Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"19"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Sherd Augmentation]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Sherd Augmentation","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"22"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Command Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Command Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"29"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Structure Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Structure Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"35"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Jigsaw Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Jigsaw Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"39"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Debug Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Debug Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"44"}},
+                {"text":"  ♓ ","bold":true},{"text":"[Knowledge Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Knowledge Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"50"}}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": true
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/double"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/command"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/structure"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/jigsaw"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/debug"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/alchemy/knowledge"
+    }
+]

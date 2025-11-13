@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:turtle_helmet"
+        },
+        "title": "Hat Fashion",
+        "description": "Equip a visible head component item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur/honey_where_are_my_leggings",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "armor.head": {
+                            "predicates": {
+                                "custom_data": "{ris:{components:[ {id:\"equippable\",hat:1b} ]}}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

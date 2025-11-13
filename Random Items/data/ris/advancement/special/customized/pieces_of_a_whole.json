@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:structure_block"
+        },
+        "title": "Pieces of a Whole",
+        "description": "Use all world generation Special Items",
+        "frame": "goal"
+    },
+    "parent": "ris:special/customized",
+    "criteria": {
+        "structure_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "jigsaw": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

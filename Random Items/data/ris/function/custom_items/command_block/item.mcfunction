@@ -1,10 +1,8 @@
-loot replace entity @s contents loot ris:random_item
+execute unless score cmd_special_items ris.settings matches 0 run loot replace entity @s contents loot ris:random_item
+execute if score cmd_special_items ris.settings matches 0 run loot replace entity @s contents loot ris:random_item_trader
 tag @s remove ris.blank_item
-
-execute if entity @s[nbt={Item:{id:"minecraft:bundle"}}] run return 0
 
 data merge entity @s {Item:{count:64}}
 
-execute unless data entity @s Item.components."minecraft:custom_data".custom_item run return 1
-execute if score op_cmd ris.settings matches 0 run data merge entity @s {Item:{count:8}}
-execute if score op_cmd ris.settings matches 1 run data merge entity @s {Item:{count:32}}
+execute unless items entity @s contents *[custom_data~{ris:{custom_item:1b}}] run return 1
+execute if score cmd_special_items ris.settings matches 0..63 store result entity @s Item.count int 1 run scoreboard players get cmd_special_items ris.settings

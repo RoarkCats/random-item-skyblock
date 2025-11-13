@@ -1,0 +1,2 @@
+advancement grant @s only ris:alchemy/transmutation/sherd_augmentation not_generic_generator_confirmation
+advancement grant @s only ris:alchemy/transmutation/full_focus not_generic_generator_confirmation

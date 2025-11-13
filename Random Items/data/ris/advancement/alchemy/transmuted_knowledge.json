@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book",
+			"components": {
+				"written_book_content": {
+					"generation": 3,
+					"title": "",
+					"author": ""
+				}
+			}
+        },
+        "title": "Transmuted Knowledge",
+        "description": "Transmute the Compendium Alchimiae",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/mysterious_chapters",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:written_book",
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,compendium:1b}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

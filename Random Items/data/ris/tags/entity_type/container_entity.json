@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:chest_boat",
+        "#ris:chest_boat",
         "minecraft:chest_minecart"
     ]
 }

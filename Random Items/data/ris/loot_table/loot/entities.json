@@ -1,0 +1,211 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/bogged"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/cat"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/cave_spider"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/chicken"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/cod"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/cow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/creeper"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/dolphin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/donkey"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/drowned"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/elder_guardian"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/enderman"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/evoker"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/ghast"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/glow_squid"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/guardian"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/hoglin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/horse"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/husk"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/iron_golem"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/llama"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/mooshroom"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/mule"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/panda"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/parrot"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/pig"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/polar_bear"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/pufferfish"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/rabbit"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/ravager"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/salmon"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/shulker"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/skeleton"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/skeleton_horse"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/snow_golem"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/spider"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/squid"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/stray"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/strider"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/trader_llama"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/tropical_fish"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/warden"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/witch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/wither_skeleton"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/zoglin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/zombie"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/zombie_horse"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/zombie_villager"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/zombified_piglin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:loot/sheep",
+                    "weight": 8
+                }
+            ]
+        }
+    ],
+    "comment": "loot/sheep actually have 17 (+16 shearing) entries, not 5 (+3)"
+}

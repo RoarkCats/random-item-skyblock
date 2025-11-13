@@ -1,0 +1,124 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:bedrock",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:bedrock"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:barrier",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:barrier"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:custom_items/special/command_block",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:command_block"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:custom_items/special/repeating_command_block",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:repeating_command_block"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:custom_items/special/chain_command_block",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:chain_command_block"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:end_portal_frame",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:end_portal_frame"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:custom_items/special/structure_block",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:structure_block"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "ris:custom_items/special/jigsaw",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:jigsaw"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:reinforced_deepslate",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:reinforced_deepslate"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:trial_spawner",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:trial_spawner"}}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:vault",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {"block": {"blocks": "minecraft:vault"}}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

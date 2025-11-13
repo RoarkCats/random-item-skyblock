@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:gunpowder"
+        },
+        "title": "Clean Slate",
+        "description": "Inverse vein mine 64 unique blocks",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/controlled_demolition",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -18,6 +18,14 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "ris:potions/lingering_potion"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/suspicious_stew"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/ominous_bottle"
                 }
             ]
         }

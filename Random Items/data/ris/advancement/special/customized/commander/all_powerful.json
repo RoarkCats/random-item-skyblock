@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "All Powerful",
+        "description": "Hold a full stack of Special Items",
+        "frame": "challenge"
+    },
+    "parent": "ris:special/customized/commander/item_factory",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:command_block",
+                            "minecraft:chain_command_block",
+                            "minecraft:repeating_command_block",
+                            "minecraft:structure_block",
+                            "minecraft:jigsaw",
+                            "minecraft:command_block_minecart",
+                            "minecraft:debug_stick",
+                            "minecraft:knowledge_book"
+                        ],
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wild_armor_trim_smithing_template"
+        },
+        "title": "Loot Loot!",
+        "description": "Transmute a loot \nAlchemy Item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation",
+    "criteria": {
+        "double/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/chain_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/chain_minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "command/repeat_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'command/repeat_minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "debug/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/minecart'}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double/minecart",
+            "command/minecart",
+            "command/chain_minecart",
+            "command/repeat_minecart",
+            "debug/minecart",
+            "knowledge/minecart"
+        ]
+    ]
+}

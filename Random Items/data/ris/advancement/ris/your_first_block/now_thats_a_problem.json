@@ -1,0 +1,67 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Now that's a problem...",
+        "description": "Place all the unbreakable blocks",
+        "frame": "goal"
+    },
+    "parent": "ris:ris/your_first_block/well_theres_your_problem",
+    "criteria": {
+        "barrier": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:barrier"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "bedrock": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:bedrock"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "end_portal_frame": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:end_portal_frame"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_axe",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "One Hit Man",
+        "description": "Deal 200 damage with the attack damage attribute",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist/decimated",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 200
+                    },
+                    "type": {
+                        "is_direct": true
+                    }
+                },
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"armor.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"attack_damage\"} ]}}"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {
+										"weapon.*": {
+											"predicates": {
+                                                "custom_data": "{ris:{components:[ {id:\"attack_damage\"} ]}}"
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+            }
+        }
+    }
+}

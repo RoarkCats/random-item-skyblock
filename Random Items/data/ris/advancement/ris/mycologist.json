@@ -1,0 +1,65 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crimson_fungus"
+        },
+        "title": "Mycologist",
+        "description": "Grow all Huge Mushroom types",
+        "frame": "challenge"
+    },
+    "parent": "ris:ris/finally_wood",
+    "criteria": {
+        "brown_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+        "red_mushroom": {
+            "trigger": "minecraft:impossible"
+        },
+        "crimson_fungus": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:crimson_stem"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "warped_fungus": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:warped_stem"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Essences\n\n","underlined":true,"bold":true},
+                " Combine any two essences,\n double essences included.\n\n",
+                {"text":" Command Block","shadow_color":[0,0,0,0.5]},": Abundance\n",
+                {"text":" Chain","shadow_color":[0,0,0,0.5]},": Duplication\n",
+                {"text":" Repeating","shadow_color":[0,0,0,0.5]},": Production\n",
+                {"text":" Minecart","shadow_color":[0,0,0,0.5]},": Treasure\n",
+                {"text":" Structure","shadow_color":[0,0,0,0.5]},": Construction\n",
+                {"text":" Jigsaw","shadow_color":[0,0,0,0.5]},": Decoration\n",
+                {"text":" Debug Stick","shadow_color":[0,0,0,0.5]},": Destruction\n",
+                {"text":" Knowledge Book","shadow_color":[0,0,0,0.5]},": Equivalence"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Structure × Chain","underlined":true,"bold":true},
+                {"text":" [🔁]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Clone Copy","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"42"}},
+                "\n\n",
+                "   Combining the essence of construction with duplication invokes the creation powers of a Clone Schematic. Consumes a nearby Clone Schematic to clone the stored region's state into the positive xyz directions. Must be used outside the stored region. Will not clone air, special blocks, or container contents."
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "structure/chain"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 1
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": {
+                                "structure/chain": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Structure × Chain\n\n","underlined":true,"bold":true},
+                {"text":" <This feature is disabled>","italic":true}
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {"type": "minecraft:fixed","name": "structure/chain"},
+                    "score": "ris.alchemy_item_settings"
+                },
+                "range": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stone_bricks"
+        },
+        "title": "Beginnings of a Base",
+        "description": "Place 400 blocks",
+        "frame": "goal"
+    },
+    "parent": "ris:ris/your_first_block/a_messy_platform",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

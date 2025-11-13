@@ -10,8 +10,8 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "ris:custom_items/special",
-                    "weight": 6
+                    "value": "ris:custom_items/other",
+                    "weight": 16
                 }
             ]
         }

@@ -1,0 +1,1 @@
+$place template $(structure) ~ ~1 ~ none none $(integrity)

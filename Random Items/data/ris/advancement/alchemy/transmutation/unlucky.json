@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:disc_fragment_5"
+        },
+        "title": "Unlucky",
+        "description": "Get less than a stack of items from a Super Command Block",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/double_down",
+    "criteria": {
+        "requirement" : {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

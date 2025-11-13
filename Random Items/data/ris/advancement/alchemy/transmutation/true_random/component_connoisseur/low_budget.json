@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tuff"
+        },
+        "title": "Low Budget",
+        "description": "Mine a block with a block",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/true_random/component_connoisseur",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": "#ris:blocks",
+                    "predicates": {
+                        "custom_data": "{ris:{components:[ {has_durability:1b} ]}}"
+                    }
+                }
+            }
+        }
+    }
+}

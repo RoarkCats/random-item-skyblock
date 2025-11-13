@@ -1,0 +1,103 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/special/player_head/roarkcats"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/special/player_head/ziplaw"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/special/player_head/phoenixsc"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/written_book"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:potions/all",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:goat_horn",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_instrument",
+                            "options": "#minecraft:goat_horns"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_horse_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {"entity_data":{"id":"minecraft:skeleton_horse","Tame":true}}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:zombie_horse_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {"entity_data":{"id":"minecraft:zombie_horse","Tame":true}}
+                        }
+                    ]
+                },
+                {
+                    "comment": "stupid ass bug makes it not work if tag or group is directly used",
+                    "type": "loot_table",
+                    "weight": 2,
+                    "value": {
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "tag",
+                                        "name": "ris:suspicious_blocks",
+                                        "expand": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:block_entity_data": {
+                                    "id": "minecraft:brushable_block",
+                                    "LootTable": "ris:loot_box"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

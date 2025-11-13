@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:bucket",
+        "minecraft:glass_bottle",
+        "minecraft:lava_bucket",
+        "minecraft:powder_snow_bucket",
+        "minecraft:potion",
+        "minecraft:water_bucket"
+    ]
+}

@@ -1,60 +1,60 @@
 #57 included, outer weight of 41
 execute store result score rng1 ris.rng run random value 0..56
 
-execute if score rng1 ris.rng matches 0 run place template ancient_city/city/entrance/entrance_connector
-execute if score rng1 ris.rng matches 1 run place template ancient_city/city/entrance/entrance_path_1
-execute if score rng1 ris.rng matches 2 run place template ancient_city/city/entrance/entrance_path_2
-execute if score rng1 ris.rng matches 3 run place template ancient_city/city/entrance/entrance_path_4
-execute if score rng1 ris.rng matches 4 run place template ancient_city/city/entrance/entrance_path_5
-execute if score rng1 ris.rng matches 5 run place template ancient_city/city_center/city_center_1
-execute if score rng1 ris.rng matches 6 run place template ancient_city/city_center/city_center_2
-execute if score rng1 ris.rng matches 7 run place template ancient_city/city_center/city_center_3
-execute if score rng1 ris.rng matches 8 run place template ancient_city/city_center/walls/bottom_1
-execute if score rng1 ris.rng matches 9 run place template ancient_city/city_center/walls/bottom_2
-execute if score rng1 ris.rng matches 10 run place template ancient_city/city_center/walls/bottom_left_corner
-execute if score rng1 ris.rng matches 11 run place template ancient_city/city_center/walls/bottom_right_corner
-execute if score rng1 ris.rng matches 12 run place template ancient_city/city_center/walls/bottom_right_corner_1
-execute if score rng1 ris.rng matches 13 run place template ancient_city/city_center/walls/bottom_right_corner_2
-execute if score rng1 ris.rng matches 14 run place template ancient_city/city_center/walls/left
-execute if score rng1 ris.rng matches 15 run place template ancient_city/city_center/walls/right
-execute if score rng1 ris.rng matches 16 run place template ancient_city/city_center/walls/top
-execute if score rng1 ris.rng matches 17 run place template ancient_city/city_center/walls/top_left_corner
-execute if score rng1 ris.rng matches 18 run place template ancient_city/city_center/walls/top_right_corner
-execute if score rng1 ris.rng matches 19 run place template ancient_city/structures/barracks
-execute if score rng1 ris.rng matches 20 run place template ancient_city/structures/camp_1
-execute if score rng1 ris.rng matches 21 run place template ancient_city/structures/camp_2
-execute if score rng1 ris.rng matches 22 run place template ancient_city/structures/camp_3
-execute if score rng1 ris.rng matches 23 run place template ancient_city/structures/chamber_1
-execute if score rng1 ris.rng matches 24 run place template ancient_city/structures/chamber_2
-execute if score rng1 ris.rng matches 25 run place template ancient_city/structures/chamber_3
-execute if score rng1 ris.rng matches 26 run place template ancient_city/structures/ice_box_1
-execute if score rng1 ris.rng matches 27 run place template ancient_city/structures/large_pillar_1
-execute if score rng1 ris.rng matches 28 run place template ancient_city/structures/large_ruin_1
-execute if score rng1 ris.rng matches 29 run place template ancient_city/structures/medium_pillar_1
-execute if score rng1 ris.rng matches 30 run place template ancient_city/structures/medium_ruin_1
-execute if score rng1 ris.rng matches 31 run place template ancient_city/structures/medium_ruin_2
-execute if score rng1 ris.rng matches 32 run place template ancient_city/structures/sauna_1
-execute if score rng1 ris.rng matches 33 run place template ancient_city/structures/small_ruin_1
-execute if score rng1 ris.rng matches 34 run place template ancient_city/structures/small_ruin_2
-execute if score rng1 ris.rng matches 35 run place template ancient_city/structures/small_statue
-execute if score rng1 ris.rng matches 36 run place template ancient_city/structures/tall_ruin_1
-execute if score rng1 ris.rng matches 37 run place template ancient_city/structures/tall_ruin_2
-execute if score rng1 ris.rng matches 38 run place template ancient_city/structures/tall_ruin_3
-execute if score rng1 ris.rng matches 39 run place template ancient_city/structures/tall_ruin_4
-execute if score rng1 ris.rng matches 40 run place template ancient_city/walls/intact_corner_wall_1
-execute if score rng1 ris.rng matches 41 run place template ancient_city/walls/intact_horizontal_wall_1
-execute if score rng1 ris.rng matches 42 run place template ancient_city/walls/intact_horizontal_wall_2
-execute if score rng1 ris.rng matches 43 run place template ancient_city/walls/intact_horizontal_wall_bridge
-execute if score rng1 ris.rng matches 44 run place template ancient_city/walls/intact_horizontal_wall_passage_1
-execute if score rng1 ris.rng matches 45 run place template ancient_city/walls/intact_horizontal_wall_stairs_1
-execute if score rng1 ris.rng matches 46 run place template ancient_city/walls/intact_horizontal_wall_stairs_2
-execute if score rng1 ris.rng matches 47 run place template ancient_city/walls/intact_horizontal_wall_stairs_3
-execute if score rng1 ris.rng matches 48 run place template ancient_city/walls/intact_horizontal_wall_stairs_4
-execute if score rng1 ris.rng matches 49 run place template ancient_city/walls/intact_intersection_wall_1
-execute if score rng1 ris.rng matches 50 run place template ancient_city/walls/intact_lshape_wall_1
-execute if score rng1 ris.rng matches 51 run place template ancient_city/walls/ruined_corner_wall_1
-execute if score rng1 ris.rng matches 52 run place template ancient_city/walls/ruined_corner_wall_2
-execute if score rng1 ris.rng matches 53 run place template ancient_city/walls/ruined_horizontal_wall_stairs_1
-execute if score rng1 ris.rng matches 54 run place template ancient_city/walls/ruined_horizontal_wall_stairs_2
-execute if score rng1 ris.rng matches 55 run place template ancient_city/walls/ruined_horizontal_wall_stairs_3
-execute if score rng1 ris.rng matches 56 run place template ancient_city/walls/ruined_horizontal_wall_stairs_4
+execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "ancient_city/city/entrance/entrance_connector"
+execute if score rng1 ris.rng matches 1 run data modify storage ris:random structure set value "ancient_city/city/entrance/entrance_path_1"
+execute if score rng1 ris.rng matches 2 run data modify storage ris:random structure set value "ancient_city/city/entrance/entrance_path_2"
+execute if score rng1 ris.rng matches 3 run data modify storage ris:random structure set value "ancient_city/city/entrance/entrance_path_4"
+execute if score rng1 ris.rng matches 4 run data modify storage ris:random structure set value "ancient_city/city/entrance/entrance_path_5"
+execute if score rng1 ris.rng matches 5 run data modify storage ris:random structure set value "ancient_city/city_center/city_center_1"
+execute if score rng1 ris.rng matches 6 run data modify storage ris:random structure set value "ancient_city/city_center/city_center_2"
+execute if score rng1 ris.rng matches 7 run data modify storage ris:random structure set value "ancient_city/city_center/city_center_3"
+execute if score rng1 ris.rng matches 8 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_1"
+execute if score rng1 ris.rng matches 9 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_2"
+execute if score rng1 ris.rng matches 10 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_left_corner"
+execute if score rng1 ris.rng matches 11 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_right_corner"
+execute if score rng1 ris.rng matches 12 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_right_corner_1"
+execute if score rng1 ris.rng matches 13 run data modify storage ris:random structure set value "ancient_city/city_center/walls/bottom_right_corner_2"
+execute if score rng1 ris.rng matches 14 run data modify storage ris:random structure set value "ancient_city/city_center/walls/left"
+execute if score rng1 ris.rng matches 15 run data modify storage ris:random structure set value "ancient_city/city_center/walls/right"
+execute if score rng1 ris.rng matches 16 run data modify storage ris:random structure set value "ancient_city/city_center/walls/top"
+execute if score rng1 ris.rng matches 17 run data modify storage ris:random structure set value "ancient_city/city_center/walls/top_left_corner"
+execute if score rng1 ris.rng matches 18 run data modify storage ris:random structure set value "ancient_city/city_center/walls/top_right_corner"
+execute if score rng1 ris.rng matches 19 run data modify storage ris:random structure set value "ancient_city/structures/barracks"
+execute if score rng1 ris.rng matches 20 run data modify storage ris:random structure set value "ancient_city/structures/camp_1"
+execute if score rng1 ris.rng matches 21 run data modify storage ris:random structure set value "ancient_city/structures/camp_2"
+execute if score rng1 ris.rng matches 22 run data modify storage ris:random structure set value "ancient_city/structures/camp_3"
+execute if score rng1 ris.rng matches 23 run data modify storage ris:random structure set value "ancient_city/structures/chamber_1"
+execute if score rng1 ris.rng matches 24 run data modify storage ris:random structure set value "ancient_city/structures/chamber_2"
+execute if score rng1 ris.rng matches 25 run data modify storage ris:random structure set value "ancient_city/structures/chamber_3"
+execute if score rng1 ris.rng matches 26 run data modify storage ris:random structure set value "ancient_city/structures/ice_box_1"
+execute if score rng1 ris.rng matches 27 run data modify storage ris:random structure set value "ancient_city/structures/large_pillar_1"
+execute if score rng1 ris.rng matches 28 run data modify storage ris:random structure set value "ancient_city/structures/large_ruin_1"
+execute if score rng1 ris.rng matches 29 run data modify storage ris:random structure set value "ancient_city/structures/medium_pillar_1"
+execute if score rng1 ris.rng matches 30 run data modify storage ris:random structure set value "ancient_city/structures/medium_ruin_1"
+execute if score rng1 ris.rng matches 31 run data modify storage ris:random structure set value "ancient_city/structures/medium_ruin_2"
+execute if score rng1 ris.rng matches 32 run data modify storage ris:random structure set value "ancient_city/structures/sauna_1"
+execute if score rng1 ris.rng matches 33 run data modify storage ris:random structure set value "ancient_city/structures/small_ruin_1"
+execute if score rng1 ris.rng matches 34 run data modify storage ris:random structure set value "ancient_city/structures/small_ruin_2"
+execute if score rng1 ris.rng matches 35 run data modify storage ris:random structure set value "ancient_city/structures/small_statue"
+execute if score rng1 ris.rng matches 36 run data modify storage ris:random structure set value "ancient_city/structures/tall_ruin_1"
+execute if score rng1 ris.rng matches 37 run data modify storage ris:random structure set value "ancient_city/structures/tall_ruin_2"
+execute if score rng1 ris.rng matches 38 run data modify storage ris:random structure set value "ancient_city/structures/tall_ruin_3"
+execute if score rng1 ris.rng matches 39 run data modify storage ris:random structure set value "ancient_city/structures/tall_ruin_4"
+execute if score rng1 ris.rng matches 40 run data modify storage ris:random structure set value "ancient_city/walls/intact_corner_wall_1"
+execute if score rng1 ris.rng matches 41 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_1"
+execute if score rng1 ris.rng matches 42 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_2"
+execute if score rng1 ris.rng matches 43 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_bridge"
+execute if score rng1 ris.rng matches 44 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_passage_1"
+execute if score rng1 ris.rng matches 45 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_stairs_1"
+execute if score rng1 ris.rng matches 46 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_stairs_2"
+execute if score rng1 ris.rng matches 47 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_stairs_3"
+execute if score rng1 ris.rng matches 48 run data modify storage ris:random structure set value "ancient_city/walls/intact_horizontal_wall_stairs_4"
+execute if score rng1 ris.rng matches 49 run data modify storage ris:random structure set value "ancient_city/walls/intact_intersection_wall_1"
+execute if score rng1 ris.rng matches 50 run data modify storage ris:random structure set value "ancient_city/walls/intact_lshape_wall_1"
+execute if score rng1 ris.rng matches 51 run data modify storage ris:random structure set value "ancient_city/walls/ruined_corner_wall_1"
+execute if score rng1 ris.rng matches 52 run data modify storage ris:random structure set value "ancient_city/walls/ruined_corner_wall_2"
+execute if score rng1 ris.rng matches 53 run data modify storage ris:random structure set value "ancient_city/walls/ruined_horizontal_wall_stairs_1"
+execute if score rng1 ris.rng matches 54 run data modify storage ris:random structure set value "ancient_city/walls/ruined_horizontal_wall_stairs_2"
+execute if score rng1 ris.rng matches 55 run data modify storage ris:random structure set value "ancient_city/walls/ruined_horizontal_wall_stairs_3"
+execute if score rng1 ris.rng matches 56 run data modify storage ris:random structure set value "ancient_city/walls/ruined_horizontal_wall_stairs_4"

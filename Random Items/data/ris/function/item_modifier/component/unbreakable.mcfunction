@@ -1,0 +1,1 @@
+execute unless data storage ris:generator components[{id:"unbreakable"}] run data modify storage ris:generator components append value {id:"unbreakable"}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "profile": {
+                  "properties": [{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY5ZmZmY2ZmOTNiM2IyZDIyZDljYjdmYzdmNzViNDBhYTgxMTU1ZWQ2ZTE4NzNhN2U5NDJmZGEyOTY0ZGQ0MiJ9fX0="}]
+                }
+            }
+        },
+        "title": "Spot!",
+        "description": "Welcome back! 💕",
+        "frame": "goal",
+        "hidden": true
+    },
+    "parent": "ris:ris/curious_creatures/pedro",
+    "criteria": {
+        "spot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

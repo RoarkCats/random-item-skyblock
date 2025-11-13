@@ -1,0 +1,57 @@
+[
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"   ","font":"uniform"},
+                {"text":"Special Items\n\n","underlined":true,"bold":true},
+                "   Also known as Custom, Command, or Creative Items, these items embody the laws which govern these lands. Originally unusable by mortals, the gods have granted us a fraction of their power through sacrifice. When dropped or configurably dispensed, these items will be consumed in return for their unique blessings."
+            ]
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/command_block"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/chain_command_block"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/repeating_command_block"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/command_block_minecart"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/structure_block"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/jigsaw"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/debug_stick"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/knowledge_book"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/player_head/roarkcats"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/player_head/ziplaw"
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "ris:alchemy_book/special/player_head/phoenixsc"
+    }
+]

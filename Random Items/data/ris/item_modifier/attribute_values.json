@@ -1,0 +1,364 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:armor",
+				"amount": {
+					"type": "binomial",
+					"n": 10,
+					"p": 0.4
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:armor_toughness",
+				"amount": {
+					"min": 0,
+					"max": 3
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:attack_damage",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.1
+					},
+					"max": {
+						"min": 0.1,
+						"max": 0.2
+					}
+				},
+				"operation": "add_multiplied_base",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:attack_knockback",
+				"amount": {
+					"type": "binomial",
+					"n": 5,
+					"p": 0.4
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:attack_speed",
+				"amount": {
+					"min": 0,
+					"max": 0.2
+				},
+				"operation": "add_multiplied_base",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:block_break_speed",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.4
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:block_interaction_range",
+				"amount": {
+					"min": {
+						"min": 0,
+						"max": 1
+					},
+					"max": {
+						"min": 1,
+						"max": 2
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:burning_time",
+				"amount": {
+					"min": {
+						"min": -0.2,
+						"max": -0.1
+					},
+					"max": {
+						"min": -0.1,
+						"max": -0.0
+					}
+				},
+				"operation": "add_multiplied_base",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:entity_interaction_range",
+				"amount": {
+					"min": {
+						"min": 0,
+						"max": 1
+					},
+					"max": {
+						"min": 1,
+						"max": 2
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:explosion_knockback_resistance",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.1
+					},
+					"max": {
+						"min": 0.1,
+						"max": 0.2
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:fall_damage_multiplier",
+				"amount": {
+					"min": {
+						"min": -0.2,
+						"max": -0.1
+					},
+					"max": {
+						"min": -0.1,
+						"max": -0.0
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:gravity",
+				"amount": {
+					"min": {
+						"min": -0.4,
+						"max": -0.0
+					},
+					"max": {
+						"min": 0.0,
+						"max": 0.4
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:jump_strength",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.4
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:knockback_resistance",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.1
+					},
+					"max": {
+						"min": 0.1,
+						"max": 0.2
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:luck",
+				"amount": {
+					"min": 0,
+					"max": {
+						"min": 1,
+						"max": 2
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:max_health",
+				"amount": {
+					"type": "binomial",
+					"n": 6,
+					"p": 0.6
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:movement_efficiency",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.5
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:movement_speed",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.4
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:oxygen_bonus",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.5
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:safe_fall_distance",
+				"amount": {
+					"type": "binomial",
+					"n": 4,
+					"p": 0.7
+				},
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:scale",
+				"amount": {
+					"min": {
+						"min": -0.5,
+						"max": -0.0
+					},
+					"max": {
+						"min": 0.0,
+						"max": 0.5
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:sneaking_speed",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.4
+					},
+					"max": {
+						"min": 0.5,
+						"max": 0.6
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:step_height",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:submerged_mining_speed",
+				"amount": {
+					"min": {
+						"min": 0.5,
+						"max": 0.8
+					},
+					"max": {
+						"min": 1.2,
+						"max": 1.5
+					}
+				},
+				"operation": "add_multiplied_total",
+				"slot": "any"
+			},
+			{
+				"id": "ris:rng",
+				"attribute": "minecraft:water_movement_efficiency",
+				"amount": {
+					"min": {
+						"min": 0.0,
+						"max": 0.2
+					},
+					"max": {
+						"min": 0.2,
+						"max": 0.5
+					}
+				},
+				"operation": "add_value",
+				"slot": "any"
+			}
+		],
+		"replace": false
+	}
+]

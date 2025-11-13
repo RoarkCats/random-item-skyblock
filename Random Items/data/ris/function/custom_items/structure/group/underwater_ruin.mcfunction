@@ -1,51 +1,51 @@
 #48 included, outer weight of 32
 execute store result score rng1 ris.rng run random value 0..47
 
-execute if score rng1 ris.rng matches 0 run place template underwater_ruin/big_brick_1
-execute if score rng1 ris.rng matches 1 run place template underwater_ruin/big_brick_2
-execute if score rng1 ris.rng matches 2 run place template underwater_ruin/big_brick_3
-execute if score rng1 ris.rng matches 3 run place template underwater_ruin/big_brick_8
-execute if score rng1 ris.rng matches 4 run place template underwater_ruin/big_cracked_1
-execute if score rng1 ris.rng matches 5 run place template underwater_ruin/big_cracked_2
-execute if score rng1 ris.rng matches 6 run place template underwater_ruin/big_cracked_3
-execute if score rng1 ris.rng matches 7 run place template underwater_ruin/big_cracked_8
-execute if score rng1 ris.rng matches 8 run place template underwater_ruin/big_mossy_1
-execute if score rng1 ris.rng matches 9 run place template underwater_ruin/big_mossy_2
-execute if score rng1 ris.rng matches 10 run place template underwater_ruin/big_mossy_3
-execute if score rng1 ris.rng matches 11 run place template underwater_ruin/big_mossy_8
-execute if score rng1 ris.rng matches 12 run place template underwater_ruin/big_warm_4
-execute if score rng1 ris.rng matches 13 run place template underwater_ruin/big_warm_5
-execute if score rng1 ris.rng matches 14 run place template underwater_ruin/big_warm_6
-execute if score rng1 ris.rng matches 15 run place template underwater_ruin/big_warm_7
-execute if score rng1 ris.rng matches 16 run place template underwater_ruin/brick_1
-execute if score rng1 ris.rng matches 17 run place template underwater_ruin/brick_2
-execute if score rng1 ris.rng matches 18 run place template underwater_ruin/brick_3
-execute if score rng1 ris.rng matches 19 run place template underwater_ruin/brick_4
-execute if score rng1 ris.rng matches 20 run place template underwater_ruin/brick_5
-execute if score rng1 ris.rng matches 21 run place template underwater_ruin/brick_6
-execute if score rng1 ris.rng matches 22 run place template underwater_ruin/brick_7
-execute if score rng1 ris.rng matches 23 run place template underwater_ruin/brick_8
-execute if score rng1 ris.rng matches 24 run place template underwater_ruin/cracked_1
-execute if score rng1 ris.rng matches 25 run place template underwater_ruin/cracked_2
-execute if score rng1 ris.rng matches 26 run place template underwater_ruin/cracked_3
-execute if score rng1 ris.rng matches 27 run place template underwater_ruin/cracked_4
-execute if score rng1 ris.rng matches 28 run place template underwater_ruin/cracked_5
-execute if score rng1 ris.rng matches 29 run place template underwater_ruin/cracked_6
-execute if score rng1 ris.rng matches 30 run place template underwater_ruin/cracked_7
-execute if score rng1 ris.rng matches 31 run place template underwater_ruin/cracked_8
-execute if score rng1 ris.rng matches 32 run place template underwater_ruin/mossy_1
-execute if score rng1 ris.rng matches 33 run place template underwater_ruin/mossy_2
-execute if score rng1 ris.rng matches 34 run place template underwater_ruin/mossy_3
-execute if score rng1 ris.rng matches 35 run place template underwater_ruin/mossy_4
-execute if score rng1 ris.rng matches 36 run place template underwater_ruin/mossy_5
-execute if score rng1 ris.rng matches 37 run place template underwater_ruin/mossy_6
-execute if score rng1 ris.rng matches 38 run place template underwater_ruin/mossy_7
-execute if score rng1 ris.rng matches 39 run place template underwater_ruin/mossy_8
-execute if score rng1 ris.rng matches 40 run place template underwater_ruin/warm_1
-execute if score rng1 ris.rng matches 41 run place template underwater_ruin/warm_2
-execute if score rng1 ris.rng matches 42 run place template underwater_ruin/warm_3
-execute if score rng1 ris.rng matches 43 run place template underwater_ruin/warm_4
-execute if score rng1 ris.rng matches 44 run place template underwater_ruin/warm_5
-execute if score rng1 ris.rng matches 45 run place template underwater_ruin/warm_6
-execute if score rng1 ris.rng matches 46 run place template underwater_ruin/warm_7
-execute if score rng1 ris.rng matches 47 run place template underwater_ruin/warm_8
+execute if score rng1 ris.rng matches 0 run data modify storage ris:random structure set value "underwater_ruin/big_brick_1"
+execute if score rng1 ris.rng matches 1 run data modify storage ris:random structure set value "underwater_ruin/big_brick_2"
+execute if score rng1 ris.rng matches 2 run data modify storage ris:random structure set value "underwater_ruin/big_brick_3"
+execute if score rng1 ris.rng matches 3 run data modify storage ris:random structure set value "underwater_ruin/big_brick_8"
+execute if score rng1 ris.rng matches 4 run data modify storage ris:random structure set value "underwater_ruin/big_cracked_1"
+execute if score rng1 ris.rng matches 5 run data modify storage ris:random structure set value "underwater_ruin/big_cracked_2"
+execute if score rng1 ris.rng matches 6 run data modify storage ris:random structure set value "underwater_ruin/big_cracked_3"
+execute if score rng1 ris.rng matches 7 run data modify storage ris:random structure set value "underwater_ruin/big_cracked_8"
+execute if score rng1 ris.rng matches 8 run data modify storage ris:random structure set value "underwater_ruin/big_mossy_1"
+execute if score rng1 ris.rng matches 9 run data modify storage ris:random structure set value "underwater_ruin/big_mossy_2"
+execute if score rng1 ris.rng matches 10 run data modify storage ris:random structure set value "underwater_ruin/big_mossy_3"
+execute if score rng1 ris.rng matches 11 run data modify storage ris:random structure set value "underwater_ruin/big_mossy_8"
+execute if score rng1 ris.rng matches 12 run data modify storage ris:random structure set value "underwater_ruin/big_warm_4"
+execute if score rng1 ris.rng matches 13 run data modify storage ris:random structure set value "underwater_ruin/big_warm_5"
+execute if score rng1 ris.rng matches 14 run data modify storage ris:random structure set value "underwater_ruin/big_warm_6"
+execute if score rng1 ris.rng matches 15 run data modify storage ris:random structure set value "underwater_ruin/big_warm_7"
+execute if score rng1 ris.rng matches 16 run data modify storage ris:random structure set value "underwater_ruin/brick_1"
+execute if score rng1 ris.rng matches 17 run data modify storage ris:random structure set value "underwater_ruin/brick_2"
+execute if score rng1 ris.rng matches 18 run data modify storage ris:random structure set value "underwater_ruin/brick_3"
+execute if score rng1 ris.rng matches 19 run data modify storage ris:random structure set value "underwater_ruin/brick_4"
+execute if score rng1 ris.rng matches 20 run data modify storage ris:random structure set value "underwater_ruin/brick_5"
+execute if score rng1 ris.rng matches 21 run data modify storage ris:random structure set value "underwater_ruin/brick_6"
+execute if score rng1 ris.rng matches 22 run data modify storage ris:random structure set value "underwater_ruin/brick_7"
+execute if score rng1 ris.rng matches 23 run data modify storage ris:random structure set value "underwater_ruin/brick_8"
+execute if score rng1 ris.rng matches 24 run data modify storage ris:random structure set value "underwater_ruin/cracked_1"
+execute if score rng1 ris.rng matches 25 run data modify storage ris:random structure set value "underwater_ruin/cracked_2"
+execute if score rng1 ris.rng matches 26 run data modify storage ris:random structure set value "underwater_ruin/cracked_3"
+execute if score rng1 ris.rng matches 27 run data modify storage ris:random structure set value "underwater_ruin/cracked_4"
+execute if score rng1 ris.rng matches 28 run data modify storage ris:random structure set value "underwater_ruin/cracked_5"
+execute if score rng1 ris.rng matches 29 run data modify storage ris:random structure set value "underwater_ruin/cracked_6"
+execute if score rng1 ris.rng matches 30 run data modify storage ris:random structure set value "underwater_ruin/cracked_7"
+execute if score rng1 ris.rng matches 31 run data modify storage ris:random structure set value "underwater_ruin/cracked_8"
+execute if score rng1 ris.rng matches 32 run data modify storage ris:random structure set value "underwater_ruin/mossy_1"
+execute if score rng1 ris.rng matches 33 run data modify storage ris:random structure set value "underwater_ruin/mossy_2"
+execute if score rng1 ris.rng matches 34 run data modify storage ris:random structure set value "underwater_ruin/mossy_3"
+execute if score rng1 ris.rng matches 35 run data modify storage ris:random structure set value "underwater_ruin/mossy_4"
+execute if score rng1 ris.rng matches 36 run data modify storage ris:random structure set value "underwater_ruin/mossy_5"
+execute if score rng1 ris.rng matches 37 run data modify storage ris:random structure set value "underwater_ruin/mossy_6"
+execute if score rng1 ris.rng matches 38 run data modify storage ris:random structure set value "underwater_ruin/mossy_7"
+execute if score rng1 ris.rng matches 39 run data modify storage ris:random structure set value "underwater_ruin/mossy_8"
+execute if score rng1 ris.rng matches 40 run data modify storage ris:random structure set value "underwater_ruin/warm_1"
+execute if score rng1 ris.rng matches 41 run data modify storage ris:random structure set value "underwater_ruin/warm_2"
+execute if score rng1 ris.rng matches 42 run data modify storage ris:random structure set value "underwater_ruin/warm_3"
+execute if score rng1 ris.rng matches 43 run data modify storage ris:random structure set value "underwater_ruin/warm_4"
+execute if score rng1 ris.rng matches 44 run data modify storage ris:random structure set value "underwater_ruin/warm_5"
+execute if score rng1 ris.rng matches 45 run data modify storage ris:random structure set value "underwater_ruin/warm_6"
+execute if score rng1 ris.rng matches 46 run data modify storage ris:random structure set value "underwater_ruin/warm_7"
+execute if score rng1 ris.rng matches 47 run data modify storage ris:random structure set value "underwater_ruin/warm_8"

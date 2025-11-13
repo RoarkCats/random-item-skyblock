@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dispenser"
+        },
+        "title": "Redstone Activated",
+        "description": "Dispense a Special Item\nIf enabled, Dispensers can use some or all Special Items (Droppers excluded)",
+        "frame": "task"
+    },
+    "parent": "ris:special/customized/accidental_use_protection",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

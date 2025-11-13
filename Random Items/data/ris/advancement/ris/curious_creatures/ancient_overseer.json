@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:warden_spawn_egg",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Ancient Overseer",
+        "description": "Kill the Warden",
+        "frame": "goal"
+    },
+    "parent": "ris:ris/curious_creatures",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        }
+    }
+}

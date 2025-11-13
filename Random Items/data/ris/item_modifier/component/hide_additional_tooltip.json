@@ -1,0 +1,19 @@
+[
+	{
+		"function": "minecraft:toggle_tooltips",
+		"toggles": {
+			"minecraft:attribute_modifiers": false,
+			"minecraft:stored_enchantments": false,
+			"minecraft:enchantments": false,
+			"minecraft:unbreakable": false,
+			"minecraft:dyed_color": false,
+			"minecraft:trim": false
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:hide_additional_tooltip": {}
+		}
+	}
+]

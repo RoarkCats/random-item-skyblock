@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:brick"
+        },
+        "title": "Bigger Stacks",
+        "description": "Roll a stack size greater than 64 with a Stack Gambler",
+        "frame": "goal"
+    },
+    "parent": "ris:alchemy/transmutation/buying_in_bulk",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

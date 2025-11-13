@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ chiseled_bookshelf[slot_0_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_0_occupied set value "true"
+execute if block ~ ~ ~ chiseled_bookshelf[slot_1_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_1_occupied set value "true"
+execute if block ~ ~ ~ chiseled_bookshelf[slot_2_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_2_occupied set value "true"
+execute if block ~ ~ ~ chiseled_bookshelf[slot_3_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_3_occupied set value "true"
+execute if block ~ ~ ~ chiseled_bookshelf[slot_4_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_4_occupied set value "true"
+execute if block ~ ~ ~ chiseled_bookshelf[slot_5_occupied=true] run data modify entity @s Item.components."minecraft:block_state".slot_5_occupied set value "true"

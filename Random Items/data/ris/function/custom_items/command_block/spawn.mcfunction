@@ -8,4 +8,4 @@ summon firework_rocket
 
 kill @s[type=item]
 
-execute on origin run advancement grant @s only ris:commander command_block
+execute on origin run advancement grant @s only ris:special/customized/commander command_block

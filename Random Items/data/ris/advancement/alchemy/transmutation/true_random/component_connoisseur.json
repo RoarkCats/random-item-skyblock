@@ -1,0 +1,277 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "title": "Component Connoisseur",
+        "description": "Hold every type of component item",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random",
+    "criteria": {
+        "consumable_converts": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"consumable_converts\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "consumable_effect": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"consumable_effect\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "consumable_food": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"consumable_food\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "consumable_teleport": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"consumable_teleport\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "death_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"death_protection\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "equippable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"equippable\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "glider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"glider\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "item_model": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"item_model\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "item_name": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"item_name\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "enchantment_glint_override": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"enchantment_glint_override\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "enchantments": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"enchantments\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "damage_resistant": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"damage_resistant\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "hide_additional_tooltip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"hide_additional_tooltip\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "hide_tooltip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"hide_tooltip\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jukebox_playable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"jukebox_playable\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_axe\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_hoe\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_pickaxe\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_shears": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_shears\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_shovel\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "tool_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"tool_sword\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "unbreakable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"unbreakable\"} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:painting"
+        },
+        "title": "Accidental Use Protection",
+        "description": "Pick up a Special Item before it gets used",
+        "frame": "task"
+    },
+    "parent": "ris:special/customized",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:thrown_item_picked_up_by_player",
+            "conditions": {
+                "item": {
+                    "items": "#ris:custom_items"
+                }
+            }
+        }
+    },
+    "comment": "doesn't trigger perfectly when I want it to as sometimes the item wouldn't activate anyways, but the item had to have been dropped by an entity at least so won't trigger from generators"
+}

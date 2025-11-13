@@ -1,0 +1,1 @@
+execute unless data storage ris:generator components[{id:"enchantment_glint_override"}] run data modify storage ris:generator components append value {id:"enchantment_glint_override"}

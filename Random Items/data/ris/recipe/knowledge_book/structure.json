@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" ##",
+		"# #",
+		"## "
+	],
+	"key": {
+		"#": [
+			"minecraft:structure_void"
+		]
+	},
+	"result": {
+		"id": "minecraft:structure_void",
+		"count": 6
+	},
+	"show_notification": false
+}

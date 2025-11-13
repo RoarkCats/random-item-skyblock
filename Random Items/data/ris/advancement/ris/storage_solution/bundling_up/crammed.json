@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blue_bundle"
+		},
+		"title": "Crammed",
+		"description": "Fill a bundle with 64 unique items",
+		"frame": "goal"
+	},
+	"parent": "ris:ris/storage_solution/bundling_up/bundleception",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:bundles",
+						"predicates": {
+							"minecraft:bundle_contents": {
+								"items": {
+									"size": 64
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

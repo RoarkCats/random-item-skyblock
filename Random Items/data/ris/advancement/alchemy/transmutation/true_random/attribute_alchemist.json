@@ -1,0 +1,316 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_upgrade_smithing_template",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Attribute Alchemist",
+        "description": "Hold every type of attribute item",
+        "frame": "challenge"
+    },
+    "parent": "ris:alchemy/transmutation/true_random",
+    "criteria": {
+        "armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"armor\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "armor_toughness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"armor_toughness\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "attack_damage": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"attack_damage\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "attack_knockback": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"attack_knockback\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "attack_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"attack_speed\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "block_break_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"block_break_speed\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "block_interaction_range": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"block_interaction_range\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "burning_time": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"burning_time\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "entity_interaction_range": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"entity_interaction_range\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "explosion_knockback_resistance": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"explosion_knockback_resistance\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "fall_damage_multiplier": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"fall_damage_multiplier\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "gravity": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"gravity\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "jump_strength": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"jump_strength\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knockback_resistance": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"knockback_resistance\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "luck": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"luck\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "max_health": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"max_health\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "movement_efficiency": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"movement_efficiency\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "movement_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"movement_speed\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "oxygen_bonus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"oxygen_bonus\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "safe_fall_distance": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"safe_fall_distance\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "scale": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"scale\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "sneaking_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"sneaking_speed\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "step_height": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"step_height\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "submerged_mining_speed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"submerged_mining_speed\"} ]}}"
+						}
+                    }
+                ]
+            }
+        },
+        "water_movement_efficiency": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"water_movement_efficiency\"} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

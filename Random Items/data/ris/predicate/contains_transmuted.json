@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"contents": {
+				"predicates": {
+					"minecraft:container": {
+						"items": {
+							"contains": [
+								{
+									"predicates": {
+										"minecraft:custom_data": "{ris:{transmuted:1b}}"
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+    "comment": "necessary because here I can do a predicate container check not possible with `if items` which will only full match"
+}

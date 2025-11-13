@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:trial_key"
+        },
+        "title": "Locked",
+        "description": "Hold a locked component item\nLocked items can't be combined in the Component Gambler",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "ris:alchemy/transmutation/true_random",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{components:[ {id:\"level\",locked:1b} ]}}"
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

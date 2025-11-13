@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"items": "#ris:damage_tool"
+									}
+								}
+							}
+						}
+					}
+				],
+				"damage": {
+					"type": {
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ris:item_modifier/damage_tool"
+	}
+}

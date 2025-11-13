@@ -1,6 +1,9 @@
 # Changelog
 Visit the [releases](https://github.com/RoarkCats/random-item-skyblock/releases) page for more organized and formatted update changelogs
 
+## 3.0.0
+WIP [changelog](/misc/changelog.md)
+
 ## 2.7
 1.19.3-1.21.3 update! Under-the-hood changes galore— performance, fixes, & rebalances!
 

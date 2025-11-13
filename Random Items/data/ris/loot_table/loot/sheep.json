@@ -1,0 +1,143 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/black"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/blue"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/brown"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/cyan"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/gray"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/green"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/light_blue"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/light_gray"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/lime"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/magenta"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/orange"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/pink"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/purple"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/red"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/white"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep/yellow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "entities/sheep"
+                },
+
+
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/black"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/blue"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/brown"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/cyan"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/gray"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/green"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/light_blue"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/light_gray"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/lime"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/magenta"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/orange"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/pink"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/purple"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/red"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/white"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shearing/sheep/yellow"
+                }
+            ]
+        }
+    ]
+}

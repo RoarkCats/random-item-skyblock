@@ -1,0 +1,121 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tide_armor_trim_smithing_template"
+        },
+        "title": "Refined Knowledge",
+        "description": "Transmute a knowledge Alchemy Item",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation",
+    "criteria": {
+        "double/knowledge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'double/knowledge'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/debug": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/debug'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/jigsaw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/jigsaw'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/structure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/structure'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/minecart'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/command": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/command'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
+        "knowledge/repeat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'knowledge/repeat'}}"
+						}
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double/knowledge",
+            "knowledge/debug",
+            "knowledge/jigsaw",
+            "knowledge/structure",
+            "knowledge/minecart",
+            "knowledge/command",
+            "knowledge/chain",
+            "knowledge/repeat"
+        ]
+    ]
+}

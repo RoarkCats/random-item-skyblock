@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:loot/chests/all",
+                    "functions": [
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "#ris:unstackable"
+							},
+							"modifier": {
+								"function": "minecraft:set_components",
+								"components": {
+									"minecraft:max_stack_size": 16
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 16
+						},
+						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "#ris:unstackable",
+                                "components" : {
+                                    "minecraft:max_stack_size": 1
+                                }
+							},
+							"modifier": {
+								"function": "minecraft:set_count",
+                                "count": 4
+							}
+						}
+                    ]
+                }
+            ]
+        }
+    ]
+}

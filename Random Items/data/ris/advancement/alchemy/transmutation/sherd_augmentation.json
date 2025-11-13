@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:decorated_pot",
+            "components": {
+                "minecraft:pot_decorations": [
+                    "minecraft:brick",
+                    "minecraft:sheaf_pottery_sherd",
+                    "minecraft:brick",
+                    "minecraft:scrape_pottery_sherd"
+                ]
+            }
+        },
+        "title": "Sherd Augmentation",
+        "description": "Place a Decorated Pot above a Component Generator to weight its outputs based on the Sherds used",
+        "frame": "task"
+    },
+    "parent": "ris:alchemy/transmutation/componential",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:match_tool",
+                            "predicate": {
+                                "items": "minecraft:decorated_pot",
+                                "components": {
+                                    "minecraft:pot_decorations": []
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:repeating_command_block",
+                                "state": {
+                                    "facing": "up"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "not_generic_generator_confirmation": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

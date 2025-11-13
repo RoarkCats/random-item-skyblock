@@ -1,12 +1,8 @@
 {
     "values": [
-        "minecraft:command_block",
-        "minecraft:repeating_command_block",
-        "minecraft:chain_command_block",
+        "#ris:special_blocks",
         "minecraft:end_gateway",
         "minecraft:end_portal",
-        "minecraft:jigsaw",
-        "minecraft:structure_block",
         "#ris:placeable_unbreakable",
         "#ris:not_quite_unbreakable"
     ]
