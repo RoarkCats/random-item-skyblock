@@ -1,6 +1,5 @@
 advancement revoke @s only ris:ris/storage_solution/bundling_up/unbundled_trigger
 execute if score @s ris.drop_item matches 0.. run scoreboard players add @s ris.bundle_use 1
-scoreboard players reset @s[scores={ris.drop_item=0}] ris.drop_item
 
 
 execute if score @s ris.bundle_use matches 1.. run advancement grant @s[advancements={ris:ris/storage_solution/bundling_up/unbundled=false}] only ris:ris/storage_solution/bundling_up/unbundled

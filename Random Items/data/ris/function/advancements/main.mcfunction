@@ -26,6 +26,7 @@ scoreboard players reset @s ris.open_ender_chest
 scoreboard players reset @s ris.open_shulker_box
 # ---- ---- ---- ---- ---- ---- ---- ----
 
+scoreboard players reset @s[scores={ris.drop_item=0}] ris.drop_item
 scoreboard players remove @s[scores={ris.drop_item=1..}] ris.drop_item 1
 
 # item pickup range is 1.425 xz, -0.7~2.3 y
