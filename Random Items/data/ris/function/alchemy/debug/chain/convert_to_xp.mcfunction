@@ -46,8 +46,8 @@ playsound entity.splash_potion.break block @a ~ ~ ~ 1 1.2
 playsound block.beacon.power_select block @a ~ ~ ~ 1 1.3
 
 scoreboard players set #count ris.rng 0
-execute as @p if entity @s[advancements={ris:alchemy/transmutation/divide_by_zero=false}] as @e[type=experience_orb,distance=0] run function ris:alchemy/debug/chain/count_xp
-execute if score #count ris.rng matches 500.. run advancement grant @p only ris:alchemy/transmutation/divide_by_zero
+execute as @p[distance=..16,gamemode=!spectator] if entity @s[advancements={ris:alchemy/transmutation/divide_by_zero=false}] as @e[type=experience_orb,distance=0] run function ris:alchemy/debug/chain/count_xp
+execute if score #count ris.rng matches 500.. run advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/divide_by_zero
 # tellraw @a ["Experience: ",{"score":{"name":"#count","objective":"ris.rng"}}]
 
 execute at @s run function ris:alchemy/break_particle with entity @s[type=item] Item

@@ -9,5 +9,5 @@ kill @s[type=item]
 
 execute on origin run advancement grant @s only ris:special/customized/commander repeating_command_block
 execute store result score #temp ris.timer if entity @e[tag=ris.generator,distance=..32]
-execute if score #temp ris.timer matches 10.. run advancement grant @a[distance=..64] only ris:special/customized/commander/item_farm
-execute if score #temp ris.timer matches 50.. run advancement grant @a[distance=..64] only ris:special/customized/commander/item_factory
+execute if score #temp ris.timer matches 10.. run advancement grant @a[distance=..64,gamemode=!spectator] only ris:special/customized/commander/item_farm
+execute if score #temp ris.timer matches 50.. run advancement grant @a[distance=..64,gamemode=!spectator] only ris:special/customized/commander/item_factory

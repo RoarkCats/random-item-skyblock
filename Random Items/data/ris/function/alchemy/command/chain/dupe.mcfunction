@@ -37,7 +37,7 @@ execute unless entity @s[tag=!ris.contains_items] run scoreboard players operati
 execute store result entity @s Item.count int 1 run scoreboard players get rng ris.rng
 execute if score rng ris.rng matches 0 run tag @s add ris.dead
 
-execute if score rng1 ris.rng matches 65.. run advancement grant @p[distance=..16] only ris:alchemy/transmutation/bigger_stacks
+execute if score rng1 ris.rng matches 65.. run advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/bigger_stacks
 execute if score rng1 ris.rng matches 80.. run playsound gsfx:gambling_win block @a ~ ~ ~ 1 1
 execute if score rng1 ris.rng matches ..79 run playsound gsfx:gambling_lose block @a ~ ~ ~ 1 1
 

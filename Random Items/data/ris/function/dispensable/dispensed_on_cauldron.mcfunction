@@ -29,4 +29,4 @@ execute if score #temp ris.timer matches 4 at @s run playsound item.bucket.empty
 
 execute if score #temp ris.timer matches 1..8 run kill @s[type=item]
 
-execute if score #temp ris.timer matches 1..2 run advancement grant @p[distance=..16] only ris:alchemy/transmutation/auto_refill
+execute if score #temp ris.timer matches 1..2 run advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/auto_refill

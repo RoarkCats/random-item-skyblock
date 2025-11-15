@@ -36,7 +36,7 @@ execute if score #temp1 ris.timer < #temp2 ris.timer store result entity @s Item
 
 function ris:alchemy/empty_cauldron
 
-advancement grant @p[distance=..8] only ris:alchemy/transmutation/stack_size_transmutation
+advancement grant @p[distance=..8,gamemode=!spectator] only ris:alchemy/transmutation/stack_size_transmutation
 
 #particle witch ~ ~0.5 ~ .1 .1 .1 0 6
 particle sneeze ~ ~0.5 ~ .1 .1 .1 0 10

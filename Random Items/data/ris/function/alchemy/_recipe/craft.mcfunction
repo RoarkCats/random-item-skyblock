@@ -15,7 +15,7 @@ tag @n[type=item,tag=ris.recipe,limit=2] add ris.dead
 kill @e[type=item,tag=ris.dead]
 
 execute on origin run return run scoreboard players add @s ris.transmutations 1
-advancement grant @p[distance=..16] only ris:alchemy/transmutation/redstone_alchemy
+advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/redstone_alchemy
 
 
 #0     Name: Super Command Block                 Combination: command_block, command_block                           Path: double/command

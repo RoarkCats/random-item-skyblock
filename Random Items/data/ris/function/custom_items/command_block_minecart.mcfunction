@@ -19,4 +19,4 @@ kill @s[type=command_block_minecart]
 kill @s[type=item]
 
 execute on origin run return run advancement grant @s only ris:special/customized/commander command_block_minecart
-advancement grant @p only ris:special/customized/commander command_block_minecart
+advancement grant @p[distance=..8,gamemode=!spectator] only ris:special/customized/commander command_block_minecart

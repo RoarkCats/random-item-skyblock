@@ -1,6 +1,6 @@
 execute store result score rng ris.rng run random value 1..1728
 execute if score rng ris.rng matches ..63 on origin run advancement grant @s only ris:alchemy/transmutation/unlucky
-execute if score rng ris.rng matches ..63 run advancement grant @p[distance=..16] only ris:alchemy/transmutation/unlucky
+execute if score rng ris.rng matches ..63 run advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/unlucky
 
 # Spawn items (1-1728, rolls rounds on .5)
 scoreboard players add rng ris.rng 31

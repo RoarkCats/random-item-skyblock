@@ -1,5 +1,5 @@
 # run as/at a container item being duped with filled bundles inside
-advancement grant @p[distance=..8,advancements={ris:special/customized/commander/nice_try=false}] only ris:special/customized/commander/nice_try
+advancement grant @p[distance=..8,gamemode=!spectator,advancements={ris:special/customized/commander/nice_try=false}] only ris:special/customized/commander/nice_try
 
 
 # copy container

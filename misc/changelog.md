@@ -203,6 +203,7 @@
 -Added `pack.png` pack icon!
 -Added value checks so `maxCommandChainLength`, `commandModificationBlockLimit` don't override larger values when increased
 -Fixed lazy loaded generators from spawning more than 5 items while unloaded/not entity processing
+-Fixed some advancements being granted to nearby spectators
 
 
 -Version 3.0.0!
