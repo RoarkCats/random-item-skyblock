@@ -62,6 +62,7 @@ scoreboard players set #-1 ris.timer -1
 scoreboard players set #2 ris.timer 2
 scoreboard players set #4 ris.timer 4
 scoreboard players set #8 ris.timer 8
+scoreboard players set #20 ris.timer 20
 scoreboard players set #16 ris.timer 16
 scoreboard players set #64 ris.timer 64
 scoreboard players set #100 ris.timer 100

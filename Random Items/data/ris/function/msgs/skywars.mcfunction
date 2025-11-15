@@ -1,4 +1,4 @@
-data modify storage ris:random menu set value "reload_wrapper"
+data modify storage ris:random menu set value "welcome_wrapper"
 function ris:msgs/_refresh_menu with storage ris:random
 
 playsound item.book.page_turn master @s[tag=!ris.refresh_settings_menu] ~ ~ ~ 8 1.2
