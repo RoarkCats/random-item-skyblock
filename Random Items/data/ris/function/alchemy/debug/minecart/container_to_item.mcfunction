@@ -14,4 +14,5 @@ execute if block ~ ~ ~ chiseled_bookshelf run function ris:alchemy/debug/minecar
 execute if data block ~ ~ ~ item run data modify entity @s Item.components."minecraft:container"[{slot:0}].item set from block ~ ~ ~ item
 execute if data block ~ ~ ~ Items run function ris:alchemy/debug/minecart/items
 
+data modify block ~ ~ ~ LootTable set value ""
 setblock ~ ~ ~ air
