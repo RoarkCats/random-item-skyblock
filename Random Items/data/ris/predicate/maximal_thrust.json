@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+                "ris:ris/lets_get_crafting/maximal_thrust": false,
+                "ris:ris/lets_get_crafting/maximal_thrust_trigger": false
+            }
+        },
+        "flags": {
+            "is_flying": true
+        },
+        "slots": {
+            "weapon.*": {
+                "items": "minecraft:firework_rocket",
+                "components": {
+                    "minecraft:fireworks": {
+                        "flight_duration": 3
+                    }
+                }
+            }
+        }
+    }
+}

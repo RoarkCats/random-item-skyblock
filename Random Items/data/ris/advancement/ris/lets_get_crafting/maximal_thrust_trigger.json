@@ -7,19 +7,12 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"items": "minecraft:firework_rocket",
-                            "components": {
-                                "minecraft:fireworks": {
-                                    "flight_duration": 3
-                                }
-                            }
+							"items": "minecraft:firework_rocket"
 						}
 					}
 				]
             }
         }
     },
-    "rewards": {
-        "function": "ris:advancements/maximal_thrust"
-    }
+	"comment": "inverse trigger, advancement fails if this is flagged, then resets"
 }

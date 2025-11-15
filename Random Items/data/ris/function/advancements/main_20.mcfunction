@@ -5,8 +5,6 @@ execute as @e[type=marker,tag=ris.cobble_gen] at @s unless entity @a[advancement
 
 execute as @e[type=#ris:chest_boat,tag=ris.air_lift] at @s run function ris:advancements/air_lift
 
-execute as @a[scores={ris.firework_use=1..}] at @s run function ris:advancements/maximal_thrust
-
 scoreboard players remove @a[scores={ris.bundle_use=1..}] ris.bundle_use 1
 
 execute as @a run function ris:advancements/scale
