@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Debug × Minecart\n\n","underlined":true,"bold":true},
-                "    Combining the essence of destruction with treasure uncovers the hidden loot buried within the blocks of this world. Removes a centered 3x3x3 cube of blocks, dropping a random loot item for each block destroyed. Configurably drops blocks as mined with Silk Touch. Unable to mine near-unbreakable blocks."
+                "    Combining the essence of destruction with treasure uproots chests full of treasure in one piece. Mines up any container full of loot and items whole, preparing the vessel to be relocated and hidden elsewhere. Containers retain undiscovered loot, labels, and locks."
             ]
         ],
         "conditions": [
