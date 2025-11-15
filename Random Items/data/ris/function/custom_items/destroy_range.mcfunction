@@ -7,6 +7,7 @@
 #...
 
 execute if items entity @s weapon.mainhand repeating_command_block[!custom_data~{ris:{transmuted:1b}}] run return 0
+execute if items entity @s weapon.mainhand debug_stick[!custom_data~{ris:{transmuted:1b}}] run return 0
 
 data remove storage ris:destroy_range cube
 # size values halved_ (spills over and should be more than halved, though half is convenient)
@@ -23,6 +24,8 @@ execute if items entity @s weapon.mainhand structure_block[custom_data~{ris:{fun
 execute if items entity @s weapon.mainhand structure_block[custom_data~{ris:{function:"structure/command"}}] run data merge storage ris:destroy_range {cube:{x:1.5,y:1.5,z:1.5, dx:3,dy:3,dz:3, ox:0,oy:0,oz:0, p:4, m:0}}
 execute if items entity @s weapon.mainhand structure_block[custom_data~{ris:{function:"structure/chain"}}] run data merge storage ris:destroy_range {cube:{x:1.4,y:1.4,z:1.4, dx:3,dy:3,dz:3, ox:3,oy:3,oz:3, p:3, m:1}}
 execute if items entity @s weapon.mainhand repeating_command_block[custom_data~{ris:{function:"structure/repeat"}}] run data merge storage ris:destroy_range {cube:{x:10,y:10,z:10, dx:24,dy:24,dz:24, ox:24,oy:24,oz:24, p:25, m:0}}
+execute if items entity @s weapon.mainhand debug_stick[custom_data~{ris:{function:"double/debug"}}] run data merge storage ris:destroy_range {cube:{x:0.5,y:0.5,z:0.5, dx:1,dy:1,dz:1, ox:0,oy:0.5,oz:0, p:1, m:0}}
+execute if items entity @s weapon.mainhand debug_stick[custom_data~{ris:{function:"debug/command"}}] run data merge storage ris:destroy_range {cube:{x:1,y:1,z:1, dx:2,dy:2,dz:2, ox:0,oy:0.5,oz:0, p:2, m:0}}
 
 function ris:custom_items/destroy_range_disabled with entity @s SelectedItem.components.minecraft:custom_data.ris
 execute unless data storage ris:destroy_range cube run return fail

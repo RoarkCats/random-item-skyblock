@@ -2,6 +2,7 @@
     "values": [
         "minecraft:repeating_command_block",
         "minecraft:structure_block",
-        "minecraft:jigsaw"
+        "minecraft:jigsaw",
+        "minecraft:debug_stick"
     ]
 }
