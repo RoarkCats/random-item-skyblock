@@ -7,10 +7,12 @@ body:
     attributes:
       label: Wiki page
       placeholder: https://github.com/RoarkCats/random-item-skyblock/wiki/...
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
-      label: Describe
+      label: Describe issue
       description: Inaccurate, missing, or incomplete page? Confusing or unclear explanation?
       placeholder: Description of the wiki page issue
     validations:
