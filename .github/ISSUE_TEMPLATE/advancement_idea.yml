@@ -1,0 +1,22 @@
+name: 🧭 Advancement Idea
+description: Submit a new advancement idea
+labels: ["advancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your advancement
+      placeholder: Do this with that and the other
+    validations:
+      required: true
+  - type: dropdown
+    id: tab
+    attributes:
+      label: Advancement tab
+      options:
+        - Random Item Skyblock
+        - Special Items
+        - Alchemy Items
+  - type: markdown
+    attributes:
+      value: Thank you for suggesting this advancement! We'll take a look as soon as possible.
