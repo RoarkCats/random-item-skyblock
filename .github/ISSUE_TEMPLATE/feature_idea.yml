@@ -1,0 +1,14 @@
+name: ✨ Feature Idea
+description: Submit a new feature idea
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your feature
+      placeholder: Detailed description of a new feature and why it should be added
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: <br> Thank you for suggesting this feature! We'll take a look as soon as possible.
