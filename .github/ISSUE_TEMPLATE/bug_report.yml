@@ -45,7 +45,7 @@ body:
         - Fabric
         - Forge
         - Paper
-        - Other (list above!)
+        - Other (list with version)
     validations:
       required: true
   - type: dropdown
