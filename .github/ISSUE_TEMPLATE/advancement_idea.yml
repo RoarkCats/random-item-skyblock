@@ -17,6 +17,8 @@ body:
         - Random Item Skyblock
         - Special Items
         - Alchemy Items
+    validations:
+      required: true
   - type: markdown
     attributes:
-      value: Thank you for suggesting this advancement! We'll take a look as soon as possible.
+      value: <br>Thank you for suggesting this advancement! We'll take a look as soon as possible.
