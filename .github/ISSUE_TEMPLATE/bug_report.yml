@@ -5,10 +5,13 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe your issue *and* expected result
+      label: Describe your issue *and* expected results
       placeholder: When I click here this happens instead of that
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: (attach or link any images or videos above) 
   - type: textarea
     id: steps
     attributes:
@@ -19,11 +22,6 @@ body:
         3. Click there
     validations:
       required: true
-  - type: textarea
-    id: media
-    attributes:
-      label: Screenshots or videos (optional)
-      placeholder: Paste images or video links here
   - type: input
     id: risver
     attributes:
@@ -35,19 +33,30 @@ body:
     id: mcver
     attributes:
       label: Minecraft Version
-      placeholder: Vanilla 1.21.4  |  Forge 1.20.1  |  Fabric 1.19.2  |  Paper 1.16.5
+      placeholder: 1.21.4  (visible in F3 menu)
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: environment
     attributes:
-      label: Environment (check all that apply)
+      label: Environment
       options:
-        - label: Modded?
-        - label: Vanilla?
-        - label: Paper server?
-        - label: Multiplayer? (server)
-        - label: Singleplayer? (world)
+        - Vanilla
+        - Fabric
+        - Forge
+        - Paper
+        - Other (list above!)
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Host type
+      options:
+        - Singleplayer world
+        - Multiplayer server
+    validations:
+      required: true
   - type: input
     id: mods
     attributes:
