@@ -55,4 +55,4 @@ body:
       placeholder: Please list any other mods (especially server side) you may have installed
   - type: markdown
     attributes:
-      value: Thank you for reporting this issue! We'll take a look as soon as possible.
+      value: <br> _Thank you for reporting this issue! We'll take a look as soon as possible._

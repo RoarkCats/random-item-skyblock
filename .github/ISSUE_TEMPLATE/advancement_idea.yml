@@ -21,4 +21,4 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: <br>Thank you for suggesting this advancement! We'll take a look as soon as possible.
+      value: <br> _Thank you for suggesting this advancement! We'll take a look as soon as possible._
