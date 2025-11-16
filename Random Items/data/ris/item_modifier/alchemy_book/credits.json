@@ -13,7 +13,7 @@
                 {"text":"\n  HellsMaximum - Consultant"},
                 {"text":"\n  LordBennett - Skywars Map"},
                 {"text":"\n StealthMuskrat - Server Host"},
-                {"text":"\n\n      [Report Bugs]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"open_url","value":"https://TODO.github_new_issue_link"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"yellow"}]}},
+                {"text":"\n\n      [Report Bugs]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats/random-item-skyblock/issues/new/choose"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"yellow"}]}},
                 {"text":"\n   [Open External Wiki]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"clickEvent":{"action":"open_url","value":"https://TODO.github_wiki_link"},"hoverEvent":{"action":"show_text","value":["",{"text":"Open External Wiki","color":"yellow"}]}}
             ]
         ]

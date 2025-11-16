@@ -8,7 +8,7 @@ scoreboard players operation #display_sec ris.timer /= #20 ris.timer
 
 tellraw @s {"text":"                                \n","underlined":true,"color":"green"}
 
-tellraw @s [{"text":"Welcome to Random Item Skyblock 3.0.0!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by RoarkCats, Ziplaw, and PhoenixSC","color":"gold"}]}},"clickEvent":{"action":"open_url","value":"https://TODO.github_link"}}]
+tellraw @s [{"text":"Welcome to Random Item Skyblock 3.0.0!","color":"gold","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Made by RoarkCats, Ziplaw, and PhoenixSC","color":"gold"}]}},"clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats/random-item-skyblock"}}]
 
 tellraw @s ["<RoarkCats> If you want to change the settings, click ",{"text":"[here]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"run_command","value":"/function ris:msgs/settings"},"hoverEvent":{"action":"show_text","value":["",{"text":"Settings","color":"gray"}]}}]
 
@@ -20,6 +20,6 @@ tellraw @s ["<RoarkCats> To individually disable or re-enable your flow of items
 
 tellraw @s ["<Ziplaw> We also have custom ",{"text":"[skywars]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"run_command","value":"/function ris:msgs/skywars"},"hoverEvent":{"action":"show_text","value":["",{"text":"Skywars","color":"gray"}]}}," for fun with friends"]
 
-tellraw @s ["<PhoenixSC> Have fun! Please report any bugs ",{"text":"[here]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"open_url","value":"https://TODO.github_new_issue_link"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"gray"}]}}]
+tellraw @s ["<PhoenixSC> Have fun! Please report any bugs ",{"text":"[here]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats/random-item-skyblock/issues/new/choose"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"gray"}]}}]
 
 tellraw @s {"text":"                                \n","underlined":true,"color":"green"}
