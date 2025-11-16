@@ -6,6 +6,7 @@ body:
     id: description
     attributes:
       label: Describe your advancement
+      description: Trigger criteria, name, description, icon, parent, etc.
       placeholder: Do this with that and the other
     validations:
       required: true
