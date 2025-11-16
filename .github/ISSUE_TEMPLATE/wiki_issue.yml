@@ -1,0 +1,25 @@
+name: 📜 Wiki Issue
+description: Submit a wiki related issue
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Wiki page
+      placeholder: https://github.com/RoarkCats/random-item-skyblock/wiki/...
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe
+      description: Inaccurate, missing, or incomplete page? Confusing or unclear explanation?
+      placeholder: Description of the wiki page issue
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Text to insert
+      placeholder: Recommended text to be inserted to the wiki page
+  - type: markdown
+    attributes:
+      value: <br> Thank you for writing this wiki issue! We'll take a look as soon as possible.
