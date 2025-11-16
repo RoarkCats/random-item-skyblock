@@ -1,0 +1,22 @@
+name: 🔧 Improvement
+description: Submit an improvement suggestion for existing content
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your improvement
+      placeholder: Detailed description of what should be changed and how
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justify your improvement
+      description: Why should this change? How is it better? Is it always better? Does it fit in with the pack? Sell your idea.
+      placeholder: This would make sense to implement because...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: <br> Thank you for suggesting this improvement! We'll take a look as soon as possible.
