@@ -1,5 +1,5 @@
 name: 🔧 Improvement
-description: Submit an improvement suggestion for existing content
+description: Submit an improvement idea for existing content
 labels: ["enhancement"]
 body:
   - type: textarea
