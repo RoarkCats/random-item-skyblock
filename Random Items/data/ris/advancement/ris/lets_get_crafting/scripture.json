@@ -4,7 +4,7 @@
 			"id": "minecraft:written_book"
 		},
 		"title": "Scripture",
-		"description": "Copy a Written Book",
+		"description": "Copy a Written Book with a Book and Quill",
 		"frame": "task"
 	},
 	"parent": "ris:ris/lets_get_crafting",
