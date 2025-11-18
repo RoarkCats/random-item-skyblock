@@ -204,6 +204,7 @@
 -Added value checks so `maxCommandChainLength`, `commandModificationBlockLimit` don't override larger values when increased
 -Fixed lazy loaded generators from spawning more than 5 items while unloaded/not entity processing
 -Fixed some advancements being granted to nearby spectators
+-Added generator delay particles shown every cycle when enabled and not generating
 
 
 -Version 3.0.0!

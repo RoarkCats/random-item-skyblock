@@ -1,8 +1,9 @@
 scoreboard players operation #temp ris.generator = generator ris.generator
 scoreboard players operation #temp ris.generator %= @s ris.generator
-execute unless score #temp ris.generator matches 0 run return 0
+execute unless score #temp ris.generator matches 0 run return run function ris:custom_items/repeat/delay_particle
 
 # Checks
+tag @s remove ris.gen_off
 execute if block ~ ~-0.5 ~ repeating_command_block{powered:1b} run return run function ris:custom_items/repeat/off
 
 execute positioned ~ ~0.4 ~ run function ris:custom_items/repeat/lazy_load_prot
