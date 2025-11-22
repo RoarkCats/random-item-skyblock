@@ -22,7 +22,7 @@ execute unless score debug_items ris.settings matches 0..2 run scoreboard player
 # Alchemy Item Settings
 execute unless score cauldron_water_use ris.settings matches 0..1 run scoreboard players set cauldron_water_use ris.settings 1
 execute unless score dispensable_cauldrons ris.settings matches 0..1 run scoreboard players set dispensable_cauldrons ris.settings 1
-execute unless score compendium_sync ris.settings matches 0..1 run scoreboard players set compendium_sync ris.settings 0
+execute unless score compendium_sync ris.settings matches 0..1 run scoreboard players set compendium_sync ris.settings 1
 execute unless score compendium_auto_revise ris.settings matches 0..1 run scoreboard players set compendium_auto_revise ris.settings 1
 execute unless score sherd_modifiers ris.settings matches 0..1 run scoreboard players set sherd_modifiers ris.settings 1
 execute unless score combinable_duped_items ris.settings matches 0..2 run scoreboard players set combinable_duped_items ris.settings 2
