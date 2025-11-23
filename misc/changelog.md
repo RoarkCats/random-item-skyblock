@@ -35,8 +35,8 @@
 -Switched RNG to use new `/random` command and removed `ris:rng/...` functions as no longer necessary
 -Fixed & improved `jigsaw_replaceable` block tag
 -Updated dust particle command format for disabled Item Generators
-- Added `trial_spawner` and `vault` to the list of blocks breakable by Debug Sticks
-- Added 215 new structures to the Structure Block! (Trail Ruins & Trial Chambers)
+-Added `trial_spawner` and `vault` to the list of blocks breakable by Debug Sticks
+-Added 215 new structures to the Structure Block! (Trail Ruins & Trial Chambers)
 -Added 4 new features to the Jigsaw block (mostly cherry tree stuff)
 -Updated skywars item/firework nbt to component style
 -Updated Debug Stick break item nbt to component style
