@@ -1,13 +1,19 @@
-def ct(lst,max):
-     return [_ for _ in [lst.count(n) for n in range(max+1)] if _ != 0]
+from random import random as r
+
+def ct(lst,max,mult):
+     c = [_ for _ in [lst.count(n) for n in range(max+1)] if _ != 0]
+     return [sum(c[i*mult:(i+1)*mult+]) for i in range(len(c)//mult)]
 
 def u(x,y):
      return int(r()*(y-x+1)+x)
 
-def ctp(lst,max):
-     c = ct(lst,max)
+def ctp(lst,max,mult=1):
+     c = ct(lst,max,mult)
      s = sum(c)
      return [round(cnt/s,3) for cnt in c]
 
 # example usage simulating & calculating uniform rng distribution of {{0,4},{5,9}}
 ctp([u(u(0,4),u(5,9)) for _ in range(100000)],100)
+
+# example usage ... dist of {32,250}+{0,608} grouping by 100 of a max of 850
+ctp([u(32,250)+u(0,608) for _ in range(100000)],850,100)
