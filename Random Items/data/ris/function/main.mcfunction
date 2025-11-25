@@ -23,7 +23,7 @@ execute if score dragon_spawn_egg_prot ris.settings matches 1 as @e[type=ender_d
 execute if score special_items ris.settings matches 1 if score alchemy_items ris.settings matches 1 run function ris:alchemy/main
 execute if score special_items ris.settings matches 1 run function ris:custom_items/main
 execute if score special_items ris.settings matches 1 as @e[type=item] unless entity @s[tag=ris.normal_item,tag=!ris.custom_stack] at @s run function ris:custom_items/item
-execute as @a run function ris:advancements/main
+execute as @a[gamemode=!spectator] run function ris:advancements/main
 tag @e[type=#ris:spawnable,tag=!ris.spawnable_old] add ris.spawnable_old
 function ris:itembar
 

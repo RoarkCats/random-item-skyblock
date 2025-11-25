@@ -205,7 +205,7 @@
 -Fixed lazy loaded generators from spawning more than 5 items while unloaded/not entity processing
 -Fixed some advancements being granted to nearby spectators
 -Added generator delay particles shown every cycle when enabled and not generating
-
+-Fixed dead players receiving items
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum
