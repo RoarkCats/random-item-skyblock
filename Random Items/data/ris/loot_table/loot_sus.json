@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ris:custom_items/all",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 12
+                            }
+                        },
+                        {
+                            "function": "minecraft:filtered",
+                            "item_filter": {
+                                "components": {
+                                    "custom_data": {
+                                        "ris": {
+                                            "custom_item": true
+                                        }
+                                    }
+                                }
+                            },
+                            "modifier": {
+                                "function": "set_count",
+                                "count": {
+                                    "min": 2,
+                                    "max": 4
+                                }
+                            },
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "cmd_special_items"
+                                        }, "score": "ris.settings"
+                                    },
+                                    "range": {
+                                        "max": 31
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "comment": "`random_item` is okay over `random_item_trader` because random_item only gives players loot box shulkers and they can't be duped"
+}
