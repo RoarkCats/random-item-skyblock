@@ -8,7 +8,7 @@
                 {"text":"Command × Chain","underlined":true,"bold":true},
                 {"text":" 🎲","color":"dark_gray","shadow_color":[0.7,0.7,1.0,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Compatible with [Gambling SFX]","italic":true,"color":"blue"}},"clickEvent":{"action":"open_url","value":"https://TODO.Gambling_SFX_Link"}},
                 "\n\n",
-                "   Combining the essence of abundance with duplication unlocks the limits of stack size multiplication. An item thrown into the pale green mist is multiplied, max stack size and all, from 0-99 randomly. Any equivalent items with differing max stack sizes can be combined through transmutation in a Cauldron. Shares config restrictions."
+                "   Combining the essence of abundance with duplication unlocks the limits of stack size multiplication. An item thrown into the pale green mist is multiplied, max stack size and all, from 0-99 randomly. Identical item stacks differing only in max stack size can be combined through transmutation in a Cauldron. Shares config restrictions."
             ]
         ],
         "conditions": [
