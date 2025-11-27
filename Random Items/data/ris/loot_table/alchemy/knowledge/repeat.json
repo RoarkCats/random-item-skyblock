@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"item_name": "\"Knowledge Generator\"",
-								"lore": ["{\"text\":\"Creates a Knowledge Generator\",\"color\":\"gray\",\"italic\":false}"]
+								"lore": ["{\"text\":\"Creates a Knowledge Generator\",\"color\":\"gray\",\"italic\":false}","{\"text\":\"Grants Traders additional trades\",\"color\":\"gray\",\"italic\":false}"]
 							}
 						}
 					]
