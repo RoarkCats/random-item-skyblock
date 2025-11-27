@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Chain × Minecart\n\n","underlined":true,"bold":true},
-                "   Combining the essence of duplication with treasure multiplies the treasure found in a chest. All of the loot dropped from a single random chest is multiplied to 16, or 4 for unstackable items."
+                "   Combining the essence of duplication with treasure multiplies the treasure found in a chest. All of the loot dropped from a single random chest is multiplied by 16, or configurably by ",{"score":{"name":"unstackable_dupe_count","objective":"ris.settings"}}," for unstackable items."
             ]
         ],
         "conditions": [
