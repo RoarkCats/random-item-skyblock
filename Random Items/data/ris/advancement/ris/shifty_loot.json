@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:brush"
+        },
+        "title": "Shifty Loot",
+        "description": "Brush a Suspicious block with random loot",
+        "frame": "task"
+    },
+    "parent": "ris:ris/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "ris:loot_sus"
+            }
+        }
+    }
+}

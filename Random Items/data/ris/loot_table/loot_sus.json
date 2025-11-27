@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "ris:custom_items/all",
+                    "value": "ris:random_item",
                     "functions": [
                         {
                             "function": "set_count",
