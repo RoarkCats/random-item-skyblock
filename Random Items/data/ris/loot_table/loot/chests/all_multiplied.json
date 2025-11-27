@@ -26,15 +26,34 @@
 						{
 							"function": "minecraft:filtered",
 							"item_filter": {
-								"items": "#ris:unstackable",
-                                "components" : {
-                                    "minecraft:max_stack_size": 1
-                                }
+								"items": "#ris:unstackable"
 							},
 							"modifier": {
 								"function": "minecraft:set_count",
-                                "count": 4
-							}
+								"count": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "unstackable_dupe_count"
+									}, "score": "ris.settings"
+								}
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "unstackable_dupe_count"
+										}, "score": "ris.settings"
+									},
+									"range": {
+										"min": 1,
+										"max": 15
+									}
+								}
+							]
 						}
                     ]
                 }
