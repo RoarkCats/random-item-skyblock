@@ -22,6 +22,12 @@
             "conditions": {
                 "location": [
                     {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "decorated_pot" 
+                        }
+                    },
+                    {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:match_tool",
