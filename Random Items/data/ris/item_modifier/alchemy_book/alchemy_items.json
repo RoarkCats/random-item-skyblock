@@ -49,6 +49,37 @@
         ]
     },
     {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "append",
+        "pages": [
+            [
+                {"text":"\n","font":"uniform"},
+                "        ",{"text":"Alchemy Items\n"},
+                "          ",{"text":"Checklist\n\n\n","underlined":true},
+                {"text":"  ♓ ","bold":true},{"text":"[Double Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#double","objective":"ris.timer"}},"/8)\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Command Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#command","objective":"ris.timer"}},"/6)\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Structure Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#structure","objective":"ris.timer"}},"/4)\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Jigsaw Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#jigsaw","objective":"ris.timer"}},"/5)\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Debug Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#debug","objective":"ris.timer"}},"/6)\n",
+                {"text":"  ♓ ","bold":true},{"text":"[Knowledge Items]","bold":true,"color":"dark_gray"}," (",{"score":{"name":"#knowledge","objective":"ris.timer"}},"/7)\n"
+            ]
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "ris:alchemy/transmutation/true_alchemist": false
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
         "function": "minecraft:reference",
         "name": "ris:alchemy_book/alchemy/double"
     },

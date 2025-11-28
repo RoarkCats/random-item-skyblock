@@ -1,3 +1,5 @@
+execute if entity @s[advancements={ris:alchemy/transmutation/true_alchemist=false}] run function ris:alchemy/book/tally_unlocks
+
 execute if items entity @s weapon.mainhand written_book[custom_data~{ris:{compendium:1b}}] run item modify entity @s weapon.mainhand ris:alchemy_book/book
 execute if items entity @s weapon.offhand written_book[custom_data~{ris:{compendium:1b}}] run item modify entity @s weapon.offhand ris:alchemy_book/book
 
