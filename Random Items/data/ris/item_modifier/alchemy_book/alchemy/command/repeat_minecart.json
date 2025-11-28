@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Repeat × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Repeat × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of production with treasure generates random item stacks from any loot table. Every four cycles of the item giver a single item stack is generated from any loot table."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Repeat × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Repeat × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

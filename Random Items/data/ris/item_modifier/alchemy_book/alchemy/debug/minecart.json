@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 "    Combining the essence of destruction with treasure uproots chests full of treasure in one piece. Mines up any container full of loot and items whole, preparing the vessel to be relocated and hidden elsewhere. Containers retain undiscovered loot, labels, and locks."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

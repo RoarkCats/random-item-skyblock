@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Vein Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of destruction with decoration targets blocks of a kind, spreading through connected blocks like a virus. Up to configurably ",
                 {"score":{"name":"vein_miner_block_limit","objective":"ris.settings"}}, " immediately connected blocks are mined without Silk Touch before stopping. Unable to mine near-unbreakable blocks."
             ]
@@ -42,7 +42,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Jigsaw\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Vein Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

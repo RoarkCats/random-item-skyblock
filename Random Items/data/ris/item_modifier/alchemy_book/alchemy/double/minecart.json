@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Minecart × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Minecart × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Command Block Minecart <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of treasure with itself rewards even greater quality loot. Significantly more chest loot is dropped over standard Command Block Minecart general type loot."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Minecart × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Minecart × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Command Block Minecart <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

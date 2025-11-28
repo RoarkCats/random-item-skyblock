@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Biome Replacer <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of decoration with itself adds a level of abstraction, rewriting the biomes of this world. This effectively randomizes the biome within an aligned and centered 3x3x3 chunk cube of 48x48x48 blocks. While difficult to perceive, the change is observable via F3 and through subtle changes in tint and creature spawns."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Jigsaw\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Biome Replacer <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Structure × Structure\n\n","underlined":true,"bold":true},
+                {"text":"Structure × Structure\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Giga Structure <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of construction with itself exponentiates the building process, erecting entire structures at once. Blocks roughly within a 150 block range in all directions may be affected or overridden depending on the structure placed."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Structure × Structure\n\n","underlined":true,"bold":true},
+                {"text":"Structure × Structure\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Giga Structure <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

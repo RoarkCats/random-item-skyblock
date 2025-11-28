@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Structure\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Structure\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Shifter <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of decoration with construction block shifts nearby block types. Block types within a centered 7x7x7 cube are randomly shifted into other block types."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Structure\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Structure\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Shifter <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

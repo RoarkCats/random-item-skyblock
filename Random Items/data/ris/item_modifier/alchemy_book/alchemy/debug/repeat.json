@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 "    Combining the essence of destruction with production encapsulates that force within a reproducible beam. Faces the direction thrown, mining the next block in a line from its face within a configurable ",
                 {"score":{"name":"block_miner_range","objective":"ris.settings"}}," block range, configurably dropping with Silk Touch. Beam redirected upon colliding with another miner. Unable to mine near-unbreakable blocks."
             ]
@@ -42,7 +42,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Miner <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

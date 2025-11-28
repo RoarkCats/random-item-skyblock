@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Jigsaw Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of decoration with production forms a random set feature every four cycles, overwriting blocks within a 32 block range in all directions. May fail to generate with nearby blocks in the way, especially any above or below."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Jigsaw Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

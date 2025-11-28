@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Structure × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Structure × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Structure Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of construction with production gradually rebuilds a random set structure. Every two cycles the structure template is regenerated in the positive xyz directions with a configurable integrity of ",
                 {"score":{"name":"structure_gen_integrity","objective":"ris.settings"}}, "%."
             ]
@@ -42,7 +42,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Structure × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Structure × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Structure Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

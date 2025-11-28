@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Command\n\n","underlined":true,"bold":true},
+                {"text":"Command × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of abundance with itself breeds overabundance, producing a random item in quantities between 1 item and 27 stacks. Certainly able to generate Special Items, it nonetheless shares its configurable diminished output with its Command Block counterpart."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Command\n\n","underlined":true,"bold":true},
+                {"text":"Command × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

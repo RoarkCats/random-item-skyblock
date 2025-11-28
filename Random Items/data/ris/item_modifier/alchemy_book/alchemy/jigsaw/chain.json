@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Chain","underlined":true,"bold":true},
+                {"text":"Jigsaw × Chain","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Clone Copy <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" [🔁]","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Clone Paste","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"37"}},
                 "\n\n",
                 "   Combining the essence of decoration with duplication invokes the recording powers of a Clone Schematic. Stores two corner locations into a Clone Schematic with a configurable maximum area capacity of ",
@@ -44,7 +44,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Chain\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Chain\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Clone Copy <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Replacer <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of decoration with abundance converts surrounding blocks into a random new block. Replaces all blocks within a centered 9x9x9 cube with a random block."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true},
+                {"text":"Jigsaw × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Block Replacer <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

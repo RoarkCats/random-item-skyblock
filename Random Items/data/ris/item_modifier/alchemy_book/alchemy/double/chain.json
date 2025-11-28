@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Chain × Chain","underlined":true,"bold":true},
+                {"text":"Chain × Chain","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Chain Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" 🎲","color":"dark_gray","shadow_color":[0.7,0.7,1.0,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Compatible with [Gambling SFX]","italic":true,"color":"blue"}},"clickEvent":{"action":"open_url","value":"https://TODO.Gambling_SFX_Link"}},
                 "\n\n",
                 "   Combining the essence of duplication with itself further multiplies its product, multiplying an item and its max stack size to 32. While it shares its configurable restrictions with the original Chain Command Block, it also has a 33% chance to multiply filled Shulker Boxes up to 2."                
@@ -43,7 +43,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Chain × Chain\n\n","underlined":true,"bold":true},
+                {"text":"Chain × Chain\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Chain Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

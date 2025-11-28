@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of equivalence with production enlightens the scale holders, unlocking new trade offers. Grants traders additional trades of their specialized type, configurably damaging them once their limit is reached. The more initial trades a trader has, the more it can learn, albeit with diminishing returns."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

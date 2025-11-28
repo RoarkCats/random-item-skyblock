@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Repeating Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of production with itself kicks every setting into action, producing completely random items. Every eight cycles of the item giver, a random one star component item is generated with 1-4 modified components. Generators can be attuned to certain component sets via Sherd augmentation with a Decorated Pot atop."
             ],
             [
@@ -72,7 +72,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Repeat × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Repeating Command Block <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ],
             [

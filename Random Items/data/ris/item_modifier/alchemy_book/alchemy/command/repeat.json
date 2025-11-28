@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Command × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of abundance with production perpetuates the generation of a single randomly set item. Generators produce the set item every two cycles for any item with the exception of other Special Items, for which it produces significantly less often configurably based on the Command Block Special Item Count."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Repeat\n\n","underlined":true,"bold":true},
+                {"text":"Command × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Generator <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Debug\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Debug\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Debug Stick <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of destruction with itself amplifies the blast, removing a centered 3x3x3 cube of blocks. The removed blocks, unbreakables included, are configurably dropped as mined with Silk Touch."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Debug × Debug\n\n","underlined":true,"bold":true},
+                {"text":"Debug × Debug\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Debug Stick <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

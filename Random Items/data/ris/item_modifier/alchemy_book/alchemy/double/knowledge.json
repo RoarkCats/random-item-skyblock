@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Knowledge\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Knowledge\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Knowledge Book <","font":"uniform","bold":true,"color":"gray"}}},
                 "  Combining the essence of equivalence with itself balances the scales, providing a larger selection of 6-12 random trades. Super Item Traders share their configurable traits with regular Item Traders."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Knowledge\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Knowledge\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Super Knowledge Book <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

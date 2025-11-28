@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Book <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of equivalence with treasure attracts the specialized scales of the Loot Trader. Stocked with 1-3 trades, the Loot Trader sells various containers packed with random chest loot tables."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Loot Book <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

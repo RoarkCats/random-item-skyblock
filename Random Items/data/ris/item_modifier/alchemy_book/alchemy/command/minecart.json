@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Command × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Minecart <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of abundance with treasure amplifies the amount of treasure found in a chest. Rather than dropping multiple chest loot tables, a single random chest loot table is rolled 16 times over."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Command × Minecart\n\n","underlined":true,"bold":true},
+                {"text":"Command × Minecart\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Minecart <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Command\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Book <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of equivalence with abundance attracts the specialized scales of the Stack Trader. Stocked with 1-3 trades, the Stack Trader sells random stacks of items in bulk, sharing their configurable traits with the Item Trader."
             ]
         ],
@@ -41,7 +41,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Command\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Stack Book <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

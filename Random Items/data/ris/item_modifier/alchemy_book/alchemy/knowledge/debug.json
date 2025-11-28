@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Debug\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Debug\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Reroller <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of equivalence with destruction rebalances the scales at a price. Randomly rerolls a selected Trader's trades, configurably damaging them for each trade rerolled. Trades configurably have a ",
                 {"score":{"name":"trade_reroll_chance","objective":"ris.settings"}}, "% chance to be rerolled individually. Compatible with all types of traders."
             ]
@@ -42,7 +42,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Debug\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Debug\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Reroller <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],

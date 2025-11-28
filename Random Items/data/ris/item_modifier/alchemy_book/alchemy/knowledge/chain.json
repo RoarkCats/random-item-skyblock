@@ -5,7 +5,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Chain\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Chain\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Multiplier <","font":"uniform","bold":true,"color":"gray"}}},
                 "   Combining the essence of equivalence with duplication tips the scales, randomly adjusting offer amounts. Has a configurable ",
                 {"score":{"name":"trade_multiply_chance","objective":"ris.settings"}}, "% chance to successfully multiply the sold item by 16, else the bought item is instead. Trades can only be multiplied once. Special Items are configurably multiplied by 4. Stack Traders swap trade items instead."
             ]
@@ -42,7 +42,7 @@
         "pages": [
             [
                 {"text":"   ","font":"uniform"},
-                {"text":"Knowledge × Chain\n\n","underlined":true,"bold":true},
+                {"text":"Knowledge × Chain\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Knowledge Multiplier <","font":"uniform","bold":true,"color":"gray"}}},
                 {"text":" <This feature is disabled>","italic":true}
             ]
         ],
