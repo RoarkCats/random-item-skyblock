@@ -9,6 +9,8 @@ scoreboard players remove @a[scores={ris.bundle_use=1..}] ris.bundle_use 1
 
 execute as @a run function ris:advancements/scale
 
+scoreboard players remove @a[scores={ris.mined_snow=10..}] ris.mined_snow 10
+
 
 
 schedule function ris:advancements/main_20 20t

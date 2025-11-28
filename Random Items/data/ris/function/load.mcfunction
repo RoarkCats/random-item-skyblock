@@ -54,6 +54,7 @@ scoreboard objectives add ris.transmutations dummy
 scoreboard objectives add ris.health health
 scoreboard objectives add ris.mined_obsidian minecraft.mined:minecraft.obsidian
 scoreboard objectives add ris.mined_crying_obsidian minecraft.mined:minecraft.crying_obsidian
+scoreboard objectives add ris.mined_snow minecraft.mined:minecraft.snow
 
 # Default Score Settings
 execute if score delay ris.timer matches ..4 run scoreboard players set delay ris.timer 5
