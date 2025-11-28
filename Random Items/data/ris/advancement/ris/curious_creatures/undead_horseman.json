@@ -13,14 +13,19 @@
     "parent": "ris:ris/curious_creatures",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:started_riding",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "vehicle": {
                         "type": [
                             "minecraft:skeleton_horse",
                             "minecraft:zombie_horse"
-                        ]
+                        ],
+						"slots": {
+							"horse.saddle": {
+                                "items": "minecraft:saddle"
+                            }
+						}
                     }
                 }
             }

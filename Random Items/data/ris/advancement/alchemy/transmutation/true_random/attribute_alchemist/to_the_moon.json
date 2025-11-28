@@ -4,7 +4,7 @@
             "id": "minecraft:slime_block"
         },
         "title": "To the Moon!",
-        "description": "Jump 50 blocks high",
+        "description": "Jump 100 blocks high",
         "frame": "challenge"
     },
     "parent": "ris:alchemy/transmutation/true_random/attribute_alchemist/bouncy_castle",
