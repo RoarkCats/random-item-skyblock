@@ -9,6 +9,7 @@ tellraw @s [{"text":"","color":"dark_aqua"},{"text":" ","underlined":true},{"tex
 function ris:settings/special/generator_names/msg
 function ris:settings/special/dispensable_special_items/msg
 function ris:settings/special/disp_special_item_delay/msg
+function ris:settings/special/debug_drops_chance/msg
 function ris:settings/special/destroy_range/msg
 function ris:settings/special/shulker_dupe/msg
 function ris:settings/special/written_book_dupe/msg
@@ -16,6 +17,5 @@ function ris:settings/special/special_item_dupe/msg
 function ris:settings/special/unstackable_dupe_count/msg
 function ris:settings/special/cmd_special_items/msg
 function ris:settings/special/trader_special_items/msg
-function ris:settings/special/debug_drops_chance/msg
 
 tellraw @s {"text":"                                \n","underlined":true,"color":"dark_aqua"}
