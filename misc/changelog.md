@@ -207,6 +207,7 @@
 -Added generator delay particles shown every cycle when enabled and not generating
 -Fixed dead players receiving items
 -Fixed Same Item random player selection for heads could pick spectators/non-receivers 
+-Replaced setting Debug Stick Removed Block Drops with a percentage based setting Debug Stick Block Drop Chance
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum

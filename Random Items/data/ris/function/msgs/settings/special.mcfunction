@@ -16,6 +16,6 @@ function ris:settings/special/special_item_dupe/msg
 function ris:settings/special/unstackable_dupe_count/msg
 function ris:settings/special/cmd_special_items/msg
 function ris:settings/special/trader_special_items/msg
-function ris:settings/special/debug_items/msg
+function ris:settings/special/debug_drops_chance/msg
 
 tellraw @s {"text":"                                \n","underlined":true,"color":"dark_aqua"}

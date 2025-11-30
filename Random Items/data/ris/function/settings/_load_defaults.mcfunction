@@ -18,7 +18,7 @@ execute unless score special_item_dupe ris.settings matches 0..1 run scoreboard 
 execute unless score unstackable_dupe_count ris.settings matches 1.. run scoreboard players set unstackable_dupe_count ris.settings 4
 execute unless score cmd_special_items ris.settings matches 0.. run scoreboard players set cmd_special_items ris.settings 8
 execute unless score trader_special_items ris.settings matches 0..2 run scoreboard players set trader_special_items ris.settings 2
-execute unless score debug_items ris.settings matches 0..2 run scoreboard players set debug_items ris.settings 1
+execute unless score debug_drops_chance ris.settings matches 0..100 run scoreboard players set debug_drops_chance ris.settings 100
 # Alchemy Item Settings
 execute unless score cauldron_water_use ris.settings matches 0..1 run scoreboard players set cauldron_water_use ris.settings 1
 execute unless score dispensable_cauldrons ris.settings matches 0..1 run scoreboard players set dispensable_cauldrons ris.settings 1
