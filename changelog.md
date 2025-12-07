@@ -126,7 +126,7 @@ Advancement fixes & loot table adjustments
 - Reviewed Chain and Repeating Command Block code
 - Finally fixed Item Multiplier and Generator stacking in the same block
 - Fixed custom items unusable atop Item Multipliers and Generators
-- Switched Item Multipliers and Generators from armor stands to area effect clouds (much less entity lag)||
+- Switched Item Multipliers and Generators from armor stands to area effect clouds (much less entity lag)
 - Switched Structure Block structure placement to use the `/place template` command
 - Fixed Structure and Jigsaw Block duplication bug when Structure Blocks are used near the top of the world
 - Fixed `/playsound` commands all playing to the `master` channel
@@ -151,7 +151,7 @@ Advancement fixes & loot table adjustments
 - Fixed Item Multipliers multiplying all items present in the same tick before disappearing
 - Added a redstone particle indicator when Item Generators fail to generate an item due to being powered
 - Added custom creator head powers granted when worn
-- Updated Command Block Minecart item description||
+- Updated Command Block Minecart item description
 - Changed load message green dashes to solid green lines
 - Revamped settings menu visuals
 - Added settings menu audio and visual button confirmations
