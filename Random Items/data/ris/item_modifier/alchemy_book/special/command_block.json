@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Command Block\n\n","underlined":true,"bold":true},
-                "   The Command Block is the essence of abundance. It generates a stack of 64 of any item, though you may find your inventory quickly filled up should it generate an unstackable item. While it is able to generate other Special Items, it may only generate stacks of 8 configurably."
+                "   The Command Block is the essence of abundance. It generates a stack of 64 of any item, though you may find your inventory quickly filled up should it generate an unstackable item. While it is able to generate other Special Items, it may only generate stacks of ",{"score":{"name":"cmd_special_items","objective":"ris.settings"}}," configurably."
             ]
         ],
         "conditions": [
