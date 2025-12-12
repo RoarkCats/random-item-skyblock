@@ -1,4 +1,5 @@
 execute unless entity @s[tag=ris.feature_generator] store result score rng ris.rng run random value 0..137
+scoreboard players set rng ris.rng 74
 
 execute if score rng ris.rng matches 0 store success score #success ris.rng run place feature acacia
 execute if score rng ris.rng matches 1 store success score #success ris.rng run place feature azalea_tree
@@ -165,14 +166,7 @@ execute if score rng ris.rng matches 73 store success score #success ris.rng run
 execute if score rng ris.rng matches 72..73 run fill ~-7 ~-1 ~ ~7 ~-1 ~ air replace dirt
 execute if score rng ris.rng matches 72..73 run fill ~ ~-1 ~-7 ~ ~-1 ~7 air replace dirt
 
-execute if score rng ris.rng matches 74 run fill ~-4 ~-2 ~-4 ~4 ~4 ~4 stone replace #ris:jigsaw_replaceable
-execute if score rng ris.rng matches 74 run fill ~-4 ~ ~ ~ ~1 ~ air
-execute if score rng ris.rng matches 74 store success score #success ris.rng run place feature monster_room
-execute if score rng ris.rng matches 74 run fill ~-4 ~-2 ~-4 ~4 ~4 ~4 air replace stone
-execute if score rng ris.rng matches 74 run execute if block ~3 ~ ~ cobblestone if block ~ ~ ~3 cobblestone run fill ~-3 ~4 ~-3 ~3 ~4 ~3 cobblestone replace #ris:jigsaw_replaceable
-execute if score rng ris.rng matches 74 run execute if block ~4 ~ ~ cobblestone if block ~ ~ ~3 cobblestone run fill ~-4 ~4 ~-3 ~4 ~4 ~3 cobblestone replace #ris:jigsaw_replaceable
-execute if score rng ris.rng matches 74 run execute if block ~3 ~ ~ cobblestone if block ~ ~ ~4 cobblestone run fill ~-3 ~4 ~-4 ~3 ~4 ~4 cobblestone replace #ris:jigsaw_replaceable
-execute if score rng ris.rng matches 74 run execute if block ~4 ~ ~ cobblestone if block ~ ~ ~4 cobblestone run fill ~-4 ~4 ~-4 ~4 ~4 ~4 cobblestone replace #ris:jigsaw_replaceable
+execute if score rng ris.rng matches 74 run function ris:custom_items/jigsaw/monster_room
 
 execute if score rng ris.rng matches 75 run fill ~-7 ~-1 ~-7 ~7 ~-1 ~7 stone replace #ris:jigsaw_replaceable
 execute if score rng ris.rng matches 75 store success score #success ris.rng run place feature moss_patch
