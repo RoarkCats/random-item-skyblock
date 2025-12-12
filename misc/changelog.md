@@ -209,6 +209,7 @@
 -Fixed Same Item random player selection for heads could pick spectators/non-receivers 
 -Replaced setting Debug Stick Removed Block Drops with a percentage based setting Debug Stick Block Drop Chance
 -Added valid input ranges to button hover text in numeric settings
+-Changed Jigsaw `monster_room` feature, tries to face entrance towards player  
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum

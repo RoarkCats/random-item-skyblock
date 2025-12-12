@@ -1,5 +1,4 @@
 execute unless entity @s[tag=ris.feature_generator] store result score rng ris.rng run random value 0..137
-scoreboard players set rng ris.rng 74
 
 execute if score rng ris.rng matches 0 store success score #success ris.rng run place feature acacia
 execute if score rng ris.rng matches 1 store success score #success ris.rng run place feature azalea_tree
