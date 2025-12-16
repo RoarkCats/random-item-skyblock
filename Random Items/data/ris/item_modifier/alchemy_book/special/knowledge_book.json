@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Knowledge Book\n\n","underlined":true,"bold":true},
-                "   The Knowledge Book is the essence of equivalence. It spawns an Item Trader with 2-4 random trades, buying and selling anything and everything. Their trades never seem to run out of stock except for Special Items configurably."
+                "   The Knowledge Book is the essence of equivalence. It spawns an Item Trader with 2-4 random trades, buying and selling anything and everything. Their trades never seem to run out of stock except for Special Items configurably limited to ",{"score":{"name":"cmd_special_items","objective":"ris.settings"}},"."
             ]
         ],
         "conditions": [
