@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Chain × Repeat\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Component Gambler <","font":"uniform","bold":true,"color":"gray"}}},
-                "   Combining the essence of duplication with production unlocks new levels of depth for Component Generator items beyond one star. Combined items must share components in order to level them up without risk of losing them. Combining high and low level components risks downgrading the component. Multiplied items are configurably level locked."
+                "   Combining the essence of duplication with production unlocks new levels of depth for Component Generator items beyond one star. Combined items must share components in order to level them up without risk of losing them. Combining components with big value gaps risks downgrading the component. Multiplied items are configurably level locked."
             ]
         ],
         "conditions": [
