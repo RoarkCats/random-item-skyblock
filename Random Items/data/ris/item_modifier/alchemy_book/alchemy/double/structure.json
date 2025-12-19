@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Structure × Structure\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Giga Structure <","font":"uniform","bold":true,"color":"gray"}}},
-                "   Combining the essence of construction with itself exponentiates the building process, erecting entire structures at once. Blocks roughly within a 150 block range in all directions may be affected or overridden depending on the structure placed."
+                "   Combining the essence of construction with itself exponentiates the building process, erecting entire structures at once. Blocks roughly within a 150 block range in all directions may be overridden depending on the structure placed. Some select structures rely on the world's surface to spawn making The End better suited than a void."
             ]
         ],
         "conditions": [
