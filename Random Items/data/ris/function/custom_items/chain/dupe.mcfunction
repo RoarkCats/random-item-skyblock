@@ -20,7 +20,7 @@ execute if score shulker_dupe ris.settings matches 1 if entity @s[tag=ris.contai
 
 execute if items entity @s contents *[custom_data~{ris:{converts_to_special:1b}}] run return run function ris:advancements/nice_try
 
-execute if entity @s[tag=ris.contains_items,predicate=ris:filled_bundles_container] run function ris:custom_items/chain/drop_container_bundles
+execute if entity @s[tag=ris.contains_items,predicate=ris:contains_filled_bundle] run function ris:custom_items/chain/drop_container_bundles
 
 
 # Dupe
@@ -34,6 +34,7 @@ execute if score shulker_dupe ris.settings matches 1 if entity @s[tag=ris.contai
 execute store result score #temp ris.timer run data get entity @s Item.components.minecraft:max_stack_size
 execute if score #temp ris.timer matches 0 store result score #temp ris.timer run function ris:alchemy/custom_stack_none
 execute if score #temp ris.timer matches ..15 unless items entity @s contents #bundles unless entity @s[tag=ris.contains_items] run data merge entity @s {Item:{components:{"minecraft:max_stack_size":16}}}
+execute if entity @s[tag=ris.contains_items,predicate=ris:contains_component_item] run function ris:custom_items/chain/lock_container_component_items
 
 tag @s add ris.spawned_item
 function ris:custom_items/tag_item

@@ -18,7 +18,7 @@ execute if entity @s[tag=ris.contains_items,predicate=ris:contains_transmuted] r
 
 execute if items entity @s contents *[custom_data~{ris:{converts_to_special:1b}}] run return run function ris:advancements/nice_try
 
-execute if entity @s[tag=ris.contains_items,predicate=ris:filled_bundles_container] run function ris:custom_items/chain/drop_container_bundles
+execute if entity @s[tag=ris.contains_items,predicate=ris:contains_filled_bundle] run function ris:custom_items/chain/drop_container_bundles
 
 
 # Dupe
@@ -30,6 +30,7 @@ playsound entity.shulker.shoot block @a ~ ~ ~ 1 0.5
 
 execute unless entity @s[tag=ris.contains_items] run function ris:alchemy/double/chain/dupe_item
 execute if entity @s[tag=ris.contains_items] run function ris:alchemy/double/chain/dupe_container
+execute if entity @s[tag=ris.contains_items] if items entity @s contents *[count={min:2}] if predicate ris:contains_component_item run function ris:custom_items/chain/lock_container_component_items
 
 execute if entity @s[tag=ris.dead] run function ris:alchemy/break
 

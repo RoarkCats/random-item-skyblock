@@ -20,7 +20,7 @@ execute if score shulker_dupe ris.settings matches 1 if entity @s[tag=ris.contai
 
 execute if items entity @s contents *[custom_data~{ris:{converts_to_special:1b}}] run return run function ris:advancements/nice_try
 
-execute if entity @s[tag=ris.contains_items,predicate=ris:filled_bundles_container] run function ris:custom_items/chain/drop_container_bundles
+execute if entity @s[tag=ris.contains_items,predicate=ris:contains_filled_bundle] run function ris:custom_items/chain/drop_container_bundles
 
 
 # Dupe
@@ -30,12 +30,13 @@ execute if entity @s[tag=ris.components] run function ris:item_modifier/_util/pr
 execute store result score rng ris.rng run random value 0..99
 scoreboard players operation rng1 ris.rng = rng ris.rng
 execute unless items entity @s contents #bundles unless entity @s[tag=ris.contains_items] store result entity @s Item.components.minecraft:max_stack_size int 1 run scoreboard players get rng ris.rng
-execute if score unstackable_dupe_count ris.settings matches 1..15 if items entity @s contents #ris:unstackable run scoreboard players operation rng ris.rng *= unstackable_dupe_count ris.settings
-execute if score unstackable_dupe_count ris.settings matches 1..15 if items entity @s contents #ris:unstackable run scoreboard players operation rng ris.rng /= #16 ris.timer
+execute if score unstackable_dupe_count ris.settings matches 1..15 if items entity @s[tag=!ris.contains_items] contents #ris:unstackable run scoreboard players operation rng ris.rng *= unstackable_dupe_count ris.settings
+execute if score unstackable_dupe_count ris.settings matches 1..15 if items entity @s[tag=!ris.contains_items] contents #ris:unstackable run scoreboard players operation rng ris.rng /= #16 ris.timer
 execute unless entity @s[tag=!ris.schematic,tag=!ris.components] run scoreboard players operation rng ris.rng /= #8 ris.timer
 execute unless entity @s[tag=!ris.contains_items] run scoreboard players operation rng ris.rng /= #16 ris.timer
 execute store result entity @s Item.count int 1 run scoreboard players get rng ris.rng
 execute if score rng ris.rng matches 0 run tag @s add ris.dead
+execute if entity @s[tag=ris.contains_items] if score rng ris.rng matches 2.. if predicate ris:contains_component_item run function ris:custom_items/chain/lock_container_component_items
 
 execute if score rng1 ris.rng matches 65.. run advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmutation/bigger_stacks
 execute if score rng1 ris.rng matches 80.. run playsound gsfx:gambling_win block @a ~ ~ ~ 1 1
