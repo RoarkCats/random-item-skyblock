@@ -50,7 +50,7 @@ advancement grant @p[distance=..16,gamemode=!spectator] only ris:alchemy/transmu
 #24    Name: Inverse Vein Miner                  Combination: debug_stick, structure_block                           Path: debug/structure
 #25    Name: Loot Miner                          Combination: debug_stick, command_block_minecart                    Path: debug/minecart
 #26    Name: Command Miner                       Combination: debug_stick, command_block                             Path: debug/command
-#27    Name: Chain Miner                         Combination: debug_stick, chain_command_block                       Path: debug/chain
+#27    Name: Void Multiplier                     Combination: debug_stick, chain_command_block                       Path: debug/chain
 #28    Name: Block Miner                         Combination: debug_stick, repeating_command_block                   Path: debug/repeat
 
 #29    Name: Knowledge Reroller                  Combination: knowledge_book, debug_stick                            Path: knowledge/debug

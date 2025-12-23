@@ -25,7 +25,7 @@ Vein Miner,debug/jigsaw
 Inverse Vein Miner,debug/structure
 Loot Miner,debug/minecart
 Command Miner,debug/command
-Chain Miner,debug/chain
+Void Multiplier,debug/chain
 Block Miner,debug/repeat
 Knowledge Reroller,knowledge/debug
 Jigsaw Book,knowledge/jigsaw
