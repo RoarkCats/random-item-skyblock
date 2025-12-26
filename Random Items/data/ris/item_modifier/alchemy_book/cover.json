@@ -10,7 +10,7 @@
             "         (Clickable)\n\n",
             {"text":"  ♓ ","bold":true},{"text":"[Revise]\n","bold":true,"color":"gold","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":[{"text":"x ","obfuscated":true,"color":"yellow","font":"uniform"},{"text":"> Revise <","color":"gold","bold":true,"obfuscated":false}," x"]},"clickEvent":{"action":"run_command","value":"/trigger ris.update_compendium"}},
             {"text":"  ♓ ","bold":true},{"text":"[Special Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Special Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"4"}},
-            {"text":"  ♓ ","bold":true},{"text":"[Alchemy Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Alchemy Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"16"}},
+            {"text":"  ♓ ","bold":true},{"text":"[Alchemy Items]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Alchemy Items","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"18"}},
             {"text":"  ♓ ","bold":true},{"text":"[Credits]\n","bold":true,"color":"dark_gray","shadow_color":[0.8,0.8,0.8,0.7],"hoverEvent":{"action":"show_text","contents":{"text":"Jump to Credits","color":"yellow","bold":true,"font":"uniform"}},"clickEvent":{"action":"change_page","value":"100"}},
             "\n\n  ● ○ ● ○ ● ○ ● ○ ● ○ ● ○ ● "
         ]
