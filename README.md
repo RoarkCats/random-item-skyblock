@@ -1,7 +1,17 @@
 # Random Item Skyblock
 By RoarkCats, Ziplaw, PhoenixSC
 
-Stranded alone in the void, build out your base from nothing but a trickle of random items with some fun twists and loads of custom features to spruce it up!
+Spawning on a single piece of bedrock out in an empty void world, players must build up their base from the steady stream of random items granted by the Item Giver every 30 seconds. Any item in the game is on the board, including a unique subset of Special Items empowering the player! Explore the endless items and discover the secrets hidden within...
+
+## Features
+- 🎲 Configurable Random Item Giver
+- ✨ 11 unique Special Item effects
+- ⚗️ 37 Alchemy Items to discover
+- 🧭 185 advancements to explore
+- ⚙️ 38+ settings to configure
+- 💖 Void Totems safe from the abyss
+- ⚔️ Built-in Skywars gamemode and maps
+- 📜 Comprehensive [official wiki](https://randomitemskyblock.wiki.gg)
 
 ## Settings
 Settings configurable through in-game commands
