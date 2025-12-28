@@ -35,7 +35,7 @@ execute unless score command_block_minecart ris.special_item_settings matches 0 
 # Structure Block - Random structure
 execute unless score structure_block ris.special_item_settings matches 0 if entity @s[tag=ris.structure_block] align y if predicate ris:y_range_structure run return run function ris:custom_items/structure/spawn
 
-# Jigsaw - Random feature
+# Jigsaw Block - Random feature
 execute unless score jigsaw ris.special_item_settings matches 0 if entity @s[tag=ris.jigsaw] if predicate ris:y_range_jigsaw run return run function ris:custom_items/jigsaw/jigsaw
 
 # Debug Stick - Removes unbreakable blocks    

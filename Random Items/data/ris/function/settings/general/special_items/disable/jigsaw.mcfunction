@@ -2,7 +2,7 @@ playsound entity.experience_orb.pickup master @s ~ ~ ~ 8 0.8
 
 scoreboard players set jigsaw ris.special_item_settings 0
 
-title @s actionbar {"text":"Disabled Jigsaw","color":"red"}
+title @s actionbar {"text":"Disabled Jigsaw Block","color":"red"}
 
 
 data modify storage ris:random menu set value "settings/special_items"

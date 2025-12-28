@@ -210,6 +210,7 @@
 -Replaced setting Debug Stick Removed Block Drops with a percentage based setting Debug Stick Block Drop Chance
 -Added valid input ranges to button hover text in numeric settings
 -Changed Jigsaw `monster_room` feature, tries to face entrance towards player  
+-Renamed references of `Jigsaw` to `Jigsaw Block` to match the item name (item id lacks "block" unlike other blocks) 
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum
