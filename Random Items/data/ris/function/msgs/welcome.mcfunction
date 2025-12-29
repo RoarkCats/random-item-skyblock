@@ -1,7 +1,3 @@
-# # Remove the "executed commands from function" output when running the function, smoother buttons in message basically
-# gamerule sendCommandFeedback false
-# schedule function ris:msgs/reset_feedback 1t
-
 scoreboard players operation #display_sec ris.timer = delay ris.timer
 scoreboard players operation #display_sec ris.timer /= #20 ris.timer
 
@@ -20,6 +16,6 @@ tellraw @s ["<RoarkCats> To individually disable or re-enable your flow of items
 
 tellraw @s ["<Ziplaw> We also have custom ",{"text":"[skywars]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"run_command","value":"/function ris:msgs/skywars"},"hoverEvent":{"action":"show_text","value":["",{"text":"Skywars","color":"gray"}]}}," for fun with friends"]
 
-tellraw @s ["<PhoenixSC> Have fun! Please report any bugs ",{"text":"[here]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats/random-item-skyblock/issues/new/choose"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"gray"}]}}]
+tellraw @s ["<PhoenixSC> Have fun! Please ",{"text":"[report]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"open_url","value":"https://github.com/RoarkCats/random-item-skyblock/issues/new/choose"},"hoverEvent":{"action":"show_text","value":["",{"text":"Report Bugs & Suggestions","color":"gray"}]}}," bugs and visit our ",{"text":"[wiki]","color":"gray","shadow_color":[0,0,0,0.8],"clickEvent":{"action":"open_url","value":"https://randomitemskyblock.wiki.gg"},"hoverEvent":{"action":"show_text","value":["",{"text":"Official RIS Wiki (Spoilers)","color":"gray"}]}}]
 
 tellraw @s {"text":"                                \n","underlined":true,"color":"green"}
