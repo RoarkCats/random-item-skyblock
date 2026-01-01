@@ -4,7 +4,8 @@
 			"id": "minecraft:spyglass"
 		},
 		"title": "Stack Overflow",
-		"description": "Pickup an illegally stacked unstackable item"
+		"description": "Pickup an illegally stacked unstackable item",
+		"frame": "task"
 	},
 	"parent": "ris:special/customized/commander",
 	"criteria": {
