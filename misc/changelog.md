@@ -212,6 +212,7 @@
 -Changed Jigsaw `monster_room` feature, tries to face entrance towards player  
 -Renamed references of `Jigsaw` to `Jigsaw Block` to match the item name (item id lacks "block" unlike other blocks) 
 -Added [Random Item Skyblock Wiki](https://randomitemskyblock.wiki.gg) link to reload message
+-Switched `true_void_walker` trigger from `tick` to `location` (slower)
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum
