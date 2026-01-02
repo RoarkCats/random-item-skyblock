@@ -14,7 +14,7 @@
     "parent": "ris:ris/liquid_at_last/void_walker",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {
