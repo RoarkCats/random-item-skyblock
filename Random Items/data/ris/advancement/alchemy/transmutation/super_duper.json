@@ -33,6 +33,18 @@
                 ]
             }
         },
+        "debug/chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"predicates": {
+							"custom_data": "{ris:{transmuted:1b,function:'debug/chain'}}"
+						}
+                    }
+                ]
+            }
+        },
         "knowledge/chain": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -50,6 +62,7 @@
         [
             "double/chain",
             "command/chain",
+            "debug/chain",
             "knowledge/chain"
         ]
     ]

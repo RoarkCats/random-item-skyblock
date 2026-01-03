@@ -69,18 +69,6 @@
                 ]
             }
         },
-        "debug/chain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-						"predicates": {
-							"custom_data": "{ris:{transmuted:1b,function:'debug/chain'}}"
-						}
-                    }
-                ]
-            }
-        },
         "debug/repeat": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -101,7 +89,6 @@
             "debug/structure",
             "debug/minecart",
             "debug/command",
-            "debug/chain",
             "debug/repeat"
         ]
     ]
