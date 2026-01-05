@@ -10,9 +10,19 @@ The Random Item Skyblock **world** must also be added to `overrides/saves` befor
 
 The zip file should be a standard `.zip` type renamed to `.mrpack`, or just let the client handle it. 
 
+Files: 
+- `overrides/datapacks/readme-updating.txt`
+- `overrides/saves/<RIS World>`
+- `modrinth.index.json`
+
 ## CurseForge
 CurseForge's manifest is simpler and should be modified manually to prevent the client from adding the Fabric API as a dependency automatically.
 
 Updating only requires changing the version number, and the file IDs of the world and data pack projects.
 
 The zip file should be a standard `.zip`
+
+Files: 
+- `overrides/datapacks/readme-updating.txt`
+- `modrinth.json`
+- `modlist.json`
