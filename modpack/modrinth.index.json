@@ -1,0 +1,28 @@
+{
+  "game": "minecraft",
+  "formatVersion": 1,
+  "versionId": "2.7",
+  "name": "Random Item Skyblock",
+  "summary": "Stranded alone in the void, build out your base from nothing but a trickle of random items with some fun twists and loads of custom features to spruce it up!",
+  "files": [
+    {
+      "path": "datapacks/Random Items 2.7.zip",
+      "hashes": {
+        "sha512": "5b90728d519c8d23c873ffffa25a267e1525a25f0beb6518613fd2756f8663d84adeb5250627107ec7a0744cd0bd1419ae63fc6c64f57f1a417c4e91d8fb8d1d",
+        "sha1": "ba8c24bc3624c9d8b4e75e11cb25fc1610de4ddb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ADHLjWXb/versions/lUrmO5hy/Random%20Items%202.7.zip"
+      ],
+      "fileSize": 210458
+    }
+  ],
+  "dependencies": {
+    "fabric-loader": "0.18.4",
+    "minecraft": "1.21.3"
+  }
+}

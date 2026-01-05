@@ -1,0 +1,31 @@
+{
+  "minecraft": {
+    "version": "1.21.3",
+    "modLoaders": [
+      {
+        "id": "fabric-0.18.4",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Random Item Skyblock",
+  "version": "2.7",
+  "author": "",
+  "files": [
+    {
+      "projectID": 1416161,
+      "fileID": 7394146,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1417689,
+      "fileID": 7422997,
+      "required": true,
+      "isLocked": false
+    }
+  ],
+  "overrides": "overrides"
+}
