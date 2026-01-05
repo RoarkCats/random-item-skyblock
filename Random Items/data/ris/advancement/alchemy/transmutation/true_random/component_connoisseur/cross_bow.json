@@ -37,10 +37,10 @@
                         "items": "#minecraft:enchantable/crossbow",
 						"predicates": {
                             "enchantments": [
-                                {"enchantments": ["minecraft:punch","minecraft:power"]},
-                                {"enchantments": ["minecraft:power","minecraft:flame"]},
-                                {"enchantments": ["minecraft:punch","minecraft:infinity"]},
-                                {"enchantments": ["minecraft:infinity","minecraft:flame"]}
+                                {"enchantments": ["minecraft:punch","minecraft:power","minecraft:flame"]},
+                                {"enchantments": ["minecraft:punch","minecraft:power","minecraft:infinity"]},
+                                {"enchantments": ["minecraft:punch","minecraft:flame","minecraft:infinity"]},
+                                {"enchantments": ["minecraft:power","minecraft:flame","minecraft:infinity"]}
                             ],
 							"custom_data": "{ris:{components:[ {id:\"enchantments\"} ]}}"
 						}
@@ -55,5 +55,5 @@
             "crossbow"
         ]
     ],
-    "comment": "quick_charge is the only one that doesn't work on the alternative"
+    "comment": "quick_charge is the only one that doesn't work on the alternative | only 2 bow ench required on crossbow to match difficulty"
 }
