@@ -25,4 +25,4 @@ The zip file should be a standard `.zip`
 Files: 
 - `overrides/datapacks/readme-updating.txt`
 - `modrinth.json`
-- `modlist.json`
+- `modlist.html`
