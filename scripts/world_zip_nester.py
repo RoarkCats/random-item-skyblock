@@ -22,8 +22,8 @@ def nest_rezip(src):
             for item in zin.infolist():
                 data = zin.read(item.filename)
 
-                new_name = str(Path(root) / item.filename)
-                item.filename = new_name
+                new_name = f"{root}/{item.filename}"
+                item.filename = new_name.replace("\\", "/")
 
                 zout.writestr(item, data)
     except Exception as e :
