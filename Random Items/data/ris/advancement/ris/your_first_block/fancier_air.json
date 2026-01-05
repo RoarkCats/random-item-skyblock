@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:light",
             "components": {
-				"minecraft:enchantment_glint_override": true,
+				"enchantment_glint_override": true,
 				"minecraft:block_state": {
 					"level": "14"
 				}
