@@ -55,6 +55,10 @@
 					}
 				]
 			}
+		},
+
+		"setting_enabled": {
+			"trigger": "minecraft:impossible"
 		}
     },
     "requirements": [
@@ -63,6 +67,9 @@
             "roarkcats",
             "ziplaw",
             "phoenixsc"
-        ]
+        ],
+		[
+			"setting_enabled"
+		]
     ]
 }
