@@ -16,7 +16,7 @@ Files:
 - `modrinth.index.json`
 
 ## CurseForge
-CurseForge's manifest is simpler and should be modified manually to prevent the client from adding the Fabric API as a dependency automatically.
+CurseForge's manifest is simpler and can be modified manually. CurseForge requires that the Fabric API be added as a dependency for Fabric modpacks.
 
 Updating only requires changing the version number, and the file IDs of the world and data pack projects.
 
