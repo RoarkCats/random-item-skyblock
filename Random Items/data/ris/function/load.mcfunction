@@ -20,6 +20,8 @@ scoreboard objectives add ris.special_item_settings dummy
 scoreboard objectives add ris.alchemy_item_settings dummy
 scoreboard objectives add ris.skywars dummy
 scoreboard objectives add ris.deaths deathCount
+scoreboard objectives add ris.playtime dummy
+scoreboard objectives add ris.afk dummy
 
 scoreboard objectives add ris.receive_items trigger
 scoreboard objectives add ris.destroy_range_preview trigger

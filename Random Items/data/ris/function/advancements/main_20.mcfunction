@@ -11,6 +11,11 @@ execute as @a run function ris:advancements/scale
 
 scoreboard players remove @a[scores={ris.mined_snow=10..}] ris.mined_snow 10
 
+# playtime ratings notification (active playtime: 3h)
+scoreboard players add @a ris.afk 1
+scoreboard players set @a[predicate=ris:input] ris.afk 0
+scoreboard players add @a[scores={ris.afk=..60}] ris.playtime 1
+execute as @a[scores={ris.playtime=10800..},tag=!ris.ratings_msg,predicate=ris:input] run function ris:msgs/ratings
 
 
 schedule function ris:advancements/main_20 20t

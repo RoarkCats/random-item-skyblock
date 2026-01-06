@@ -1,4 +1,4 @@
-# run as @a from ris:main
+# run as @a[not spectator] from ris:main
 
 scoreboard players remove @s[scores={ris.sweaty_palms=1..}] ris.sweaty_palms 1
 
@@ -31,7 +31,7 @@ scoreboard players remove @s[scores={ris.drop_item=1..}] ris.drop_item 1
 
 execute if score @s ris.firework_use matches 1.. run function ris:advancements/maximal_thrust
 
-# item pickup range is 1.425 xz, -0.7~2.3 y
+# Item pickup range is 1.425 xz, -0.7~2.3 y
 execute if entity @s[advancements={ris:special/customized/commander/stack_overflow=false}] at @s positioned ~-1.5 ~-0.9 ~-1.5 if entity @e[type=item,dx=2,dy=2.4,dz=2,tag=ris.stacked_unstackable] run advancement grant @s only ris:special/customized/commander/stack_overflow
 
 # function ris:advancements/_speedometer
