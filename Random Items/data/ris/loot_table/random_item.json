@@ -32,19 +32,8 @@
                                     "name": "ris:creator_heads/roarkcats"
                                 },
                                 {
-                                    "condition": "minecraft:inverted",
-                                    "term": {
-                                        "condition": "minecraft:value_check",
-                                        "value": {
-                                            "type": "minecraft:score",
-                                            "target": {
-                                                "type": "minecraft:fixed",
-                                                "name": "creator_heads"
-                                            },
-                                            "score": "ris.special_item_settings"
-                                        },
-                                        "range": 0
-                                    }
+                                    "condition": "minecraft:reference",
+                                    "name": "ris:creator_heads/enabled"
                                 }
                             ]
                         },
@@ -77,19 +66,8 @@
                             "name": "ris:creator_heads/ziplaw"
                         },
                         {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:value_check",
-                                "value": {
-                                    "type": "minecraft:score",
-                                    "target": {
-                                        "type": "minecraft:fixed",
-                                        "name": "creator_heads"
-                                    },
-                                    "score": "ris.special_item_settings"
-                                },
-                                "range": 0
-                            }
+                            "condition": "minecraft:reference",
+                            "name": "ris:creator_heads/enabled"
                         }
                     ]
                 },

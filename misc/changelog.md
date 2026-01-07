@@ -215,6 +215,7 @@
 -Switched `true_void_walker` trigger from `tick` to `location` (slower)
 -Added a ratings notification sent out in chat after 3h active playtime
 -Changed `customized` advancement to require Special Items to be enabled to unlock
+-Fixed RoarkCats and Ziplaw creator heads still functioning when Special Items disabled with new predicate `creator_heads/enabled`
 
 -Version 3.0.0!
 -Added 4 new Written Book quotes from ThatOtherAndrew, Vr_North, elixirs_, HellsMinimum
