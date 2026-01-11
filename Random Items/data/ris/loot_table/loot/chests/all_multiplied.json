@@ -20,6 +20,18 @@
 							}
 						},
 						{
+							"function": "minecraft:filtered",
+							"item_filter": {
+								"items": "#minecraft:bundles"
+							},
+							"modifier": {
+								"function": "minecraft:set_components",
+								"components": {
+									"!minecraft:max_stack_size": {}
+								}
+							}
+						},
+						{
 							"function": "minecraft:set_count",
 							"count": 16
 						},
