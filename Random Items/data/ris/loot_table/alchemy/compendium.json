@@ -32,7 +32,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantment_glint_override": true,
-                                "minecraft:custom_data": "{ris:{transmuted:1b,compendium:1b}}"
+                                "minecraft:custom_data": "{ris:{transmuted:1b,compendium:1b}}",
+                                "rarity": "epic"
                             }
                         }
                     ]
