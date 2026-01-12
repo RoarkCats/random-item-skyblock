@@ -1,5 +1,4 @@
-# execute store result score rng ris.rng run random value 0..24
-scoreboard players set rng ris.rng 0
+execute store result score rng ris.rng run random value 0..24
 
 
 execute if score rng ris.rng matches 0 if dimension overworld store success score #success ris.rng run place structure ancient_city
