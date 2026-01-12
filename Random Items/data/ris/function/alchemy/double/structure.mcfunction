@@ -1,7 +1,9 @@
-execute store result score rng ris.rng run random value 0..24
+# execute store result score rng ris.rng run random value 0..24
+scoreboard players set rng ris.rng 0
 
 
-execute if score rng ris.rng matches 0 store success score #success ris.rng run place structure ancient_city
+execute if score rng ris.rng matches 0 if dimension overworld store success score #success ris.rng run place structure ancient_city
+execute if score rng ris.rng matches 0 unless dimension overworld store success score #success ris.rng run place structure ris:ancient_city
 execute if score rng ris.rng matches 1 store success score #success ris.rng run place structure bastion_remnant
 
 # wont generate w/o world gen heightmap 
@@ -51,7 +53,7 @@ execute if score rng ris.rng matches 21 store success score #success ris.rng run
 execute if score rng ris.rng matches 21 run fill ~15 ~ ~15 ~-15 ~ ~-15 air replace stone
 
 execute if score rng ris.rng matches 22 store success score #success ris.rng run place structure ris:trail_ruins
-execute if score rng ris.rng matches 23 store success score #success ris.rng run place structure trial_chambers
+execute if score rng ris.rng matches 23 store success score #success ris.rng run place structure ris:trial_chambers
 
 execute if score rng ris.rng matches 24 store result score rng1 ris.rng run random value 0..4
 execute if score rng ris.rng matches 24 if score rng1 ris.rng matches 0 store success score #success ris.rng run place structure village_desert
