@@ -34,10 +34,11 @@ execute if entity @s[tag=ris.contains_items] run scoreboard players operation #l
 #-
 function ris:alchemy/debug/chain/summon_xp
 
+scoreboard players set #loops ris.rng 1
 execute if entity @s[tag=ris.components] store result score #value ris.rng run data get entity @s Item.components."minecraft:custom_data".ris.components[{id:"level"}].ref.level
 execute if entity @s[tag=ris.components] run scoreboard players operation #value ris.rng *= #16 ris.timer
 execute if entity @s[tag=ris.components,tag=ris.components_locked] run scoreboard players operation #value ris.rng /= #2 ris.timer
-execute if entity @s[tag=ris.components] summon experience_orb run function ris:alchemy/debug/chain/new_orb
+execute if entity @s[tag=ris.components] run function ris:alchemy/debug/chain/summon_xp
 
 
 
