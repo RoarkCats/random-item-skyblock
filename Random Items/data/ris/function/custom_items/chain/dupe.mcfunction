@@ -20,7 +20,7 @@ execute if score shulker_dupe ris.settings matches 1 if entity @s[tag=ris.contai
 
 execute if items entity @s contents *[custom_data~{ris:{converts_to_special:1b}}] run return run function ris:advancements/nice_try
 
-execute if entity @s[tag=ris.contains_items,predicate=ris:contains_filled_bundle] run function ris:custom_items/chain/drop_container_bundles
+execute if entity @s[tag=ris.contains_items,predicate=ris:contains_nested_container] run function ris:custom_items/chain/drop_nested_containers
 
 
 # Dupe

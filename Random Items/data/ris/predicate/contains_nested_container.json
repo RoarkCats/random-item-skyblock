@@ -1,0 +1,64 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"predicates": {
+							"minecraft:container": {
+								"items": {
+									"contains": [
+										{
+											"items": "#minecraft:bundles",
+											"predicates": {
+												"minecraft:bundle_contents": {
+													"items": {
+														"size": {
+															"min": 1
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"slots": {
+					"contents": {
+						"predicates": {
+							"minecraft:container": {
+								"items": {
+									"contains": [
+										{
+											"predicates": {
+												"minecraft:container": {
+													"items": {
+														"size": {
+															"min": 1
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

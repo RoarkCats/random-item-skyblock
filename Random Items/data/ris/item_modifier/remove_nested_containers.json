@@ -1,0 +1,43 @@
+{
+	"function": "minecraft:modify_contents",
+	"component": "minecraft:container",
+	"modifier": [
+		{
+			"function": "minecraft:filtered",
+			"item_filter": {
+				"items": "#minecraft:bundles",
+				"predicates": {
+					"minecraft:bundle_contents": {
+						"items": {
+							"size": {
+								"min": 1
+							}
+						}
+					}
+				}
+			},
+			"modifier": {
+				"function": "minecraft:set_count",
+				"count": 0
+			}
+		},
+		{
+			"function": "minecraft:filtered",
+			"item_filter": {
+				"predicates": {
+					"minecraft:container": {
+						"items": {
+							"size": {
+								"min": 1
+							}
+						}
+					}
+				}
+			},
+			"modifier": {
+				"function": "minecraft:set_count",
+				"count": 0
+			}
+		}
+	]
+}
