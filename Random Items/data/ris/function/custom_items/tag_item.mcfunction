@@ -4,7 +4,7 @@ tag @s add ris.tagged_item
 
 tag @s[nbt={Age:0s,PickupDelay:10s}] add ris.spawned_item
 tag @s[nbt={Age:0s,PickupDelay:0s}] add ris.spawned_item
-execute if entity @s[nbt={Age:1s,PickupDelay:0s}] run function ris:dispensable/item
+execute if entity @s[tag=!ris.spawned_item,nbt={Age:1s,PickupDelay:0s}] run function ris:dispensable/item
 execute if data entity @s Item.components.minecraft:max_stack_size run tag @s add ris.custom_stack
 execute if items entity @s contents *[container~{items:{contains:[{}]}}|container_loot] run tag @s add ris.contains_items
 execute if items entity @s contents *[max_stack_size=1,count~{min:2}] run tag @s add ris.stacked_unstackable
