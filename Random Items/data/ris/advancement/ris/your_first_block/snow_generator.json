@@ -4,7 +4,7 @@
             "id": "minecraft:snow_block"
         },
         "title": "Snow Generator",
-        "description": "Harvest stacks of snow from a Snow Golem's feet",
+        "description": "Insta-mine stacks of snow from a Snow Golem's feet",
         "frame": "goal"
     },
     "parent": "ris:ris/your_first_block/snow_white",
