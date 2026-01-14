@@ -7,7 +7,7 @@
             }
         },
         "title": "Item Vomit",
-        "description": "Empty a bundle containing 64 unique items",
+        "description": "Empty a bundle containing around 64 unique items",
         "frame": "goal"
     },
     "parent": "ris:ris/storage_solution/bundling_up/unbundled",

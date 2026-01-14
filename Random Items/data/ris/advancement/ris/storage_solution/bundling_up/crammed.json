@@ -4,7 +4,7 @@
 			"id": "minecraft:blue_bundle"
 		},
 		"title": "Crammed",
-		"description": "Fill a bundle with 64 unique items",
+		"description": "Fill a bundle with at least 64 unique items",
 		"frame": "goal"
 	},
 	"parent": "ris:ris/storage_solution/bundling_up/bundleception",
@@ -18,7 +18,9 @@
 						"predicates": {
 							"minecraft:bundle_contents": {
 								"items": {
-									"size": 64
+									"size": {
+										"min": 64
+									}
 								}
 							}
 						}
