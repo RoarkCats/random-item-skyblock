@@ -94,7 +94,7 @@ Deletes structure placed (like a big undo button)
 - Debug <& Minecart :: Debug Looter, Loot Debugger, Loot Breaker
 Mines 3x3x3 area and drops random loot tables (maybe based on world pos?) 50% chance per block?
 - Debug <& Command :: Debug Void, Debug Delete, Debug Clear, Void Debugger, Clear Debugger, Debug Breaker, Command Debugger
-Mines 5x5x5 area and drops items (leave drops to settings alone?) doesnt break unbreakables!
+Mines 7x7x7 area and drops items (leave drops to settings alone?) doesnt break unbreakables!
 - Debug <& Chain :: Debug Multiplier, Multiplied Debugger, Debug Duper, Dupe Debugger, Chain Debugger
 Mines 3x3x3 area and drops items x16
 - Debug &> Repeat :: Block Miner, Block Debugger, Debug Generator, Generator Debugger, Repeat Debugger

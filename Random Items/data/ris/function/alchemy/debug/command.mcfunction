@@ -1,5 +1,5 @@
-scoreboard players set #temp0 ris.timer 5
-execute positioned ~-2 ~-2 ~-2 run function ris:alchemy/debug/command/row_x
+scoreboard players set #temp0 ris.timer 7
+execute positioned ~-3 ~-3 ~-3 run function ris:alchemy/debug/command/row_x
 
 playsound entity.generic.explode block @a ~ ~ ~ 1 0.9
 playsound block.anvil.break block @a ~ ~ ~ 2 0.7

@@ -6,7 +6,7 @@
             [
                 {"text":"   ","font":"uniform"},
                 {"text":"Debug × Command\n\n","underlined":true,"bold":true,"hoverEvent":{"action":"show_text","contents":{"text":"> Command Miner <","font":"uniform","bold":true,"color":"gray"}}},
-                "    Combining the essence of destruction with abundance magnifies the blast radius of the resulting explosion. Removes a centered 5x5x5 cube of blocks, configurably dropping them as mined with Silk Touch. Unable to mine near-unbreakable blocks."
+                "    Combining the essence of destruction with abundance magnifies the blast radius of the resulting explosion. Removes a centered 7x7x7 cube of blocks, configurably dropping them as mined with Silk Touch. Unable to mine near-unbreakable blocks."
             ]
         ],
         "conditions": [

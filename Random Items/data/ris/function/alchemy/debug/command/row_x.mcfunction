@@ -1,4 +1,4 @@
-scoreboard players set #temp1 ris.timer 5
+scoreboard players set #temp1 ris.timer 7
 function ris:alchemy/debug/command/row_z
 
 scoreboard players remove #temp0 ris.timer 1
