@@ -1,5 +1,6 @@
 # run by custom_items/trader/knowledge as thrower (origin)
 scoreboard players reset #hint ris.alchemy_hint
+execute if score @s ris.alchemy_hint matches 3.. if predicate ris:extra_alchemy_hint_chance run return run scoreboard players set #hint ris.alchemy_hint 4
 execute if score @s ris.alchemy_hint matches 3.. run return 0
 
 # chances: 100%, 50%, 33% (1/1+n)

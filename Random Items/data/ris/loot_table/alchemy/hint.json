@@ -59,6 +59,30 @@
                                     "range": 3
                                 }
                             ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {"type": "loot_table", "value": "ris:alchemy/secrets_to_alchemy_2"},
+                                {"type": "loot_table", "value": "ris:alchemy/secrets_to_alchemy_5"},
+                                {"type": "loot_table", "value": "ris:alchemy/secrets_to_alchemy_8"}
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "#hint"
+                                        },
+                                        "score": "ris.alchemy_hint"
+                                    },
+                                    "range": {
+                                        "min": 4
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
