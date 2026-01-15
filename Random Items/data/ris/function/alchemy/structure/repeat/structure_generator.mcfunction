@@ -14,4 +14,4 @@ scoreboard players set #clear_spawned_blocks ris.rng 48
 function ris:custom_items/structure/clear_spawned_blocks
 
 playsound block.copper_bulb.place block @a ~ ~ ~ 1 0.5
-playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.2
+playsound block.wool.place block @a ~ ~ ~ 1 1.2
