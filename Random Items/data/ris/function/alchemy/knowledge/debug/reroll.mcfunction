@@ -8,3 +8,6 @@ function ris:alchemy/knowledge/debug/reroll_trades
 tag @s[tag=ris.trader_multiplied] remove ris.trader_multiplied
 
 scoreboard players set #success ris.rng 1
+
+# kick player out of GUI (prevents (dupe) bugs)
+execute at @s run tp @s ~ ~ ~

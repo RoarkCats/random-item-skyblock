@@ -1,4 +1,9 @@
-# only run as blank_item from ../knowledge/chain/multiply_trades when a stack is being sold (stack trader) 
+## DEPRECATED BACKUP FUNCTION
+# stack trader previously bought only 1 item, this (swapping) was the old multiplication function there
+# currently handles the edge case where a stack is somehow being sold unmultiplied without a secondary buyB trade
+# due to an old world used or tampering with entity data or other
+
+# only run as blank_item from ../knowledge/chain/half_price when a stack is being sold (stack trader) and no buyB is present
 data modify entity @s Item set from storage ris:random trades[0].buy
 execute unless items entity @s contents *[max_stack_size=64] unless items entity @s contents #bundles store result entity @s Item.components.minecraft:max_stack_size int 1 run function ris:alchemy/knowledge/command/get_new_stack_size
 item modify entity @s contents {"function":"set_count","count":64}

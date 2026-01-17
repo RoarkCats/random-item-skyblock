@@ -15,3 +15,5 @@ playsound block.enchantment_table.use block @a ~ ~ ~ 1 0.8
 playsound entity.wandering_trader.yes neutral @a ~ ~ ~ 1 0.7
 
 setblock ~ ~-0.5 ~ air
+# kick player out of GUI (prevents (dupe) bugs)
+execute at @s run tp @s ~ ~ ~
