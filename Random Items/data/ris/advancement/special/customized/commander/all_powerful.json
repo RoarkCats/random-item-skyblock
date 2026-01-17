@@ -17,18 +17,12 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:command_block",
-                            "minecraft:chain_command_block",
-                            "minecraft:repeating_command_block",
-                            "minecraft:structure_block",
-                            "minecraft:jigsaw",
-                            "minecraft:command_block_minecart",
-                            "minecraft:debug_stick",
-                            "minecraft:knowledge_book"
-                        ],
+                        "items": "#ris:custom_items",
                         "count": {
                             "min": 64
+                        },
+                        "components": {
+                            "custom_data": "{ris:{custom_item:1b}}"
                         }
                     }
                 ]
