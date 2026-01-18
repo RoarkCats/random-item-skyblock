@@ -23,7 +23,7 @@ $execute in $(dim) run function ris:alchemy/structure/chain/forceload_remove wit
 execute if score #success ris.rng matches 0 run return run function ris:alchemy/structure/chain/fail_fx
 
 $fill ~ ~ ~ ~$(ox) ~$(oy) ~$(oz) jukebox replace jukebox
-$execute if score written_book_dupe ris.settings matches 0 run fill ~ ~ ~ ~$(ox) ~$(oy) ~$(oz) lectern replace lectern
+$fill ~ ~ ~ ~$(ox) ~$(oy) ~$(oz) lectern replace lectern
 $scoreboard players set #temp0 ris.timer $(ox)
 $scoreboard players set #temp1 ris.timer $(oy)
 $scoreboard players set #temp2 ris.timer $(oz)
