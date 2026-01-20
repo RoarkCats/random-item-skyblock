@@ -33,18 +33,6 @@
                 ]
             }
         },
-        "command/chain_repeat": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-						"predicates": {
-							"custom_data": "{ris:{transmuted:1b,function:'command/chain_repeat'}}"
-						}
-                    }
-                ]
-            }
-        },
         "command/repeat_minecart": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
