@@ -98,7 +98,6 @@
         [
             "double/repeat",
             "command/repeat",
-            "command/chain_repeat",
             "command/repeat_minecart",
             "structure/repeat",
             "jigsaw/repeat",
