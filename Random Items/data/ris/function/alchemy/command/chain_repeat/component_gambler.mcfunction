@@ -1,6 +1,6 @@
 # run as/at all component gamblers from /alchemy/main every tick
 
-execute unless block ~ ~-0.5 ~ chain_command_block run return run kill @s
+execute unless block ~ ~-0.5 ~ chain_command_block run return run kill @s[type=!player]
 
 
 execute store result score #temp ris.timer if entity @e[type=item,tag=ris.tagged_item,tag=ris.components,tag=!ris.components_locked,tag=!ris.spawned_item,distance=..0.5,nbt={PickupDelay:0s,Item:{count:1}}]
