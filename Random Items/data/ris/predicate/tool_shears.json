@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "items": "#ris:shears"
+            },
+            "comment": "Vanilla/Modded shears check"
+        },
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "ris": {
+                            "components": [{"id":"tool_shears"}]
+                        }
+                    }
+                }
+            },
+            "comment": "RIS component shears check"
+        }
+    ]
+}
