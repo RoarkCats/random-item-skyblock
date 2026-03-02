@@ -1,6 +1,6 @@
 data modify storage ris:generator words set value []
 execute store result score rng ris.rng run random value 0..27
-# scoreboard players set rng ris.rng 27
+# scoreboard players operation rng ris.rng = debug ris.rng
 
 
 execute if score rng ris.rng matches 0 if predicate {condition:random_chance,chance:0.5} run function ris:item_modifier/component/words/adjective
@@ -117,7 +117,7 @@ data modify storage ris:generator components[{id:"item_name"}].words set from st
 # Notes:
 # `words` folder generated from `proccess_tagged.py`
 # actual words all pulled from `en_us.json` lang file with `proccess_lang.py`
-#     noun: singilar & plural
+#     noun: singular & plural
 #     adjective: all
 #     adverb: -
 #     verb0: base
