@@ -760,6 +760,56 @@
                             }
                         }
                     ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"Equ1vocate","title":"","pages":["\"Time keeps moving, whatever you do, you cannot stop it.\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"Equ1vocate","title":"","pages":["\"Its about the journey, not the destination, remember that when you're sitting in bumper to bumper traffic.\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"SaltyDucKling","title":"","pages":["\"Are ya winnin?\""],"resolved":true}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:written_book_content": {"author":"SaltyDucKling","title":"","pages":["\"Sorry, you do not have access to the contents within this book. Please verify your age in the Minecraft Launcher to view the contents of this book.\""],"resolved":true}
+                            }
+                        }
+                    ]
                 }
             ],
             "functions": [
