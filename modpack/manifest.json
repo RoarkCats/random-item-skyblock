@@ -1,6 +1,6 @@
 {
   "minecraft": {
-    "version": "1.21.3",
+    "version": "1.21.4",
     "modLoaders": [
       {
         "id": "fabric-0.18.4",
@@ -11,24 +11,24 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Random Item Skyblock",
-  "version": "2.7",
+  "version": "3.0.0",
   "author": "",
   "files": [
     {
       "projectID": 1416161,
-      "fileID": 7394146,
+      "fileID": 7717670,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1417689,
-      "fileID": 7422997,
+      "fileID": 7717683,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 306612,
-      "fileID": 6601214,
+      "fileID": 6863303,
       "required": true,
       "isLocked": false
     }
